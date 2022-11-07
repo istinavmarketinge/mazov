@@ -68,6 +68,10 @@
         max-width: 630px;
         object-fit: cover;
     }
+   &__item img {
+    object-fit: contain;
+    width: auto;
+   }
 }
 .main-news-list button {
     width: 100%;
@@ -79,4 +83,5 @@
     padding: 20px 0;
     margin-top: 20px;
     margin-bottom: 40px;
+    cursor: pointer;
 }

@@ -1,4 +1,71 @@
-.calendar-block img {
+.calendar-block {
+    filter: drop-shadow(0px 5px 100px #F0F2F2);
+}
+.air-datepicker.-inline- {
+    max-width: 410px;
     width: 100%;
-    max-width: 300px;
+    
+}
+.-weekend- {
+    color: #E41F12;
+}
+.air-datepicker-body--day-name {
+    color: #9EB0BC;
+    text-transform: none;
+    font-size: 15px;
+}
+.air-datepicker-nav--title {
+    font-family: "pobeda";
+    font-size: 50px;
+    color: #627784;
+    font-weight: bold;
+    width: 100%;
+    justify-content: space-between;
+    padding: 35px 18px 15px;
+    line-height: 58px;
+    letter-spacing: 0.18em;
+}
+.air-datepicker-nav--title span {
+    font-family: "pobeda";
+    font-size: 27px;
+    color: #9EB0BC;
+}
+.air-datepicker-cell {
+    max-width: 50px;
+    font-size: 15px;
+    height: 35px;
+}
+.air-datepicker {
+    border: none;
+    --adp-border-color-inner: #fff;
+    --adp-cell-background-color-selected: #E5F5FF;
+    --adp-cell-background-color-selected-hover:#E5F5FF;
+}
+.air-datepicker--content {
+    padding: 0 18px 20px 18px;
+}
+.air-datepicker-cell.-selected-.-current- {
+    background: #E5F5FF;
+    color: #0B0B0B;
+}
+.air-datepicker-cell.-current- {
+    color: #0B0B0B;
+    background: #E5F5FF;
+}
+.air-datepicker-cell.-selected- {
+    color: #0B0B0B;
+}
+.air-datepicker-nav--action {
+    display: none;
+}
+.calendar-events {
+    position: relative;
+    z-index: 3;
+    background: #fff;
+}
+.calendar-events-item {
+    border-bottom: 1px solid #EEEEEE;
+    background: #fff;
+    max-width: 410px;
+    padding: 10px 33px 0;
 }

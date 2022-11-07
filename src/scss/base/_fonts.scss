@@ -100,3 +100,15 @@
 	src: url("../fonts/ALSHaussVF-Regular.woff2") format("woff2"), url("../fonts/ALSHaussVF-Regular.woff") format("woff"), url("../fonts/ALSHaussVF-Regular.ttf") format("ttf");
 	font-weight: 400;
 }
+@font-face {
+	font-family: "pobeda";
+	font-display: swap;
+	src: url("../fonts/pobeda-bold.woff2") format("woff2"), url("../fonts/pobeda-bold.woff") format("woff"), url("../fonts/pobeda-bold.ttf") format("ttf");
+	font-weight: 700;
+}
+@font-face {
+	font-family: "pobeda";
+	font-display: swap;
+	src: url("../fonts/pobeda-regular.woff2") format("woff2"), url("../fonts/pobeda-regular.woff") format("woff"), url("../fonts/pobeda-regular.ttf") format("ttf");
+	font-weight: 400;
+}

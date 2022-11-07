@@ -4,6 +4,7 @@
     width: 100%;
     max-width: 300px;
     padding-bottom: 50px;
+    margin-bottom: 30px;
     &__blue, &__white  {
         color: #9BDEFF;
         text-transform: uppercase;
@@ -36,6 +37,7 @@
         display: block;
         font-weight: 550;
         font-size: 17px;
+        cursor: pointer;
     }
 }
 @media(max-width: 1350px) {
