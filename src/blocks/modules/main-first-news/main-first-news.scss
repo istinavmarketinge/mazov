@@ -9,7 +9,7 @@
         width: 35%;
     }
     &__big {
-        background: url(img/1.jpg) 0 0 no-repeat;
+        background: url(../img/1.jpg) 0 0 no-repeat;
         background-size: cover;
         max-height: 351px;
         height: 100%;
@@ -22,11 +22,11 @@
 
     }
     &__small:nth-child(1) {
-        background: url(img/2.jpg) 0 0 no-repeat;
+        background: url(../img/2.jpg) 0 0 no-repeat;
         background-size: cover;
     }
     &__small:nth-child(2) {
-        background: url(img/3.jpg) 0 0 no-repeat;
+        background: url(../img/3.jpg) 0 0 no-repeat;
         background-size: cover;
     }
     &__date{

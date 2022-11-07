@@ -1,5 +1,5 @@
 .banner-block {
-    background: url(img/banner.jpg) 0 0 no-repeat;
+    background: url(../img/banner.jpg) 0 0 no-repeat;
     width: 100%;
     position: relative;
     &__advertisement {
@@ -47,7 +47,7 @@
         padding-bottom: 15px;
     }
     &__eye:before {
-        content: url("img/eye.png");
+        content: url("../img/eye.png");
         width: 30px;
         display: inline;
         margin-right: 8px;

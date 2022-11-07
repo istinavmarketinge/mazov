@@ -629,7 +629,7 @@ footer {
 }
 
 .mail-block {
-  background: url(img/bg-lists.png) 0 0 no-repeat;
+  background: url(../img/bg-lists.png) 0 0 no-repeat;
   background-position: 17% 45%;
   width: 100%;
 }
@@ -676,7 +676,7 @@ footer {
 }
 
 .banner-block {
-  background: url(img/banner.jpg) 0 0 no-repeat;
+  background: url(../img/banner.jpg) 0 0 no-repeat;
   width: 100%;
   position: relative;
 }
@@ -731,7 +731,7 @@ footer {
 }
 
 .banner-block__eye:before {
-  content: url("img/eye.png");
+  content: url("../img/eye.png");
   width: 30px;
   display: inline;
   margin-right: 8px;
@@ -823,7 +823,7 @@ footer {
 }
 
 .main-first-news-block__big {
-  background: url(img/1.jpg) 0 0 no-repeat;
+  background: url(../img/1.jpg) 0 0 no-repeat;
   background-size: cover;
   max-height: 351px;
   height: 100%;
@@ -837,12 +837,12 @@ footer {
 }
 
 .main-first-news-block__small:nth-child(1) {
-  background: url(img/2.jpg) 0 0 no-repeat;
+  background: url(../img/2.jpg) 0 0 no-repeat;
   background-size: cover;
 }
 
 .main-first-news-block__small:nth-child(2) {
-  background: url(img/3.jpg) 0 0 no-repeat;
+  background: url(../img/3.jpg) 0 0 no-repeat;
   background-size: cover;
 }
 
@@ -924,7 +924,7 @@ footer {
   width: 180px;
   height: 115px;
   position: absolute;
-  background: url(img/bg-icon.png) 0 0 no-repeat;
+  background: url(../img/bg-icon.png) 0 0 no-repeat;
   background-size: 180px 115px;
   top: -6px;
   left: -5px;
@@ -1065,7 +1065,7 @@ footer {
 
 .banner-right-block {
   position: relative;
-  background: url(img/banner2.jpg) 0 0 no-repeat;
+  background: url(../img/banner2.jpg) 0 0 no-repeat;
   width: 100%;
   max-width: 300px;
   padding-bottom: 50px;
