@@ -1032,6 +1032,9 @@ footer {
 
 .big-news-list-with-image img {
   width: 100%;
+  max-width: 630px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .main-news-list button {
