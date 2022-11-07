@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper" id="app" :class="{isMobile, isTablet}">
+    </div>
+    <div class="content">
+        <aside class="left-block">
+            <div class="left-container">
+                @@include('blocks/modules/logo/logo.html', {})
+                @@include('blocks/modules/left-menu/left-menu.html', {})
+                @@include('blocks/modules/search/search.html', {})
+                @@include('blocks/modules/mail/mail.html', {})
+                @@include('blocks/modules/currencies/currencies.html', {})
+                @@include('blocks/modules/banner/banner.html', {})
+                @@include('blocks/modules/news-aside/news-aside.html', {})
+                @@include('blocks/modules/business/business.html', {})
+                @@include('blocks/modules/brands/brands.html', {})
+                @@include('blocks/modules/jurnal/jurnal.html', {})
+
+            </div>
+
+        </aside>
+        <main class="content-block">
+            <div class="content-container">
+            @@include('blocks/modules/notification/notification.html', {})
+            @@include('blocks/modules/main-first-news/main-first-news.html', {})
+            @@include('blocks/modules/main-white-news/main-white-news.html', {})
+            @@include('blocks/modules/big-news-list/big-news-list.html', {})
+
+        </div>
+        </main>
+        <aside class="right-block">
+            <div class="right-container">
+            @@include('blocks/modules/social-network/social-network.html', {})
+            @@include('blocks/modules/banner-right/banner-right.html', {})
+            @@include('blocks/modules/calendar/calendar.html', {})
+            @@include('blocks/modules/top-five/top-five.html', {})
+            @@include('blocks/modules/tags/tags.html', {})
+        </div>
+        </aside>
+    </div>
+    <footer>
+        <div class="footer-container">
+        @@include('blocks/modules/footer/footer.html', {})
+    </div>
+    </footer>
+    <script src="js/app.min.js"></script>
+</body>
+</html>
