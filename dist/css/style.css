@@ -2279,10 +2279,6 @@ footer {
 }
 
 @media (max-width: 1650px) {
-  .content-container {
-    max-width: 600px;
-  }
-
   .right-container {
     max-width: 360px;
   }
@@ -2322,6 +2318,11 @@ footer {
 
   .left-block {
     margin-right: 20px;
+  }
+
+  .air-datepicker-nav--title {
+    font-size: 40px;
+    padding: 18px 18px 15px;
   }
 
   .banner-right-block__blue,
