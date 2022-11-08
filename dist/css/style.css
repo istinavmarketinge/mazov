@@ -1371,13 +1371,21 @@ a {
 }
 
 .left-container {
+  padding-top: 24px;
+  padding-bottom: 24px;
   max-width: 240px;
   margin: 0 auto;
+  position: sticky;
+  top: 0;
 }
 
 .right-container {
   max-width: 420px;
   margin: 0 auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  position: sticky;
+  top: 0;
 }
 
 .content-container {
@@ -1397,7 +1405,6 @@ footer {
 .logo-block {
   display: flex;
   justify-content: space-between;
-  margin-top: 24px;
 }
 
 .logo-block__image {
@@ -1904,8 +1911,9 @@ footer {
   cursor: pointer;
 }
 
-.social-network-block {
-  margin-top: 20px;
+.main-news-list button:hover {
+  color: #fff;
+  background: #05598F;
 }
 
 .social-network-block span {
@@ -2109,18 +2117,18 @@ footer {
 }
 
 .footer-logo-flex {
-  padding-top: 40px;
+  padding-top: 44px;
   display: flex;
   justify-content: space-between;
   font-weight: 500;
   border-bottom: 1px solid #445661;
+  align-items: center;
 }
 
 .footer-logo-flex__logo {
   width: 10%;
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
 }
 
 .footer-logo-flex__image {
@@ -2142,11 +2150,13 @@ footer {
 .footer-logo-flex__menu-list {
   display: flex;
   list-style: none;
+  padding: 25px 0;
+  margin: 0;
 }
 
-.footer-logo-flex__menu-list li {
+.footer-logo-flex__menu-list li a {
   color: #fff;
-  margin-right: 17px;
+  margin-right: 37px;
 }
 
 .footer-logo-flex__years span {
@@ -2213,7 +2223,7 @@ footer {
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease;
-  top: calc(100vh - 30px - 44px);
+  top: calc(100vh - var(--top_position) - 44px);
   filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
 }
 
@@ -2229,12 +2239,17 @@ footer {
 }
 
 .button-top:before {
-  content: url("../img/ugol.png");
+  content: "";
   position: absolute;
   display: block;
-  width: 15px;
-  top: 37px;
+  width: 11px;
+  height: 7px;
+  top: 100%;
   left: 13px;
+  background: #fff;
+  transition: all 0.3s ease;
+  -webkit-clip-path: polygon(0 0, 0% 100%, 80% 0);
+          clip-path: polygon(0 0, 0% 100%, 80% 0);
 }
 
 .button-top:after {
@@ -2256,12 +2271,7 @@ footer {
 }
 
 .button-top:hover:before {
-  content: url("../img/ugol2.png");
-  position: absolute;
-  display: block;
-  width: 15px;
-  top: 37px;
-  left: 13px;
+  background: #05598F;
 }
 
 .button-top__wrapper {

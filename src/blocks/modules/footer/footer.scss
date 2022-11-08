@@ -1,15 +1,14 @@
 .footer-logo-flex {
-    padding-top: 40px;
+    padding-top: 44px;
     display: flex;
     justify-content: space-between;
     font-weight: 500;
     border-bottom: 1px solid #445661;
+    align-items: center;
     &__logo {
     width: 10%;
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
-    
     }
     &__image {
         width: 100%;
@@ -27,10 +26,12 @@
     &__menu-list {
         display: flex;
         list-style: none;
+        padding: 25px 0;
+        margin: 0;
     }
-    &__menu-list li {
+    &__menu-list li a {
         color: #fff;
-        margin-right: 17px;
+        margin-right: 37px;
     }
     &__years span {
         color: #fff;

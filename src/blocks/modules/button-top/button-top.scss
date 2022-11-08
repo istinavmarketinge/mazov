@@ -8,7 +8,7 @@
     opacity: 0;
     visibility: hidden;
     transition: all .3s ease;
-    top: calc(100vh - 30px - 44px);
+    top: calc(100vh - var(--top_position) - 44px);
     filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
     &.isVisible {
         opacity: 1;
@@ -20,12 +20,16 @@
         display: block;
     }
     &:before {
-        content: url('../img/ugol.png');
+        content:'';
         position: absolute;
         display: block;
-        width: 15px;
-        top: 37px;
+        width: 11px;
+        height: 7px;
+        top: 100%;
         left: 13px;
+        background: #fff;
+        transition: all .3s ease;
+        clip-path: polygon(0 0, 0% 100%, 80% 0);
     }
     &:after {
         content: url('../img/arrow.png');
@@ -44,12 +48,8 @@
         left: 31px;
     }
     &:hover:before {
-        content: url('../img/ugol2.png');
-        position: absolute;
-        display: block;
-        width: 15px;
-        top: 37px;
-        left: 13px;
+        background: #05598F;
+
     }
     &__wrapper {
         position: absolute;

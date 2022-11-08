@@ -12,7 +12,11 @@ const UpButton = class UpButton {
     }
     checkScrollDirection() {
         document.addEventListener("wheel", (event) => {
-            if (this.checkScrollDirectionIsUp(event) && $(document).scrollTop() > 400) {
+            if ($(document).scrollTop() < 400) {
+                $(this.selector).removeClass("isVisible")
+                return false;
+            }
+            if (this.checkScrollDirectionIsUp(event)) {
                 $(this.selector).addClass("isVisible")
              } else {
                $(this.selector).removeClass("isVisible")
