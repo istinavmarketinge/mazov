@@ -27,6 +27,30 @@
         top: 37px;
         left: 13px;
     }
+    &:after {
+        content: url('../img/arrow.png');
+        position: absolute;
+        display: block;
+        width: 7px;
+        top: 13px;
+        left: 31px;
+    }
+    &:hover:after {
+        content: url('../img/arrow2.png');
+        position: absolute;
+        display: block;
+        width: 7px;
+        top: 13px;
+        left: 31px;
+    }
+    &:hover:before {
+        content: url('../img/ugol2.png');
+        position: absolute;
+        display: block;
+        width: 15px;
+        top: 37px;
+        left: 13px;
+    }
     &__wrapper {
         position: absolute;
         width: 78px;
@@ -36,5 +60,7 @@
         z-index: 3;
         transform: translateX(50%);
     }
-
+    &:hover {
+        background: #05598F;
+    }
 }
