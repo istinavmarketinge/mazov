@@ -1916,11 +1916,10 @@ footer {
 
 .social-network-block span {
   display: block;
-  border-bottom: 1px solid #E6E6E6;
   width: 47%;
   color: #797979;
   font-size: 14px;
-  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 .social-network-block img {
@@ -1989,7 +1988,7 @@ footer {
 }
 
 .air-datepicker.-inline- {
-  max-width: 410px;
+  max-width: 420px;
   width: 100%;
 }
 
@@ -2004,20 +2003,19 @@ footer {
 }
 
 .air-datepicker-nav--title {
-  font-family: "pobeda";
-  font-size: 58px;
+  text-transform: uppercase;
+  font-size: 32px;
   color: #627784;
   font-weight: bold;
   width: 100%;
   justify-content: space-between;
-  padding: 35px 18px 15px;
+  padding: 38px 32px 15px 38px;
   line-height: 58px;
   letter-spacing: 0.18em;
 }
 
 .air-datepicker-nav--title span {
-  font-family: "pobeda";
-  font-size: 27px;
+  font-size: 23px;
   color: #9EB0BC;
 }
 
@@ -2035,7 +2033,7 @@ footer {
 }
 
 .air-datepicker--content {
-  padding: 0 18px 20px 18px;
+  padding: 0 25px 26px 28px;
 }
 
 .air-datepicker-cell.-selected-.-current- {
@@ -2066,7 +2064,11 @@ footer {
   border-bottom: 1px solid #EEEEEE;
   background: #fff;
   max-width: 410px;
-  padding: 10px 33px 0;
+  padding: 25px 40px 10px 40px;
+}
+
+.calendar-events-item:first-child {
+  border-top: 1px solid #EEEEEE;
 }
 
 .top-five-block {
