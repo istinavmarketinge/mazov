@@ -1207,8 +1207,8 @@ template {
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
-  src: url("../fonts/ALSHauss-Bold.woff2") format("woff2"), url("../fonts/ALSHauss-Bold.woff") format("woff"), url("../fonts/ALSHauss-Bold.ttf") format("ttf");
-  font-weight: 700;
+  src: url("../fonts/ALSHauss-Black.woff2") format("woff2"), url("../fonts/ALSHauss-Black.woff") format("woff"), url("../fonts/ALSHauss-Black.ttf") format("ttf");
+  font-weight: 900;
 }
 
 @font-face {
@@ -1221,8 +1221,15 @@ template {
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
-  src: url("../fonts/ALSHauss-Black.woff2") format("woff2"), url("../fonts/ALSHauss-Black.woff") format("woff"), url("../fonts/ALSHauss-Black.ttf") format("ttf");
-  font-weight: 900;
+  src: url("../fonts/ALSHauss-Bold.woff2") format("woff2"), url("../fonts/ALSHauss-Bold.woff") format("woff"), url("../fonts/ALSHauss-Bold.ttf") format("ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "ALSHauss";
+  font-display: swap;
+  src: url("../fonts/ALSHauss-BoldItalic.woff2") format("woff2"), url("../fonts/ALSHauss-BoldItalic.woff") format("woff"), url("../fonts/ALSHauss-BoldItalic.ttf") format("ttf");
+  font-weight: 400;
 }
 
 @font-face {
@@ -1235,7 +1242,7 @@ template {
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
-  src: url("../fonts/ALSHauss-BoldItalic.woff2") format("woff2"), url("../fonts/ALSHauss-BoldItalic.woff") format("woff"), url("../fonts/ALSHauss-BoldItalic.ttf") format("ttf");
+  src: url("../fonts/ALSHauss-BookItalic.woff2") format("woff2"), url("../fonts/ALSHauss-BookItalic.woff") format("woff"), url("../fonts/ALSHauss-BookItalic.ttf") format("ttf");
   font-weight: 400;
 }
 
@@ -1249,7 +1256,7 @@ template {
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
-  src: url("../fonts/ALSHauss-BookItalic.woff2") format("woff2"), url("../fonts/ALSHauss-BookItalic.woff") format("woff"), url("../fonts/ALSHauss-BookItalic.ttf") format("ttf");
+  src: url("../fonts/ALSHauss-HairlineItalic.woff2") format("woff2"), url("../fonts/ALSHauss-HairlineItalic.woff") format("woff"), url("../fonts/ALSHauss-HairlineItalic.ttf") format("ttf");
   font-weight: 400;
 }
 
@@ -1277,21 +1284,7 @@ template {
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
-  src: url("../fonts/ALSHauss-HairlineItalic.woff2") format("woff2"), url("../fonts/ALSHauss-HairlineItalic.woff") format("woff"), url("../fonts/ALSHauss-HairlineItalic.ttf") format("ttf");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "ALSHauss";
-  font-display: swap;
   src: url("../fonts/ALSHauss-MediumItalic.woff2") format("woff2"), url("../fonts/ALSHauss-MediumItalic.woff") format("woff"), url("../fonts/ALSHauss-MediumItalic.ttf") format("ttf");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "ALSHauss";
-  font-display: swap;
-  src: url("../fonts/ALSHauss-RegularItalic.woff2") format("woff2"), url("../fonts/ALSHauss-RegularItalic.woff") format("woff"), url("../fonts/ALSHauss-RegularItalic.ttf") format("ttf");
   font-weight: 400;
 }
 
@@ -1305,7 +1298,7 @@ template {
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
-  src: url("../fonts/ALSHauss-ThinItalic.woff2") format("woff2"), url("../fonts/ALSHauss-ThinItalic.woff") format("woff"), url("../fonts/ALSHauss-ThinItalic.ttf") format("ttf");
+  src: url("../fonts/ALSHauss-RegularItalic.woff2") format("woff2"), url("../fonts/ALSHauss-RegularItalic.woff") format("woff"), url("../fonts/ALSHauss-RegularItalic.ttf") format("ttf");
   font-weight: 400;
 }
 
@@ -1317,10 +1310,10 @@ template {
 }
 
 @font-face {
-  font-family: "pobeda";
+  font-family: "ALSHauss";
   font-display: swap;
-  src: url("../fonts/pobeda-bold.woff2") format("woff2"), url("../fonts/pobeda-bold.woff") format("woff"), url("../fonts/pobeda-bold.ttf") format("ttf");
-  font-weight: 700;
+  src: url("../fonts/ALSHauss-ThinItalic.woff2") format("woff2"), url("../fonts/ALSHauss-ThinItalic.woff") format("woff"), url("../fonts/ALSHauss-ThinItalic.ttf") format("ttf");
+  font-weight: 400;
 }
 
 @font-face {
@@ -1328,6 +1321,13 @@ template {
   font-display: swap;
   src: url("../fonts/ALSHaussVF-Regular.woff2") format("woff2"), url("../fonts/ALSHaussVF-Regular.woff") format("woff"), url("../fonts/ALSHaussVF-Regular.ttf") format("ttf");
   font-weight: 400;
+}
+
+@font-face {
+  font-family: "pobeda";
+  font-display: swap;
+  src: url("../fonts/pobeda-bold.woff2") format("woff2"), url("../fonts/pobeda-bold.woff") format("woff"), url("../fonts/pobeda-bold.ttf") format("ttf");
+  font-weight: 700;
 }
 
 @font-face {
@@ -1375,7 +1375,6 @@ a {
   padding-bottom: 24px;
   max-width: 240px;
   margin: 0 auto;
-  position: sticky;
   top: 0;
 }
 
@@ -1384,7 +1383,6 @@ a {
   margin: 0 auto;
   padding-top: 24px;
   padding-bottom: 24px;
-  position: sticky;
   top: 0;
 }
 
