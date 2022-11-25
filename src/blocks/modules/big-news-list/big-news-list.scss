@@ -40,6 +40,7 @@
         max-width: 630px ;
         max-height: 361px;
         width: 100%;
+        margin-bottom: 20px;
     }
     
 }
@@ -68,6 +69,7 @@
         width: 100%;
         max-width: 630px;
         object-fit: cover;
+        margin-bottom: 20px;
     }
    &__item img {
     object-fit: contain;

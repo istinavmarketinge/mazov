@@ -1858,6 +1858,7 @@ footer {
   max-width: 630px;
   max-height: 361px;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .big-news-list-with-image__image {
@@ -1888,6 +1889,7 @@ footer {
   max-width: 630px;
   -o-object-fit: cover;
      object-fit: cover;
+  margin-bottom: 20px;
 }
 
 .big-news-list-with-image__item img {
@@ -2214,6 +2216,10 @@ footer {
   font-weight: 400;
 }
 
+.blue {
+  color: #73C8FF;
+}
+
 .button-top {
   width: inherit;
   height: 44px;
@@ -2287,6 +2293,115 @@ footer {
 
 .button-top:hover {
   background: #05598F;
+}
+
+.bread-crumbs {
+  padding: 10px 18px;
+  background: #F8FAFB;
+}
+
+.bread-crumbs ul li {
+  list-style: none;
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #A9A9A9;
+  margin-right: 8px;
+}
+
+.bread-crumbs ul li span {
+  color: #A9A9A9;
+  margin-left: 5px;
+}
+
+.bread-crumbs ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.bread-crumbs ul li:last-child {
+  color: #000;
+}
+
+.detale-news-block {
+  padding-top: 20px;
+}
+
+.detale-news-block__in span {
+  font-size: 14px;
+  line-height: 18px;
+  color: #797979;
+}
+
+.detale-news-block__in h2 {
+  font-size: 32px;
+  line-height: 41px;
+  color: #0B0B0B;
+  margin-top: 10px;
+}
+
+.detale-news-block__image {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.detale-news-block__image-mask {
+  position: absolute;
+  top: 17px;
+  right: 12.5px;
+}
+
+.detale-news-block__socials {
+  display: flex;
+  align-items: center;
+}
+
+.detale-news-block__socials span {
+  font-size: 14px;
+  line-height: 18px;
+  color: #797979;
+  margin-right: 28px;
+}
+
+.detale-news-block__social {
+  background: #F8FAFB;
+  border-radius: 3px;
+  padding: 8px 0 8px 18px;
+}
+
+.detale-news-block__social a img {
+  margin-right: 22px;
+}
+
+.detale-news-block__text {
+  font-size: 16px;
+  line-height: 140%;
+  color: #0B0B0B;
+}
+
+.detale-news-block-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+.detale-news-block-icon__item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.detale-news-block-icon__item span {
+  font-size: 14px;
+  line-height: 18px;
+  color: #797979;
+  display: block;
+}
+
+.detale-news-block-icon__item img {
+  margin-right: 10px;
 }
 
 @media (max-width: 1650px) {
