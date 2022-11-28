@@ -2677,7 +2677,7 @@ footer {
 
 .other-news-block__in .other-news-blocks__item {
   width: 30%;
-  background: url("/img/other-news.jpg") 0 0 no-repeat;
+  background: url("../img/other-news.jpg") 0 0 no-repeat;
   background-size: cover;
   position: relative;
   min-height: 170px;
@@ -2761,7 +2761,7 @@ footer {
 
 .media-block__in .media-blocks__item {
   width: 30%;
-  background: url("/img/media.jpg") no-repeat 0 0;
+  background: url("../img/media.jpg") no-repeat 0 0;
   background-size: cover;
   position: relative;
   min-height: 290px;
