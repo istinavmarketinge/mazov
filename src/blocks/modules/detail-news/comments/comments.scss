@@ -153,15 +153,15 @@
     line-height: 20px;
     color: #A9A9A9;
     a {
-        text-decoration: underline dotted;
+        border-bottom: 2px dotted #A9A9A9;
         color: #A9A9A9;
     }
 }
 .comments-block__in .all {
-        text-decoration: underline dotted;
+        border-bottom: 2px dotted #A9A9A9;
         color: #A9A9A9;
         margin-top: 22px;
-        display: block;
+        display: inline-block;
         font-weight: 400;
         font-size: 16px;
         line-height: 20px;
