@@ -2,7 +2,7 @@
     scroll-behavior: smooth;
     // font-family: "ALSHauss";
     font-family: "ALSHaussVF";
-    color: #000;
+    color: #0B0B0B;
     font-size: 16px;
 }
 body {
@@ -46,9 +46,9 @@ a {
     top: 0;
 }
 .content-container {
-    padding: 0 76px;
     box-sizing: border-box;
     width: 100%;
+    max-width: 754px;
     margin: 0 auto;
     position: relative;
     padding-top: 20px;

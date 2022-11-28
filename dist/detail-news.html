@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css?_v=20221125163916">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20221125163916" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?_v=20221128124532">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20221128124532" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper" id="app" :class="{isMobile, isTablet}">
@@ -208,13 +208,215 @@
 
         <div class="comments-block-form">
             <form>
-                <input type="text" placeholder="Комментировать">
+                <textarea type="text" placeholder="Комментировать"></textarea>
                 <button type="submit">Отправить</button>
             </form>
         </div>
+        <div class="comments-personal">
+        <div class="comments-item">
+            <div class="comments-item__title">
+                <h2>Слюсарева Ольга Анатольевна </h2>
+                <span>2 дня назад</span>
+            </div>
+            <p class="comments-item__text">А можно просто нажать лайк вместо слов!</p>
+            <div class="comments-item__icons">
+               <a href=""><span>Ответить</span></a> 
+                <div class="like-icons">
+                   <a href=""><picture><source srcset="img/like.webp" type="image/webp"><img class="like"src="img/like.png" alt="like"></picture></a>
+                    <span class="green-number">113</span>
+                    <a href=""><img class="dislike" src="img/dislike.svg" alt="dislike"></a>
+                </div>
+            </div>
+        </div>
+        <div class="comments-sub-items">
+            <div class="comments-sub-item">
+                <div class="comments-sub-item__title">
+                    <h2>Сергей Котолов </h2>
+                    <span>2 дня назад</span>
+                </div>
+                <p class="comments-sub-item__text">А я и нажал</p>
+                <div class="comments-sub-item__icons">
+                   <a href=""><span>Ответить</span></a> 
+                    <div class="like-icons">
+                       <a href=""><picture><source srcset="img/like-black.webp" type="image/webp"><img class="like"src="img/like-black.png" alt="like"></picture></a>
+                        <span>0</span>
+                        <a href=""><img class="dislike" src="img/dislike.svg" alt="dislike"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="comments-sub-item">
+                <div class="comments-sub-item__title">
+                    <h2>Василий Ш.</h2>
+                    <span>2 дня назад</span>
+                </div>
+                <p class="comments-sub-item__text bad-comment">Комментарий не понравился пользователям. <a href="#">Показать</a></p>
+                <div class="comments-sub-item__icons">
+                   <a href=""><span>Ответить</span></a> 
+                    <div class="like-icons">
+                       <a href=""><picture><source srcset="img/like-black.webp" type="image/webp"><img class="like"src="img/like-black.png" alt="like"></picture></a>
+                        <span class="red-number">-15</span>
+                        <a href=""><picture><source srcset="img/red-dislike.webp" type="image/webp"><img class="dislike" src="img/red-dislike.png" alt="dislike"></picture></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="comments-item">
+                <div class="comments-item__title">
+                    <h2>Елена Авашкина </h2>
+                    <span>2 дня назад</span>
+                </div>
+                <p class="comments-item__text">А куда пойдут эти деньги?</p>
+                <div class="comments-item__icons">
+                   <a href=""><span>Ответить</span></a> 
+                    <div class="like-icons">
+                       <a href=""><picture><source srcset="img/like.webp" type="image/webp"><img class="like"src="img/like.png" alt="like"></picture></a>
+                        <span class="green-number">10</span>
+                        <a href=""><img class="dislike" src="img/dislike.svg" alt="dislike"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="comments-item">
+                <div class="comments-item__title">
+                    <h2>Дима Зотов </h2>
+                    <span>1 день назад</span>
+                </div>
+                <p class="comments-item__text">Прекрасные новости</p>
+                <div class="comments-item__icons">
+                   <a href=""><span>Ответить</span></a> 
+                    <div class="like-icons">
+                       <a href=""><picture><source srcset="img/like-black.webp" type="image/webp"><img class="like"src="img/like-black.png" alt="like"></picture></a>
+                        <span>0</span>
+                        <a href=""><img class="dislike" src="img/dislike.svg" alt="dislike"></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <a class="all" href="#">Показать ещё</a>
+        
+    </div>
+</div>
+                <div class="advertisement-block">
+    <div class="advertisement-block__in">
+        <h2>Читайте "Тульские новости"</h2>
+        <div class="advertisement-buttons">
+        <a href="" class="button-vk">
+            <img src="img/vkontakte.svg" alt="vk">
+            <span>Вконтакте</span>
+        </a>
+        <a href="" class="button-tg">
+            <img src="img/telegram.svg" alt="tg">
+            <span>Телеграм</span>
+        </a>
+    </div>
 
     </div>
 </div>
+                <div class="other-news-block">
+    <div class="other-news-block__in">
+        <h2>Другие новости экономики</h2>
+        <div class="other-news-blocks">
+        <div class="other-news-blocks__item">
+            <div class="other-news-blocks__date">
+                <span>28/10/2022</span>
+                <span>22:00</span>
+            </div>
+           <a href=""><h2>В Тульской области вновь подорожали огурцы и помидоры</h2></a>
+        </div>
+
+        <div class="other-news-blocks__item">
+            <div class="other-news-blocks__date">
+                <span>28/10/2022</span>
+                <span>22:00</span>
+            </div>
+            <a href=""><h2>Расходы бюджета ТО по статье «Международные отношения и сотрудничество» составили почти полмиллиарда рублей</h2></a>
+        </div>
+
+        <div class="other-news-blocks__item">
+            <div class="other-news-blocks__date">
+                <span>28/10/2022</span>
+                <span>22:00</span>
+            </div>
+            <a href=""><h2>В ТО выделят почти полмиллиарда рублей на поддержку региональных систем здравоохранения</h2></a>
+        </div>
+    </div>
+    </div>
+</div>
+                <div class="main-news-block">
+    <div class="main-news-block__in">
+        <h2>Главные новости</h2>
+        <div class="big-news-list-with-image">
+            <span>16:40</span>
+            <span>СВО</span>
+            <a href=""><h2 class="big-news-list-with-image__text">После окончания частичной мобилизации продолжается набор добровольцев
+                снова проиграл
+            </h2></a>
+            </div>
+
+            <div class="big-news-list-with-image">
+                <span>16:40</span>
+                <span>СВО</span>
+                <a href=""><h2 class="big-news-list-with-image__text">«Очень большие проблемы с волевыми качествами»: тульский «Арсенал» снова проиграл
+                </h2></a>
+                </div>
+
+                <div class="big-news-list-with-image">
+                    <span>16:40</span>
+                    <span>СВО</span>
+                    <a href=""><h2 class="big-news-list-with-image__text">В 17 точках Тулы в соответствии с антитеррористическими требованиями установят систему оповещения населения</h2></a>
+                    </div>
+
+                    <div class="big-news-list-with-image">
+                        <span>16:40</span>
+                        <span>СВО</span>
+                        <a href=""><h2 class="big-news-list-with-image__text">Депутат тульской Гордумы Швыков получил повестку</h2></a>
+                        </div>
+
+                        <div class="big-news-list-with-image">
+                            <span>16:40</span>
+                            <span>СВО</span>
+                            <a href=""><h2 class="big-news-list-with-image__text">«Арсенал» проиграл «Шиннику», играя весь второй тайм в большинстве</h2></a>
+                            </div>
+    </div>
+</div>
+                <div class="media-block">
+    <div class="media-block__in">
+        <div class="media-block__title">
+            <h2>СМИ</h2>
+            <div class="media-number">2</div>
+        </div>
+
+            <div class="media-blocks">
+                <div class="media-blocks__item">
+                    <div class="media-blocks__date">
+                        <span>28/10/2022</span>
+                        <span>22:00</span>
+                    </div>
+                   <a href=""><h2>В Тульской области вновь подорожали огурцы и помидоры</h2></a> 
+                </div>
+        
+                <div class="media-blocks__item">
+                    <div class="media-blocks__date">
+                        <span>28/10/2022</span>
+                        <span>22:00</span>
+                    </div>
+                    <a href=""><h2>Расходы бюджета ТО по статье «Международные отношения и сотрудничество» составили почти полмиллиарда рублей</h2></a>
+                </div>
+        
+                <div class="media-blocks__item">
+                    <div class="media-blocks__date">
+                        <span>28/10/2022</span>
+                        <span>22:00</span>
+                    </div>
+                    <a href=""><h2>В ТО выделят почти полмиллиарда рублей на поддержку региональных систем здравоохранения</h2></a>
+                </div>
+            </div>
+        
+    </div>
+</div>
+
+
+
+
 
 
         </div>
@@ -449,7 +651,7 @@
 </div>
     </div>
     </footer>
-    <script src="js/app.min.js?_v=20221125163916"></script>
+    <script src="js/app.min.js?_v=20221128124532"></script>
 </body>
 </html>
 

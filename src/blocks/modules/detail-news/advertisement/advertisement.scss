@@ -1,0 +1,43 @@
+.advertisement-block {
+    margin-top: 20px;
+    &__in {
+        display: flex;
+        align-items: center;
+        background: #E5F5FF;
+        padding: 24.5px 30px;
+        justify-content: space-between;
+        h2 {
+            font-weight: 600;
+            font-size: 26px;
+            line-height: 33px;
+            margin: 0;
+        }
+        .button-vk, .button-tg {
+            background: #0077FF;
+            box-shadow: 0px 8px 10px rgba(255, 255, 255, 0.5);
+            border-radius: 5px;
+            padding: 12px 20px;
+            max-width: 134px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            span {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px;
+                color: #fff;
+            }
+            img {
+                margin-right: 7px;
+            }
+        }
+        .button-tg {
+            background: #27A6E5;
+            margin-left: 30px;
+        }
+        .advertisement-buttons {
+            display: flex;
+            align-items: center;
+        }
+    }
+}

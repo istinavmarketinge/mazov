@@ -22,7 +22,7 @@
     h2 {
         font-size: 24px;
         line-height: 31px;
-        font-weight: 550;
+        font-weight: 600;
     }
     &__icons {
         display: flex;
@@ -55,6 +55,7 @@
     &__text {
         position: relative;
         padding-left: 15px;
+        font-weight: 600;
     }
     &__text:before {
         content: "";
