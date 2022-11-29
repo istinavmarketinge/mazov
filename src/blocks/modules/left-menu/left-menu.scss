@@ -26,3 +26,11 @@
         font-weight: 400;
     }
 }
+
+.menu-list:not(.isOpened) li:nth-of-type(n+6) {
+    display: none;
+}
+.menu-list__item-more {
+    display: inline-block !important;
+    cursor: pointer;
+}

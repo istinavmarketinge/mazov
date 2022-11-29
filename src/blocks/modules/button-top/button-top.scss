@@ -13,6 +13,7 @@
     &.isVisible {
         opacity: 1;
         visibility: visible;
+        pointer-events: all;
     }
     img {
         padding: 16px 0px;
@@ -59,6 +60,7 @@
         bottom: 0;
         z-index: 3;
         transform: translateX(50%);
+        pointer-events: none;
     }
     &:hover {
         background: #05598F;

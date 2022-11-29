@@ -157,7 +157,7 @@
         color: #A9A9A9;
     }
 }
-.comments-block__in .all {
+.comments-block__in .comments-all-btn {
         border-bottom: 2px dotted #A9A9A9;
         color: #A9A9A9;
         margin-top: 22px;
@@ -166,3 +166,7 @@
         font-size: 16px;
         line-height: 20px;
 }
+
+// .comments-personal:not(.isOpen) .comments-item:nth-of-type(n+2) {
+//     display: none;
+// }
