@@ -3321,6 +3321,56 @@ footer {
   transition: all 0.3s ease;
 }
 
+.editorial-office-block__in h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 41px;
+  margin-bottom: 30px;
+}
+
+.editorial-office-block__contacts table {
+  background: #E5F5FF;
+  width: 100%;
+  padding: 20px 30px 10px;
+}
+
+.editorial-office-block__contacts table tr td {
+  padding-bottom: 10px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.editorial-office-block__text {
+  padding-top: 20px;
+}
+
+.editorial-office-block__text h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  margin: 20px 0;
+}
+
+.editorial-office-block__text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.table-number {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.table-email {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #05598F;
+}
+
 @media (max-width: 1650px) {
   .right-container {
     max-width: 360px;
