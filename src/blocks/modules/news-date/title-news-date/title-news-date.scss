@@ -1,0 +1,39 @@
+.title-extreme-news {
+    margin-top: 30px;
+    &__in {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        .news-date{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 31px;
+            color: #0B0B0B;
+            margin-left: 15px;
+        }
+        h2 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 31px;
+            margin-right: 15px;
+        }
+        span {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 20px; 
+            color: #A9A9A9; 
+            display: block;
+            margin-top: 4px;
+        }
+        div {
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 31px
+        }
+    }
+}
