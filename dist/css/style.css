@@ -2994,7 +2994,7 @@ footer {
 }
 
 .big-news-list-with-banner .news-banner {
-  background: url(/img/bg-map.png) no-repeat;
+  background: url(../img/bg-map.png) no-repeat;
   background-color: #05598F;
   position: relative;
   background-size: 117%;
@@ -3037,7 +3037,7 @@ footer {
 
 .big-news-list-with-banner-date .news-banner::before {
   content: "";
-  background: url(/img/news-banner-bg.svg) no-repeat 0 0;
+  background: url(../img/news-banner-bg.svg) no-repeat 0 0;
   position: absolute;
   top: 0;
   right: 0;
