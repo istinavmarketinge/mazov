@@ -53,6 +53,20 @@ $(document).ready(() => {
 	// 	});
 	// }
 
+    if (document.querySelector('.search-block-form input')) {
+        $(".search-block-form input").on("keyup", function() {
+            let value = $(this).val();
+            console.log(value);
+            if(value == "") {
+                $(this).closest(".search-block-form").removeClass("isNotEmpty")
+            } else {
+                $(this).closest(".search-block-form").addClass("isNotEmpty")
+            }
+
+        })
+    }
+
+
     // TODO написать в Readme.md о возможности изменять опции календаря
 })
 
