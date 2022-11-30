@@ -1359,13 +1359,13 @@ a {
 .left-block {
   width: 23%;
   align-self: flex-start;
-  transform: translateY(var(--translateY, 0));
+  transform: translate3d(0, var(--translateY, 0), 0);
 }
 
 .right-block {
   width: 31%;
   align-self: flex-start;
-  transform: translateY(var(--translateY, 0));
+  transform: translate3d(0, var(--translateY, 0), 0);
 }
 
 .content-block {
