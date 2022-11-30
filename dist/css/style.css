@@ -3371,6 +3371,36 @@ footer {
   color: #05598F;
 }
 
+.advertisement-page-block__in table {
+  background: #E5F5FF;
+  width: 100%;
+  padding: 40px 50px 30px;
+}
+
+.advertisement-page-block__in table tr td {
+  padding-bottom: 10px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.advertisement-page-block__in table tr td:first-child {
+  padding-right: 80px;
+}
+
+.table-number {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.table-email {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #05598F;
+}
+
 @media (max-width: 1650px) {
   .right-container {
     max-width: 360px;
