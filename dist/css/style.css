@@ -3426,6 +3426,7 @@ footer {
   box-sizing: border-box;
   cursor: pointer;
   margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 .advertisement-page-block__download span {
