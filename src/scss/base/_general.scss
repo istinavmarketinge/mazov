@@ -16,11 +16,15 @@ a {
 }
 .left-block {
     width: 23%;
+    align-self: flex-start;
+    transform: translate3d(0, var(--translateY, 0), 0)
     // max-width: $aside-left-width;
 }
 .right-block {
     // max-width: $aside-right-width;
     width: 31%;
+    align-self: flex-start;
+    transform: translate3d(0, var(--translateY, 0), 0)
 }
 .content-block {
     // flex: 1 1 auto;
