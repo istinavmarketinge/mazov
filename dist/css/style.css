@@ -2197,6 +2197,10 @@ footer {
   color: #fff;
 }
 
+.footer-logo-flex__years .coopy-mobile {
+  display: none;
+}
+
 .footer-info-flex {
   display: flex;
   justify-content: space-between;
@@ -4409,7 +4413,42 @@ footer {
     display: none;
   }
 
+  .footer-logo-flex__years .coopy-mobile {
+    display: block;
+  }
+
+  .footer-logo-flex__years .footer-year {
+    display: none;
+  }
+
+  .footer-info-flex__left p {
+    display: none;
+  }
+
+  .footer-info-flex__item table {
+    border-bottom: 1px solid #445661;
+    padding-bottom: 40px;
+  }
+
+  .footer-info-flex__right {
+    border-bottom: 1px solid #445661;
+    padding-bottom: 24px;
+  }
+
+  .footer-info-flex__right p:nth-last-of-type(-n+2) {
+    display: none;
+  }
+
+  .footer-bottom-block {
+    flex-direction: column;
+    margin-top: 24px;
+  }
+
   .button-top {
+    display: none;
+  }
+
+  .button-top__wrapper {
     display: none;
   }
 }

@@ -69,3 +69,8 @@
         background: #05598F;
     }
 }
+.button-top__wrapper {
+    @media all and (max-width:860px) {
+        display: none;
+    }
+}
