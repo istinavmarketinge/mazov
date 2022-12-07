@@ -1,0 +1,54 @@
+.social-network {
+    &__in {
+        padding: 80px 0;
+        text-align: center;
+    }
+    &__line {
+        max-width: 217px;
+        width: 100%;
+        height: 1px;
+        background: #0B0B0B;
+        margin: 0 auto;
+    }
+    &__text {
+        padding: 40px 0;
+        h2 {
+            font-weight: 720;
+            font-size: 48px;
+            line-height: 61px;
+            text-align: center;
+            margin-bottom: 10px;
+            margin-top: 0;
+        }
+        span {
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 140%;
+            margin-bottom: 10px;
+            display: block;
+        }
+    }
+    &__icons {
+        a.tg svg path:hover {
+            fill: #27A6E5;
+        }
+        a.vk svg path:hover {
+            fill: #0077FF;
+        }
+        a.ok svg path:hover {
+            fill: #F79A38;
+        }
+        a.vb svg path:hover {
+            fill: #7C509A;
+        }
+        a.wa svg path:hover {
+            fill: #48C95F
+        }
+        a.yd svg path:hover {
+            fill: #2C3036;
+        }
+        a.ic svg rect:hover {
+            fill: #FF9800;
+        }
+    }
+}

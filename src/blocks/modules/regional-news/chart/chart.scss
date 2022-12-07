@@ -1,0 +1,26 @@
+.chart {
+    margin-bottom: 20px;
+    &__in {
+
+    }
+    &__text {
+        display: flex;
+        align-items: center;
+        margin-left: 43px;
+        padding-bottom: 35px;
+        img {
+            max-width: 38px;
+            width: 100%;
+            margin-right: 24px;
+        }
+        .explanation {
+            span {
+                display: block;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                color: #797979;
+                }
+        }
+    }
+}

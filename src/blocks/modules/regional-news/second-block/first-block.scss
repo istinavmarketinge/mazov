@@ -1,0 +1,78 @@
+.first-block {
+    margin-top: 20px;
+    &__in {
+
+    }
+    &__banner {
+        margin-top: 20px;
+    background: url(../img/bg-map.png) no-repeat;
+    background-color: #05598F;
+    background-size: 117%;
+    background-position: 50% 18%;
+    padding: 77px 134px 57px;
+        h2 {
+            font-weight: 720;
+            font-size: 36px;
+            line-height: 46px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #fff;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        span {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            display: inherit;
+            color: #fff;
+        }
+    }
+}
+.first-block-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    &__first-item {
+        width: 52%;
+        margin-bottom: 20px;
+        h2 {
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 46px;
+            margin: 20px 0;
+        }
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+        }
+    }
+    &__second-item {
+        width: 37.5%;
+        background: #F8FAFB;
+        padding: 20px 30px;
+        h2 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 31px;
+        }
+    }
+}
+.second-block-text {
+    &__second-item {
+        width: 36%;
+        h2 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 31px;
+        }
+        p {
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+}
