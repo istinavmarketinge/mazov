@@ -24,10 +24,16 @@
     padding: 17px 32px 15px 38px;
     line-height: 58px;
     letter-spacing: 0.18em;
+        @media (max-width: 1350px) {
+        font-size: 22px;
+    }
 }
 .air-datepicker-nav--title span {
     font-size: 23px;
     color: #9EB0BC;
+    @media (max-width: 1350px) {
+        font-size: 20px;
+    }
 }
 .air-datepicker-cell {
     max-width: 50px;

@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css?_v=20221207143614">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20221207143614" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?_v=20221207164357">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20221207164357" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper" id="app" :class="{isMobile, isTablet}">
@@ -14,13 +14,13 @@
     <div class="content">
         <aside class="left-block">
             <div class="left-container">
-                <div class="logo-block">
-   <a href=""> <picture><source srcset="img/icon.webp" type="image/webp"><img class="logo-block__image" src="img/icon.png" alt="logo"></picture></a>
+                <a href="" class="logo-block">
+   <picture><source srcset="img/icon.webp" type="image/webp"><img class="logo-block__image" src="img/icon.png" alt="logo"></picture>
     <div class="logo-block__name">
         <span>Тульские</span>
         <span>Новости</span>
     </div>
-</div>
+</a>
 
                 <div class="menu-list-glavnaya">
 <ul class="menu-list">
@@ -38,13 +38,13 @@
     <input class="search__input" name="s" placeholder="Поиск" type="search">
     <button class="search__button" type="submit"><picture><source srcset="img/search.webp" type="image/webp"><img src="img/search.png" alt="search"></picture></button>
   </form>
-                <div class="mail-block">
+                <a href="#" class="mail-block">
     <div class="mail-block__letter">
         <picture><source srcset="img/mail.webp" type="image/webp"><img src="img/mail.png" alt="mail"></picture>
-        <a href="#"><span>Подписаться на рассылку</span></a>
+       <span>Подписаться на рассылку</span>
     </div>
 
-</div>
+</a>
                 <div class="currencies-block">
     <h2 class="currencies-block__title">Курсы валют ЦБ</h2>
     <table class="currencies-block__table">
@@ -68,15 +68,15 @@
         </tr>
     </table>
 </div>
-                <div class="banner-block">
+                <a href="" class="banner-block">
     <span class="banner-block__advertisement">Реклама 18+</span>
     <h2 class="banner-block__title"><span>Наша</span>реклама <span class="green">продает</span></h2>
-    <a href=""><button class="banner-block__bottom" type="submit">Заказать</button></a>
+    <button class="banner-block__bottom" type="submit">Заказать</button>
     <div class="banner-block__eye">смотреть статистику</div>
-</div>
+</a>
                 <div class="news-aside-block">
     <h2 class="news-aside-block__title">Новости компаний</h2>
-    <picture><source srcset="img/news.webp" type="image/webp"><img class="news-aside-block__image" src="img/news.jpg" alt="image"></picture>
+    <a href=""> <picture><source srcset="img/news.webp" type="image/webp"><img class="news-aside-block__image" src="img/news.jpg" alt="image"></picture></a>
     <div class="news-aside-block__item">
         <span>01/10</span><span>10:00</span>
        <a href=""><p>Ассоциация «Совет муниципальных образований Тульской области» провела обучающий вебинар для сельских старост</p> </a>
@@ -96,7 +96,7 @@
 </div>
                 <div class="news-aside-block">
     <h2 class="news-aside-block__title">Бизнес</h2>
-    <picture><source srcset="img/business.webp" type="image/webp"><img class="news-aside-block__image" src="img/business.jpg" alt="image"></picture>
+    <a href=""><picture><source srcset="img/business.webp" type="image/webp"><img class="news-aside-block__image" src="img/business.jpg" alt="image"></picture></a> 
     <div class="news-aside-block__item">
         <span>01/10</span><span>10:00</span>
        <a href=""><p>Продолжается прием заявок на участие в премии «Тульский БИЗНЕС - 2022»</a></p>
@@ -116,7 +116,7 @@
 </div>
                 <div class="news-aside-block">
     <h2 class="news-aside-block__title">Бренды России</h2>
-    <picture><source srcset="img/forbes.webp" type="image/webp"><img class="news-aside-block__image" src="img/forbes.jpg" alt="image"></picture>
+   <a href=""><picture><source srcset="img/forbes.webp" type="image/webp"><img class="news-aside-block__image" src="img/forbes.jpg" alt="image"></picture></a> 
     <div class="news-aside-block__item">
         <span>01/10</span><span>10:00</span>
        <a href=""> <p>Forbes составил список самых успешных российских брендов</p></a>
@@ -124,7 +124,7 @@
 </div>
                 <div class="news-aside-block">
     <h2 class="news-aside-block__title">Бизнес журнал</h2>
-    <picture><source srcset="img/jurnal.webp" type="image/webp"><img class="news-aside-block__image" src="img/jurnal.jpg" alt="image"></picture>
+    <a href=""> <picture><source srcset="img/jurnal.webp" type="image/webp"><img class="news-aside-block__image" src="img/jurnal.jpg" alt="image"></picture></a>
     <div class="news-aside-block__item">
         <span>01/10</span><span>10:00</span>
         <a href=""> <p>Forbes составил список самых успешных российских брендов</p></a>
@@ -180,13 +180,13 @@
    <a href=""><img src="img/tg.svg" alt="icon"></a>
    <a href=""><img src="img/wf.svg" alt="icon"></a>
 </div>
-            <div class="banner-right-block">
+            <a href="" class="banner-right-block">
     <span class="banner-block__advertisement banner-block__advertisement-right">Реклама 18+</span>
     <span class="banner-right-block__blue">читай первым!</span>
     <span class="banner-right-block__white">Все самые актуальные новости 
         в <span>телеграм</span></span>
-    <a href=""><button type="submit">подписаться</button></a> 
-</div>
+    <button type="submit">подписаться</button>
+    </a>
             <div class="calendar-block">
     <div class="calendar"></div>
     <div class="calendar-events">
@@ -237,7 +237,7 @@
 
 <div class="top-five-block analitics">
     <h2>Аналитика</h2>
-    <picture><source srcset="img/analitics.webp" type="image/webp"><img src="img/analitics.jpg" alt="image"></picture>
+    <a href=""> <picture><source srcset="img/analitics.webp" type="image/webp"><img src="img/analitics.jpg" alt="image"></picture></a>
     <div class="top-five-block__item">
         <span>02/10</span><span>10:18</span>
        <a href=""><p>«В игре с «Ростовом» можно найти что-то хорошее»: аналитика очередного поражения тульского «Арсенала»
@@ -263,7 +263,7 @@
 
     <div class="top-five-block rassledovaniya">
         <h2>Расследования</h2>
-        <picture><source srcset="img/rassledovanie.webp" type="image/webp"><img src="img/rassledovanie.jpg" alt="image"></picture>
+        <a href=""> <picture><source srcset="img/rassledovanie.webp" type="image/webp"><img src="img/rassledovanie.jpg" alt="image"></picture></a>
         <div class="top-five-block__item">
             <span>02/10</span><span>10:18</span>
            <a href=""><p>Важная птица: известный в Туле пруд оказался в частной собственности
@@ -331,14 +331,14 @@
         <div class="footer-container">
         <div class="footer">
     <div class="footer-logo-flex">
-        <div class="footer-logo-flex__logo">
+        <a href="" class="footer-logo-flex__logo">
                 <picture><source srcset="img/logo2.webp" type="image/webp"><img class="footer-logo-flex__image" src="img/logo2.png" alt="logo"></picture>
                 <div class="footer-logo-flex__name">
                     <span>Тульские</span>
                     <span>Новости</span>
                 </div>
 
-        </div>
+            </a>
         <div class="footer-logo-flex__menu">
             <ul class="footer-logo-flex__menu-list">
                 <li><a href="">Редакция</a> </li>
@@ -400,7 +400,7 @@
 </div>
     </div>
     </footer>
-    <script src="js/app.min.js?_v=20221207143614"></script>
+    <script src="js/app.min.js?_v=20221207164357"></script>
 </body>
 </html>
 

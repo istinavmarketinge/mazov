@@ -17,14 +17,24 @@ a {
 .left-block {
     width: 23%;
     align-self: flex-start;
-    transform: translate3d(0, var(--translateY, 0), 0)
+    transform: translate3d(0, var(--translateY, 0), 0);
     // max-width: $aside-left-width;
+    @media all and (max-width: 1200px) {
+        display: none;
+    }
 }
 .right-block {
     // max-width: $aside-right-width;
     width: 31%;
     align-self: flex-start;
-    transform: translate3d(0, var(--translateY, 0), 0)
+    transform: translate3d(0, var(--translateY, 0), 0);
+    @media all and (max-width: 1200px) {
+        width: 27%;
+        padding: 0 20px;
+    }
+    @media all and (max-width:860px) {
+        display: none;
+    }
 }
 .content-block {
     // flex: 1 1 auto;
@@ -33,6 +43,12 @@ a {
     border-left: 1px solid #E6E6E6;
     border-right: 1px solid #E6E6E6;
     position: relative;
+    @media all and (max-width: 1200px) {
+        width: 73%;
+    }
+    @media all and (max-width:860px) {
+        width: 100%;
+    }
 }
 .left-container {
     padding-top: 24px;
@@ -58,6 +74,15 @@ a {
     position: relative;
     padding-top: 20px;
     padding-bottom: 40px;
+    @media(max-width: 1350px) {
+        max-width: 600px;
+    }
+    @media all and (max-width:1060px) {
+        padding: 20px;
+    }
+    @media all and (max-width:860px) {
+        max-width: 800px;
+    }
 }
 footer {
     background: #0D2737;

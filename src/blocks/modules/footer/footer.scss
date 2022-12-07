@@ -5,6 +5,9 @@
     font-weight: 500;
     border-bottom: 1px solid #445661;
     align-items: center;
+    @media all and (max-width:860px) {
+        border: none;
+    }
     &__logo {
     width: 10%;
     display: flex;
@@ -35,6 +38,11 @@
     }
     &__years span {
         color: #fff;
+    }
+    &__menu {
+        @media all and (max-width:860px) {
+            display: none;
+        }
     }
     
 }
