@@ -25,7 +25,6 @@
             font-weight: 600;
             font-size: 24px;
             line-height: 31px;
-            margin-top: 40px;
         }
         p, ul li {
             font-weight: 400;
@@ -68,4 +67,16 @@
     font-size: 20px;
     line-height: 26px;
     color: #05598F;
+}
+.custom-marker {
+    list-style: none;
+    padding-left: 5px;
+}
+.custom-marker li:before {
+    content:  "-";
+    position: relative;
+    left:     -5px;
+}
+.publication-policy-numbers {
+    padding-top: 70px;
 }

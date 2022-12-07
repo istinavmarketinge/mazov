@@ -3402,6 +3402,7 @@ footer {
   font-weight: 600;
   font-size: 24px;
   line-height: 31px;
+  margin-top: 40px;
 }
 
 .advertisement-page-block__text p,
@@ -3448,6 +3449,96 @@ footer {
   font-size: 20px;
   line-height: 26px;
   color: #05598F;
+}
+
+.advertisement-page-block__in table {
+  background: #E5F5FF;
+  width: 100%;
+  padding: 40px 50px 30px;
+}
+
+.advertisement-page-block__in table tr td {
+  padding-bottom: 10px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.advertisement-page-block__in table tr td:first-child {
+  padding-right: 80px;
+}
+
+.advertisement-page-block__in h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 41px;
+}
+
+.advertisement-page-block__text h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.advertisement-page-block__text p,
+.advertisement-page-block__text ul li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.advertisement-page-block__text ul li {
+  margin-bottom: 10px;
+}
+
+.advertisement-page-block__download {
+  background: #05598F;
+  max-width: 246px;
+  width: 100%;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.advertisement-page-block__download span {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  display: block;
+}
+
+.table-number {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.table-email {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #05598F;
+}
+
+.custom-marker {
+  list-style: none;
+  padding-left: 5px;
+}
+
+.custom-marker li:before {
+  content: "-";
+  position: relative;
+  left: -5px;
+}
+
+.publication-policy-numbers {
+  padding-top: 70px;
 }
 
 @media (max-width: 1650px) {
