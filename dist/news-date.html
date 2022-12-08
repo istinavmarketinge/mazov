@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css?_v=20221208122240">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20221208122240" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?_v=20221208155134">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20221208155134" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper" id="app" :class="{isMobile, isTablet}">
     </div>
     <div class="content">
         <aside class="left-block">
-            <div class="left-container">
+            <div class="left-container sticky_block">
                 <a href="" class="logo-block">
    <picture><source srcset="img/icon.webp" type="image/webp"><img class="logo-block__image" src="img/icon.png" alt="logo"></picture>
     <div class="logo-block__name">
@@ -132,7 +132,7 @@
 </div>
 
             </div>
-
+            <div class="helper_for_sticky"></div>
         </aside>
         <main class="content-block">
             <div class="content-container">
@@ -359,7 +359,7 @@
         </div>
         </main>
         <aside class="right-block">
-            <div class="right-container">
+            <div class="right-container sticky_block">
             
             <div class="social-network-block">
     <span>Расскажите о нас в соц. сетях</span>
@@ -513,6 +513,7 @@
        <a href=""><span>Экономика</span> </a>
 </div>
         </div>
+        <div class="helper_for_sticky"></div>
         </aside>
     </div>
     <footer>
@@ -594,7 +595,7 @@
 </div>
     </div>
     </footer>
-    <script src="js/app.min.js?_v=20221208122240"></script>
+    <script src="js/app.min.js?_v=20221208155134"></script>
 </body>
 </html>
 

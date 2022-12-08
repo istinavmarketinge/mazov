@@ -1,3 +1,4 @@
+
 .footer-logo-flex {
     padding-top: 44px;
     display: flex;
@@ -122,6 +123,9 @@
     justify-content: space-between;
     margin-top: 80px;
     padding-bottom: 40px;
+    @media all and (max-width:1200px) {
+        margin-top: 30px;
+    }
     @media all and (max-width:1000px) {
         flex-direction: column;
         margin-top: 24px;

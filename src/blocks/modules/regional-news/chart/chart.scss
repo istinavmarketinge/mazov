@@ -1,7 +1,9 @@
 .chart {
     margin-bottom: 20px;
-    &__in {
-
+    &__image {
+        img {
+            width: 100%;
+        }
     }
     &__text {
         display: flex;

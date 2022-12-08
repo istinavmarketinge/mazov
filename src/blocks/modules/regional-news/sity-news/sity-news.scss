@@ -1,6 +1,9 @@
 .sity-news {
     background: #F8FAFB;
     margin: 0 -74px;
+    @media all and (max-width:1500px) {
+        margin: 0 -30px;
+    }
     &__in {
         display: flex;
         align-items: center;

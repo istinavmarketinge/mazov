@@ -26,13 +26,18 @@
         }
     }
     &__filter {
-        span {
+        form select {
+            border: none;
+            background: transparent;
             font-weight: 400;
             font-size: 13px;
             line-height: 17px;
-            text-align: right;
             color: #797979;
-            margin-right: 7px;
+            outline: none;
+            cursor: pointer;
+            appearance: none;
+            background: url("../img/filter.png") no-repeat 100% 50%;
+            padding-right: 15px;
         }
     }
 }
