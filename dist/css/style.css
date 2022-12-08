@@ -2753,12 +2753,13 @@ footer {
   background: #FBFBFB;
   border: 1px solid #E6E6E6;
   border-radius: 5px;
-  padding: 17px 20px;
+  padding: 10px 20px;
 }
 
 .comments-block-form form {
   display: flex;
   justify-content: space-between;
+  width: 80%;
 }
 
 .comments-block-form form textarea {
@@ -2766,6 +2767,8 @@ footer {
   width: 100%;
   margin-right: 10px;
   background: #FBFBFB;
+  min-width: 100%;
+  max-width: 100%;
 }
 
 .comments-block-form form textarea:focus {
@@ -2782,6 +2785,7 @@ footer {
   font-size: 14px;
   line-height: 100%;
   cursor: pointer;
+  max-height: 34px;
 }
 
 .comments-item__title,
