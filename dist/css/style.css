@@ -4234,6 +4234,7 @@ footer {
 .sity-news {
   background: #F8FAFB;
   margin: 0 -74px;
+  position: relative;
 }
 
 .sity-news__in {
@@ -4320,6 +4321,40 @@ footer {
   line-height: 17px;
 }
 
+.owl-carousel .owl-nav.disabled,
+.owl-carousel .owl-dots.disabled {
+  display: block;
+}
+
+.owl-carousel button.owl-dot {
+  color: #05598F;
+  background: none;
+}
+
+.owl-prev,
+.owl-next {
+  background: url("../img/slider-arrow.svg") 0 0/cover no-repeat;
+  position: absolute;
+  top: 50%;
+}
+
+.owl-prev span,
+.owl-next span {
+  font-size: 0;
+  display: block;
+  width: 11px;
+  height: 18px;
+}
+
+.owl-next {
+  transform: rotate(180deg);
+  right: 17px;
+}
+
+.owl-prev {
+  left: 17px;
+}
+
 .social-network__in {
   padding: 80px 0;
   text-align: center;
@@ -4380,22 +4415,6 @@ footer {
 
 .social-network__icons a.ic:hover svg rect {
   fill: #FF9800;
-}
-
-.owl-carousel .owl-nav.disabled,
-.owl-carousel .owl-dots.disabled {
-  display: block;
-}
-
-.owl-carousel .owl-nav button.owl-prev,
-.owl-carousel .owl-nav button.owl-next,
-.owl-carousel button.owl-dot {
-  color: #05598F;
-  background: none;
-}
-
-.owl-prev span {
-  font-size: 0;
 }
 
 .media-cities {
