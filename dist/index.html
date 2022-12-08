@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css?_v=20221208110628">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20221208110628" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?_v=20221208122240">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20221208122240" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper" id="app" :class="{isMobile, isTablet}">
     </div>
     <div class="content">
         <aside class="left-block">
-            <div class="left-container">
+            <div class="left-container sticky_block">
                 <a href="" class="logo-block">
    <picture><source srcset="img/icon.webp" type="image/webp"><img class="logo-block__image" src="img/icon.png" alt="logo"></picture>
     <div class="logo-block__name">
@@ -130,9 +130,8 @@
         <a href=""> <p>Forbes составил список самых успешных российских брендов</p></a>
     </div>
 </div>
-
             </div>
-
+            <div class="helper_for_sticky"></div>
         </aside>
         <main class="content-block">
             <div class="content-container">
@@ -437,23 +436,23 @@
         </div>
         </main>
         <aside class="right-block">
-            <div class="right-container">
+            <div class="right-container sticky_block">
             
-            <div class="social-network-block">
+                <div class="social-network-block">
     <span>Расскажите о нас в соц. сетях</span>
    <a href=""><img src="img/vk.svg" alt="icon"></a>
    <a href=""><img src="img/ok.svg" alt="icon"></a>
    <a href=""><img src="img/tg.svg" alt="icon"></a>
    <a href=""><img src="img/wf.svg" alt="icon"></a>
 </div>
-            <a href="" class="banner-right-block">
+                <a href="" class="banner-right-block">
     <span class="banner-block__advertisement banner-block__advertisement-right">Реклама 18+</span>
     <span class="banner-right-block__blue">читай первым!</span>
     <span class="banner-right-block__white">Все самые актуальные новости 
         в <span>телеграм</span></span>
     <button type="submit">подписаться</button>
     </a>
-            <div class="calendar-block">
+                <div class="calendar-block">
     <div class="calendar"></div>
     <div class="calendar-events">
         <div class="calendar-events-item">
@@ -471,7 +470,7 @@
     </div>
     <!-- <picture><source srcset="https://via.placeholder.com/300/09f/fff.webp" type="image/webp"><img src="https://via.placeholder.com/300/09f/fff.png" alt="img"></picture> -->
 </div>
-            <div class="top-five-block">
+                <div class="top-five-block">
     <h2>Топ 5</h2>
     <div class="top-five-block__item">
         <span>02/10</span><span>10:18</span>
@@ -576,7 +575,7 @@
             </div>
         </div>
         
-            <div class="tags-block">
+                <div class="tags-block">
     <h2>Теги</h2>
     <div class="div-tags">
        <a href=""><span>Аналитика</span> </a>
@@ -590,7 +589,8 @@
        <a href=""><span>Бизнес</span> </a>
        <a href=""><span>Экономика</span> </a>
 </div>
-        </div>
+            </div>
+            <div class="helper_for_sticky"></div>
         </aside>
     </div>
     <footer>
@@ -672,7 +672,7 @@
 </div>
     </div>
     </footer>
-    <script src="js/app.min.js?_v=20221208110628"></script>
+    <script src="js/app.min.js?_v=20221208122240"></script>
 </body>
 </html>
 
