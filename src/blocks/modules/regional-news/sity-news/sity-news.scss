@@ -1,6 +1,6 @@
 .sity-news {
     background: #F8FAFB;
-    margin: 0 -65px;
+    margin: 0 -74px;
     &__in {
         display: flex;
         align-items: center;
@@ -9,7 +9,7 @@
     }
     &__item {
         background: #fff;
-        width: 28%;
+        max-width: 230px;
         padding: 35px 20px;
         display: block;
         button {
@@ -77,3 +77,5 @@
     }
 
 }
+
+

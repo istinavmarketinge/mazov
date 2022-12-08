@@ -8,12 +8,12 @@ import Calendar from '../blocks/modules/calendar/calendar.js';
 import UpButton from '../blocks/modules/button-top/button-top.js';
 import LeftMenu from '../blocks/modules/left-menu/left-menu.js';
 import Sidebar from '../blocks/components/sidebar/sidebar.js';
-// import CityNews from '../blocks/modules/regional-news/sity-news/sity-news.js';
+import CityNews from '../blocks/modules/regional-news/sity-news/sity-news.js';
 
 
 
 
-// window.cityNews = new CityNews();
+window.cityNews = new CityNews();
 window.calendar = new Calendar(".calendar");
 window.upButton = new UpButton(".button-top");
 window.leftMenu = new LeftMenu();
@@ -31,7 +31,7 @@ $(document).ready(() => {
     window.leftMenu.init();
     window.leftSidebar.init();
     window.rightSidebar.init();
-    // window.cityNews.init();
+    window.cityNews.init();
 
 
     if (document.querySelector('.notification-block__close')) {

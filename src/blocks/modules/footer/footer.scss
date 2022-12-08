@@ -80,6 +80,12 @@
             padding-bottom: 40px;
         }
     }
+    &__item table a {
+        color: #fff;
+    }
+    &__item table a.blue {
+        color: #73C8FF;
+    }
     &__item table tr{
         margin-bottom: 3px;
     }
