@@ -18,10 +18,10 @@ window.calendar = new Calendar(".calendar");
 window.upButton = new UpButton(".button-top");
 window.leftMenu = new LeftMenu();
 window.leftSidebar = new Sidebar({
-    sidebarSelector: '.left-block'
+    sidebarSelector: '.left-block .sticky_block'
 });
 window.rightSidebar = new Sidebar({
-    sidebarSelector: '.right-block'
+    sidebarSelector: '.right-block .sticky_block'
 });
 
 
@@ -29,9 +29,8 @@ $(document).ready(() => {
     window.calendar.init();
     window.upButton.init();
     window.leftMenu.init();
-    window.leftSidebar.init();
-    window.rightSidebar.init();
     window.cityNews.init();
+    
 
 
     if (document.querySelector('.notification-block__close')) {
@@ -55,6 +54,11 @@ $(document).ready(() => {
         })
     }
 
+
+    setTimeout(() => {
+        window.leftSidebar.init();
+        window.rightSidebar.init();
+    }, 0);
 
     // TODO написать в Readme.md о возможности изменять опции календаря
 })
