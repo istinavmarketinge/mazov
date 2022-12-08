@@ -29,26 +29,39 @@
         }
     }
     &__icons {
-        a.tg svg path:hover {
+        a.tg:hover svg path {
             fill: #27A6E5;
         }
-        a.vk svg path:hover {
+        a.vk:hover svg path {
             fill: #0077FF;
         }
-        a.ok svg path:hover {
+        a.ok:hover svg path {
             fill: #F79A38;
         }
-        a.vb svg path:hover {
+        a.vb:hover svg path {
             fill: #7C509A;
         }
-        a.wa svg path:hover {
+        a.wa:hover svg path {
             fill: #48C95F
         }
-        a.yd svg path:hover {
+        a.yd:hover svg path:not(.not-hover) {
             fill: #2C3036;
         }
-        a.ic svg rect:hover {
+        a.ic:hover svg rect {
             fill: #FF9800;
         }
     }
 }
+.owl-carousel .owl-nav.disabled, .owl-carousel .owl-dots.disabled {
+    display: block;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+    color: #05598F;
+    background: none;
+}
+.owl-prev span {
+    font-size: 0;
+}
+// .owl-prev {
+//     background: url("../img/slider-arrow.svg") no-repeat 0 0;
+// }

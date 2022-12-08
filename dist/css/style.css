@@ -4354,32 +4354,48 @@ footer {
   display: block;
 }
 
-.social-network__icons a.tg svg path:hover {
+.social-network__icons a.tg:hover svg path {
   fill: #27A6E5;
 }
 
-.social-network__icons a.vk svg path:hover {
+.social-network__icons a.vk:hover svg path {
   fill: #0077FF;
 }
 
-.social-network__icons a.ok svg path:hover {
+.social-network__icons a.ok:hover svg path {
   fill: #F79A38;
 }
 
-.social-network__icons a.vb svg path:hover {
+.social-network__icons a.vb:hover svg path {
   fill: #7C509A;
 }
 
-.social-network__icons a.wa svg path:hover {
+.social-network__icons a.wa:hover svg path {
   fill: #48C95F;
 }
 
-.social-network__icons a.yd svg path:hover {
+.social-network__icons a.yd:hover svg path:not(.not-hover) {
   fill: #2C3036;
 }
 
-.social-network__icons a.ic svg rect:hover {
+.social-network__icons a.ic:hover svg rect {
   fill: #FF9800;
+}
+
+.owl-carousel .owl-nav.disabled,
+.owl-carousel .owl-dots.disabled {
+  display: block;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+  color: #05598F;
+  background: none;
+}
+
+.owl-prev span {
+  font-size: 0;
 }
 
 .media-cities {
@@ -4391,7 +4407,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 0px -28px;
+  margin: 0px -45px;
 }
 
 .media-cities__tabs .tabs-item {
@@ -4400,10 +4416,8 @@ footer {
   font-size: 16px;
   line-height: 20px;
   color: #000000;
-}
-
-.media-cities__tabs .tabs-item:not(:first-child) {
-  margin-left: 15px;
+  padding: 5px 10px;
+  border: 1px dashed #fff;
 }
 
 .media-cities__tabs .tabs-item:hover {
