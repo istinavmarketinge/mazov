@@ -6,10 +6,10 @@
         align-items: center;
         justify-content: space-between;
         padding: 32px 34px;
+        box-sizing: border-box;
     }
     &__item {
         background: #fff;
-        max-width: 230px;
         padding: 35px 20px;
         display: block;
         button {
