@@ -1588,56 +1588,23 @@ template {
 
 body {
   background: #FFFFFF;
+  box-sizing: border-box;
 }
 
 a {
   text-decoration: none;
 }
 
-.content {
-  display: flex;
-}
-
-.left-block {
-  position: relative;
-  width: 23%;
-}
-
-.right-block {
-  position: relative;
-  width: 31%;
-  transform: translate3d(0, var(--translateY, 0), 0);
-}
-
 .content-block {
-  width: 48%;
-  border-left: 1px solid #E6E6E6;
-  border-right: 1px solid #E6E6E6;
+  width: 100%;
+  margin: 0 auto;
   position: relative;
-}
-
-.left-container {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  max-width: 240px;
-  margin: 0 auto;
-  position: sticky;
-  top: var(--top, 0);
-}
-
-.right-container {
-  max-width: 420px;
-  margin: 0 auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  position: sticky;
-  top: var(--top, 0);
+  padding: 0 15px;
+  box-sizing: border-box;
 }
 
 .content-container {
   box-sizing: border-box;
-  padding-left: 71px;
-  padding-right: 71px;
   position: relative;
   padding-top: 20px;
   padding-bottom: 40px;
@@ -2199,152 +2166,6 @@ footer {
 
 .social-network-block img {
   margin-right: 5px;
-}
-
-.banner-right-block {
-  position: relative;
-  display: block;
-  background: url(../img/banner2.jpg) 0 0 no-repeat;
-  width: 100%;
-  max-width: 300px;
-  padding-bottom: 50px;
-  margin-bottom: 40px;
-  margin-top: 30px;
-}
-
-.banner-right-block__blue,
-.banner-right-block__white {
-  color: #9BDEFF;
-  text-transform: uppercase;
-  font-size: 32px;
-  font-weight: 720;
-  max-width: 223px;
-  display: block;
-}
-
-.banner-right-block__white {
-  color: #fff;
-  margin: 0px 38px 134px 38px;
-}
-
-.banner-right-block__blue {
-  padding-top: 97px;
-  margin: 0px 38px 31px 38px;
-}
-
-.banner-right-block__white span {
-  border-bottom: 2px solid #fff;
-  font-size: 32px;
-  color: #fff;
-  font-weight: 720;
-}
-
-.banner-right-block button {
-  background: #05598F;
-  text-transform: uppercase;
-  border: none;
-  color: #fff;
-  padding: 14px 43px;
-  margin: 0 auto;
-  display: block;
-  font-weight: 550;
-  font-size: 17px;
-  cursor: pointer;
-  margin-bottom: 20px;
-}
-
-.banner-block__advertisement-right {
-  font-size: 16px;
-  margin-top: 22px;
-  margin-left: 11px;
-}
-
-.calendar-block {
-  filter: drop-shadow(0px 5px 100px #F0F2F2);
-}
-
-.air-datepicker.-inline- {
-  max-width: 420px;
-  width: 100%;
-}
-
-.-weekend- {
-  color: #E41F12;
-}
-
-.air-datepicker-body--day-name {
-  color: #9EB0BC;
-  text-transform: none;
-  font-size: 15px;
-}
-
-.air-datepicker-nav--title {
-  text-transform: uppercase;
-  font-size: 32px;
-  color: #627784;
-  font-weight: bold;
-  width: 100%;
-  justify-content: space-between;
-  padding: 17px 32px 15px 38px;
-  line-height: 58px;
-  letter-spacing: 0.18em;
-}
-
-.air-datepicker-nav--title span {
-  font-size: 23px;
-  color: #9EB0BC;
-}
-
-.air-datepicker-cell {
-  max-width: 50px;
-  font-size: 15px;
-  height: 35px;
-}
-
-.air-datepicker {
-  border: none;
-  --adp-border-color-inner: #fff;
-  --adp-cell-background-color-selected: #E5F5FF;
-  --adp-cell-background-color-selected-hover: #E5F5FF;
-}
-
-.air-datepicker--content {
-  padding: 0 25px 26px 28px;
-}
-
-.air-datepicker-cell.-selected-.-current- {
-  background: #E5F5FF;
-  color: #0B0B0B;
-}
-
-.air-datepicker-cell.-current- {
-  color: #0B0B0B;
-  background: #E5F5FF;
-}
-
-.air-datepicker-cell.-selected- {
-  color: #0B0B0B;
-}
-
-.air-datepicker-nav--action {
-  display: none;
-}
-
-.calendar-events {
-  position: relative;
-  z-index: 3;
-  background: #fff;
-}
-
-.calendar-events-item {
-  border-bottom: 1px solid #EEEEEE;
-  background: #fff;
-  max-width: 410px;
-  padding: 25px 40px 10px 40px;
-}
-
-.calendar-events-item:first-child {
-  border-top: 1px solid #EEEEEE;
 }
 
 .top-five-block {
@@ -4587,19 +4408,7 @@ footer {
   color: #000000;
 }
 
-@media (max-width: 1650px) {
-  .left-container,
-  .right-container {
-    padding: 24px 20px;
-  }
-}
-
 @media all and (max-width: 1500px) {
-  .content-container {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
   .sity-news {
     margin: 0 -30px;
   }
@@ -4620,36 +4429,8 @@ footer {
 }
 
 @media all and (max-width: 1200px) {
-  .left-block {
-    display: none;
-  }
-
-  .right-block {
-    width: 32%;
-    padding: 0 20px;
-  }
-
-  .content-block {
-    width: 71%;
-  }
-
-  footer {
-    padding: 0 40px 0 40px;
-  }
-
   .footer-bottom-block {
     margin-top: 30px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .air-datepicker-nav--title {
-    font-size: 22px;
-  }
-
-  .air-datepicker-nav--title span {
-    font-size: 22px;
-    margin-left: 5px;
   }
 }
 
