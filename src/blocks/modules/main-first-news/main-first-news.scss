@@ -15,12 +15,18 @@
         height: 100%;
         position: relative;
         display: block;
+        &:hover {
+            color: #fff;
+        }
     }
     &__small {
         min-height: 170px;
         margin-bottom: 11px;
         position: relative;
         display: block;
+        &:hover {
+            color: #fff;
+        }
 
     }
     &__small:nth-child(1) {

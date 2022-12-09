@@ -7,6 +7,9 @@
     padding-bottom: 50px;
     margin-bottom: 40px;
     margin-top: 30px;
+    &:hover {
+        color: #fff;
+    }
     &__blue, &__white  {
         color: #9BDEFF;
         text-transform: uppercase;

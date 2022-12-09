@@ -33,6 +33,10 @@
         margin: 0 auto;
         position: relative;
         margin-top: 15px;
+        filter: grayscale(100%);
+        &:hover {
+            filter: none;
+        }
     }
     &__image:before {
         content: "";

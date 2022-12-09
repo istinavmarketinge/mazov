@@ -2,7 +2,7 @@
     width: inherit;
     height: 44px;
     border-radius: 3px;
-    background: #fff;
+    background: #05598F;
     cursor: pointer;
     position: sticky;
     opacity: 0;
@@ -31,19 +31,11 @@
         height: 7px;
         top: 100%;
         left: 13px;
-        background: #fff;
+        background: #05598F;
         transition: all .3s ease;
         clip-path: polygon(0 0, 0% 100%, 80% 0);
     }
     &:after {
-        content: url('../img/arrow.png');
-        position: absolute;
-        display: block;
-        width: 7px;
-        top: 13px;
-        left: 31px;
-    }
-    &:hover:after {
         content: url('../img/arrow2.png');
         position: absolute;
         display: block;
@@ -51,10 +43,18 @@
         top: 13px;
         left: 31px;
     }
-    &:hover:before {
-        background: #05598F;
+    // &:hover:after {
+    //     content: url('../img/arrow2.png');
+    //     position: absolute;
+    //     display: block;
+    //     width: 7px;
+    //     top: 13px;
+    //     left: 31px;
+    // }
+    // &:hover:before {
+    //     background: #05598F;
 
-    }
+    // }
     &__wrapper {
         position: absolute;
         width: 78px;

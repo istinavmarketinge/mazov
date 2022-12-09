@@ -98,11 +98,14 @@
         font-size: 16px;
         line-height: 20px;
         margin-top: 0;
+        a:hover {
+            text-decoration: none;
+        }
     }
     &__icons {
         display: flex;
         align-items: center;
-        span {
+        a {
             margin-right: 24px;
             color: #A9A9A9;
             font-weight: 400;
@@ -112,6 +115,9 @@
         .like-icons {
             display: flex; 
             position: relative;
+            a {
+                margin-right: 0;
+            }
             .like {
                 margin-right: 14px;
             }
@@ -175,6 +181,9 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 20px;
+}
+.comments-all-btn:hover {
+    text-decoration: none;
 }
 
 // .comments-personal:not(.isOpen) .comments-item:nth-of-type(n+2) {

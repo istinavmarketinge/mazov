@@ -17,6 +17,9 @@
                 position: relative;
                 min-height: 170px;
                 display: block;
+                &:hover {
+                    color: #fff;
+                }
                 h2 {
                     font-weight: 700;
                     font-size: 15px;

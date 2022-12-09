@@ -38,6 +38,9 @@
         .advertisement-buttons {
             display: flex;
             align-items: center;
+            a:hover {
+                text-decoration: none;
+            }
         }
     }
 }
