@@ -4,17 +4,18 @@ import * as globalFunctions from './modules/functions.js';
 import $ from 'jquery';
 
 
-import Calendar from '../blocks/modules/calendar/calendar.js';
+// import Calendar from '../blocks/modules/calendar/calendar.js';
 import UpButton from '../blocks/modules/button-top/button-top.js';
 import LeftMenu from '../blocks/modules/left-menu/left-menu.js';
 import Sidebar from '../blocks/components/sidebar/sidebar.js';
 import CityNews from '../blocks/modules/regional-news/sity-news/sity-news.js';
-
+import MainNews from '../blocks/modules/main-first-news/main-first-news.js';
 
 
 
 window.cityNews = new CityNews();
-window.calendar = new Calendar(".calendar");
+window.mainNews = new MainNews();
+// window.calendar = new Calendar(".calendar");
 window.upButton = new UpButton(".button-top");
 window.leftMenu = new LeftMenu();
 window.leftSidebar = new Sidebar({
@@ -26,10 +27,12 @@ window.rightSidebar = new Sidebar({
 
 
 $(document).ready(() => {
-    window.calendar.init();
+    // window.calendar.init();
     window.upButton.init();
     window.leftMenu.init();
     window.cityNews.init();
+    window.mainNews.init();
+
     
 
 
