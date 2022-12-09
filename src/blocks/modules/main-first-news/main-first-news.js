@@ -6,7 +6,7 @@ const MainNews = class MainNews {
     initSlider() {
         $('.main-first-js').owlCarousel({
             loop:true,
-            margin:10,
+            margin:0,
             nav:false,
             responsive:{
                 0:{
