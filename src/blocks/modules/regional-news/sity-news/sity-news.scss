@@ -29,6 +29,9 @@
     &__logo {
         text-align: center;
         padding: 20px 0;
+        a {
+            display: block;
+        }
         img {
             margin-bottom: 10px;
         }

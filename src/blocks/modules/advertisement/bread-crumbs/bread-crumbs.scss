@@ -4,22 +4,24 @@
 }
 .bread-crumbs ul li {
     list-style: none;
+}
+.bread-crumbs ul li a {
     margin: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     color: #A9A9A9;
-    margin-right: 8px;
 }
 .bread-crumbs ul li span {
     color: #A9A9A9;
     margin-left: 5px;
+    margin-right: 8px;
 }
 .bread-crumbs ul {
     display: flex;
     padding: 0;
     margin: 0;
 }
-.bread-crumbs ul li:last-child {
+.bread-crumbs ul li a:last-child {
     color: #000;
 }

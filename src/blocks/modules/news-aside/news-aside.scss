@@ -11,16 +11,17 @@
         object-fit: cover;
         margin-bottom: 17px;
     }
-    &__item span{
+    &__item span a {
         color: #797979;
         font-size: 12px;
         font-weight: 300;
         margin-right: 6px;
     }
-    &__item p {
+    &__item a p {
         font-weight: 400;
         line-height: 20px;
         margin: 0;
+        color: inherit;
     }
     &__item {
         margin-bottom: 17px;

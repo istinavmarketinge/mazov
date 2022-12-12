@@ -1,7 +1,7 @@
 .detale-news-block {
     padding-top: 20px;
     &__in {
-        span {
+        span a {
             font-size: 14px;
             line-height: 18px;
             color: #797979;
@@ -58,7 +58,7 @@
         display: flex;
         align-items: center;
         margin-right: 20px;
-        span {
+        span a {
             font-size: 14px;
             line-height: 18px;
             color: #797979;
