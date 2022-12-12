@@ -1,65 +1,41 @@
 
 .footer-logo-flex {
-    padding-top: 44px;
     display: flex;
-    justify-content: space-between;
     font-weight: 500;
-    border-bottom: 1px solid #445661;
     align-items: center;
-    @media all and (max-width:1000px) {
-        border: none;
-    }
+    justify-content: space-between;
     &__logo {
-    width: 10%;
     display: flex;
     justify-content: space-between;
-    @media all and (max-width:1100px) {
-        width: 18%;
-    }
     }
     &__image {
-        // width: 100%;
-        margin-right: 15px;
+        margin-right: 12px;
+        max-width: 53px;
     }
     &__name {
         width: 60%;
-        font-size: 16px;
-        font-weight: bold;
+        font-weight: 720;
+        font-size: 13.1756px;
+        line-height: 17px;
         text-transform: uppercase;
     }
     &__name span {
         display: block;
         color: #fff;
     }
-    &__menu-list {
-        display: flex;
-        list-style: none;
-        padding: 25px 0;
-        margin: 0;
-    }
-    &__menu-list li a {
-        color: #fff;
-        margin-right: 37px;
+    &__years {
+        margin-right: 45px;
     }
     &__years span {
         color: #fff;
     }
-    &__menu {
-        @media all and (max-width:1000px) {
-            display: none;
-        }
-    }
     &__years {
         .coopy-mobile {
-            display: none;
-            @media all and (max-width:1000px) {
-                display: block;
-            }
-        }
-        .footer-year {
-            @media all and (max-width:1000px) {
-                display: none;
-            }
+            display: block;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 140%;
+            color: #D3D3D3;
         }
         
     }
@@ -68,22 +44,15 @@
 .footer-info-flex {
     display: flex;
     justify-content: space-between;
-    margin-top: 23px;
-    &__left p {
-        color: #fff;
-        font-size: 15px;
-        font-weight: 500;
-        @media all and (max-width:1000px) {
-            display: none;
-        }
+    flex-direction: column;
+    &__left {
+        margin-bottom: 30px;
     }
     &__item table {
-        max-width: 614px;
         margin-top: 30px;
-        @media all and (max-width:1000px) {
-            border-bottom: 1px solid #445661;
-            padding-bottom: 40px;
-        }
+        border-bottom: 1px solid #445661;
+         padding-bottom: 39px;
+        
     }
     &__item table a {
         color: #fff;
@@ -93,19 +62,20 @@
     }
     &__item table tr{
         margin-bottom: 3px;
+        vertical-align: top;
     }
     &__item table td {
         color: #fff;
         font-size: 15px;
         font-weight: 400;
-        width: 50%
+        width: 50%;
+        padding-bottom: 15px;
     }
     &__right {
-        max-width: 749px;
-        @media all and (max-width:1000px) {
-            border-bottom: 1px solid #445661;
-            padding-bottom: 24px;
-        }
+        max-width: 100%;
+        border-bottom: 1px solid #445661;
+        padding-bottom: 16px;
+        
     }
     &__right p {
         font-size: 15px;
@@ -113,51 +83,66 @@
         font-weight: 400;
     }
     &__right p:nth-last-of-type(-n+2) {
-        @media all and (max-width:1000px) {
             display: none;
-        }
+        
     }
 }
 .footer-bottom-block {
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
-    padding-bottom: 40px;
-    @media all and (max-width:1200px) {
-        margin-top: 30px;
-    }
-    @media all and (max-width:1000px) {
-        flex-direction: column;
-        margin-top: 24px;
-    }
+    flex-direction: column;
+    margin-top: 24px;
+    padding-bottom: 0;
+    
     &__left p {
         color: #fff;
         font-weight: 400;
     }
     &__right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         .footer-links a {
             display: block;
-            @media all and (max-width:1000px) {
-                margin-right: 2px;
-            }
+            margin-right: 2px;            
         }
         .footer-links {
-            @media all and (max-width:1000px) {
                 display: flex;
                 align-items: center;
-            }
+        }
+        .footer-years {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 190%;
+            color: #fff;
+            margin-right: 8px;
         }
     }
-}
-@media(max-width: 1420px) {
-    .footer-info-flex {
-        flex-direction: column;
+    &__menu {
+        margin-top: 30px;
+        margin-bottom: 48px;
     }
-    .footer-info-flex__right {
-        max-width: 100%;
+    &__politika {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        color: #73C8FF;
+        margin-bottom: 22px;
+        display: block;
     }
-    .footer-info-flex__left {
-        margin-bottom: 30px;
+    &__menu-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    &__menu-list li a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        color: #73C8FF;
+        margin-right: 28px;
     }
 }
 .blue {
