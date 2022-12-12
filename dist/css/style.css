@@ -2051,17 +2051,27 @@ footer {
   display: block;
 }
 
+.main-white-news__item .main-white-news__image {
+  filter: grayscale(100%);
+}
+
+.main-white-news:hover .main-white-news__image {
+  filter: none;
+}
+
+.main-white-news:hover .main-white-news__image:before {
+  background: url(../img/bg-icon2.png) 0 0 no-repeat;
+  background-size: 180px 115px;
+  top: -6px;
+  left: -5px;
+}
+
 .main-white-news__image {
   width: 168px;
   height: 106px;
   margin: 0 auto;
   position: relative;
   margin-top: 15px;
-  filter: grayscale(100%);
-}
-
-.main-white-news__image:hover {
-  filter: none;
 }
 
 .main-white-news__image:before {
