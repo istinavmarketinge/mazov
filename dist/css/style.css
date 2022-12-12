@@ -1945,6 +1945,11 @@ footer {
 
 .main-first-news-block__left {
   margin-right: 20px;
+  width: 64%;
+}
+
+.main-first-news-block__right {
+  width: 31%;
 }
 
 .main-first-news-block__big-image img {

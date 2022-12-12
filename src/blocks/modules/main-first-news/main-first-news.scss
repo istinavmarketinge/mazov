@@ -4,6 +4,10 @@
     margin-top: 20px;
     &__left {
         margin-right: 20px;
+        width: 64%;
+    }
+    &__right {
+        width: 31%;
     }
     &__big-image img{
         width: 100%;
