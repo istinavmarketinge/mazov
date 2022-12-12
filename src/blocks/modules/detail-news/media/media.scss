@@ -25,11 +25,11 @@
             align-items: center;
             justify-content: space-between;
             &__item {
-                width: 30%;
-                background: url("../img/media.jpg") no-repeat 0 0;
-                background-size: cover;
+                width: 32%;
+                // background: url("../img/media.jpg") no-repeat 0 0;
+                // background-size: cover;
                 position: relative;
-                min-height: 290px;
+                max-height: 290px;
                 display: block;
                 color: #fff;
                 position: relative;
@@ -46,6 +46,10 @@
                     z-index: 3;
                 }
             }
+            &__image img {
+                width: 100%;
+                object-fit: cover;
+            }
             &__item a h2:hover {
                 text-decoration: underline;
             }
@@ -60,7 +64,14 @@
                 bottom: 0;
             }
             &__date {
-                position: relative;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            &__text h2 {
+                position: absolute;
+                bottom: 19px;
+                left: 13px;
             }
             &__date a {
                 color: #fff;

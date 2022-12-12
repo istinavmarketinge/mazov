@@ -10,12 +10,16 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            &__image {
+            }
+            &__image img{
+                width: 100%;
+                object-fit: cover;
+            }
             &__item {
                 width: 30%;
-                // background: url("../img/other-news.jpg") 0 0 no-repeat;
-                // background-size: cover;
+                max-height: 170px;
                 position: relative;
-                min-height: 170px;
                 display: block;
                 a h2:hover {
                     color: #fff;
@@ -44,7 +48,14 @@
                 bottom: 0;
             }
             &__date {
-                position: relative;
+                position: absolute;
+                top: 4px;
+                left: 0;
+            }
+            &__text h2{
+                position: absolute;
+                bottom: 11px;
+                left: 0;
             }
             &__date a {
                 color: #fff;
