@@ -43,18 +43,21 @@
         top: 13px;
         left: 31px;
     }
-    // &:hover:after {
-    //     content: url('../img/arrow2.png');
-    //     position: absolute;
-    //     display: block;
-    //     width: 7px;
-    //     top: 13px;
-    //     left: 31px;
-    // }
-    // &:hover:before {
-    //     background: #05598F;
-
-    // }
+    &:hover:after {
+        content: url('../img/arrow.png');
+        position: absolute;
+        display: block;
+        width: 7px;
+        top: 13px;
+        left: 31px;
+    }
+    &:hover {
+        background: #fff;
+    }
+    &:hover:before {
+        background: #fff;
+    }
+    
     &__wrapper {
         position: absolute;
         width: 78px;
@@ -65,9 +68,7 @@
         transform: translateX(50%);
         pointer-events: none;
     }
-    &:hover {
-        background: #05598F;
-    }
+    
 }
 .button-top__wrapper {
     @media all and (max-width:860px) {

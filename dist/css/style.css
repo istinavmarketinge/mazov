@@ -2598,6 +2598,23 @@ footer {
   left: 31px;
 }
 
+.button-top:hover:after {
+  content: url("../img/arrow.png");
+  position: absolute;
+  display: block;
+  width: 7px;
+  top: 13px;
+  left: 31px;
+}
+
+.button-top:hover {
+  background: #fff;
+}
+
+.button-top:hover:before {
+  background: #fff;
+}
+
 .button-top__wrapper {
   position: absolute;
   width: 78px;
@@ -2607,10 +2624,6 @@ footer {
   z-index: 3;
   transform: translateX(50%);
   pointer-events: none;
-}
-
-.button-top:hover {
-  background: #05598F;
 }
 
 .bread-crumbs {
