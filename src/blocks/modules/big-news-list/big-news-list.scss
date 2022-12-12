@@ -1,9 +1,12 @@
 .big-news-list-block {
     margin-top: 20px;
+    
     &__date {
         display: flex;
         align-items: center;
         padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     &__date span {
         text-transform: uppercase;
@@ -11,10 +14,16 @@
         font-size: 20px;
         margin-left: 10px;
     }
+    .advertising-on-website {
+        background: #F1F5F8;
+        padding: 30px 0;
+    }
 }
 .big-news-list-no-image, .big-news-list-with-image {
     border-bottom: 1px solid #E6E6E6;
     padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     display: block;
     span {
         font-size: 14px;
