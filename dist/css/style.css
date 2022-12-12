@@ -1519,15 +1519,15 @@ template {
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
-  src: url("../fonts/ALSHauss-Medium.woff2") format("woff2"), url("../fonts/ALSHauss-Medium.woff") format("woff"), url("../fonts/ALSHauss-Medium.ttf") format("ttf");
-  font-weight: 500;
+  src: url("../fonts/ALSHauss-MediumItalic.woff2") format("woff2"), url("../fonts/ALSHauss-MediumItalic.woff") format("woff"), url("../fonts/ALSHauss-MediumItalic.ttf") format("ttf");
+  font-weight: 400;
 }
 
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
-  src: url("../fonts/ALSHauss-MediumItalic.woff2") format("woff2"), url("../fonts/ALSHauss-MediumItalic.woff") format("woff"), url("../fonts/ALSHauss-MediumItalic.ttf") format("ttf");
-  font-weight: 400;
+  src: url("../fonts/ALSHauss-Medium.woff2") format("woff2"), url("../fonts/ALSHauss-Medium.woff") format("woff"), url("../fonts/ALSHauss-Medium.ttf") format("ttf");
+  font-weight: 500;
 }
 
 @font-face {
