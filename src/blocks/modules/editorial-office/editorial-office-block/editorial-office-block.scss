@@ -1,5 +1,6 @@
 .editorial-office-block {
     &__in {
+        padding: 0 15px;
         h2 {
             font-weight: 600;
             font-size: 32px;
@@ -7,17 +8,12 @@
             margin-bottom: 30px;
         }
     }
+   
     &__contacts {
-        table {
-            background:#E5F5FF;
-            width: 100%;
-            padding: 20px 30px 10px;
-        }
-        table tr td {
-            padding-bottom: 10px;
-            font-weight: 300;
-            font-size: 20px;
-            line-height: 26px;
+        background:#E5F5FF;
+        padding: 20px 30px;
+        @media all and (min-width:690px) {
+            padding-right: 20%;
         }
     }
     &__text {
@@ -34,6 +30,50 @@
             line-height: 140%;
         }
     }
+    &-phone {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media all and (max-width:500px) {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        span { 
+            display: block;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 26px;
+            margin-right: 15%;
+        }
+        a {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+    &-adress {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media all and (max-width:500px) {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        span {
+            display: block;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 26px;
+        }
+        a {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 26px;
+            color: #05598F;
+        }
+    }
+
 }
 .table-number {
     font-weight: 600;
