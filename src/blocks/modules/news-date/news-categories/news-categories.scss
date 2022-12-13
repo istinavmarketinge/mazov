@@ -1,13 +1,17 @@
 .news-categories-block {
+    padding: 0 15px;
+    span {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        display: block;
+    }
     &__in {
         display: flex;
         align-items: center;
-        span {
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 20px;
-            margin-right: 10px;
-        }
+        flex-wrap: wrap;
     }
     &__category {
         border: 1px dashed #A9A9A9;
@@ -19,5 +23,6 @@
         margin-right: 10px;
         padding: 4px;
         display: block;
+        margin-bottom: 10px;
     }
 }
