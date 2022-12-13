@@ -1,0 +1,10 @@
+.reklama-on-website {
+    background: #F1F5F8;
+    padding: 30px 0;
+    &-image {
+        margin-bottom: 5px;
+    }
+    &-image img {
+        width: 100%;
+    }
+}

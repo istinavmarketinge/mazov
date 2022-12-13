@@ -16,6 +16,9 @@
     .advertising-on-website {
         background: #F1F5F8;
         padding: 30px 0;
+        &-image img {
+            width: 100%;
+        }
     }
     &-item-category {
         background: #F1F5F8;

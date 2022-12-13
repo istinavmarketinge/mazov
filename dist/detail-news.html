@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css?_v=20221212163957">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20221212163957" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?_v=20221213124124">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20221213124124" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper" id="app" :class="{isMobile, isTablet}">
@@ -15,27 +15,15 @@
         
         <main class="content-block">
             <div class="content-container">
-                <div class="button-top__wrapper">
-<div class="button-top" style="--top_position:30px;">
-
-</div>
-</div>
-
-<!-- TODO передать кнопке позицию через переменную в html -->
-
-                <div class="bread-crumbs">
-    <ul>
-        <li>Главная <span> > </span></li>
-        <li>Экономика <span> > </span></li>
-        <li>В этом году акцизы на пиво..</li>
-    </ul>
-</div>
+                
                 <div class="detale-news-block">
     <div class="detale-news-block__in">
-        <span>Экономика</span>
-        <h2>В этом году акцизы на пиво принесли бюджету Тульской области уже почти семь миллиардов рублей</h2>
+        <a href="">27.11.22</a>
+        <a href="">16:40</a>
+        <a href="" class="category">ЖКХ</a>
+        <h2>Пени не будет: АО «Тулагорводоканал» проводит акцию «В новый год без долгов»</h2>
 
-        <div class="detale-news-block-icon">
+        <!-- <div class="detale-news-block-icon">
             <div class="detale-news-block-icon__item">
                 <picture><source srcset="img/date.webp" type="image/webp"><img src="img/date.png" alt="icon"></picture>
                 <span>28/10/2022</span>
@@ -52,16 +40,16 @@
                 <img src="img/comment.svg" alt="icon">
                 <span>15</span>
             </div>
-        </div>
+        </div> -->
 
         <div class="detale-news-block__image">
             <picture><source srcset="img/money.webp" type="image/webp"><img src="img/money.png" alt="image"></picture>
-            <div class="detale-news-block__image-mask">
+            <!-- <div class="detale-news-block__image-mask">
                 <picture><source srcset="img/watermark.webp" type="image/webp"><img src="img/watermark.png" alt="icon"></picture>
-            </div>
+            </div> -->
         </div>
 
-        <div class="detale-news-block__socials">
+        <!-- <div class="detale-news-block__socials">
             <span>Поделиться</span>
             <div class="detale-news-block__social">
                 <a href=""><img src="img/tg-icon.svg" alt="icon"></a>
@@ -71,15 +59,18 @@
                 <a href=""><img src="img/wa-icon.svg" alt="icon"></a>
 
             </div>
-        </div>
+        </div> -->
 
         <div class="detale-news-block__text">
 
-            <p>В этом году акцизы на пиво и пивные напитки принесли бюджету Тульской области уже почти 6 903 153 196 рублей. Такие данные содержатся в отчете об исполнении регионального бюджета за девять месяцев текущего года. Утвержденный план на год по данной статье составляет почти 9 миллиардов рублей. </p>
+            <p>АО «Тулагорводоканал» в преддверии Нового 2023 года объявляет о проведении акции «В новый год без долгов». Целью проводимой акции является стимулирование платежной дисциплины абонентов, пользующихся услугами АО «Тулагорводоканал» в жилых помещениях многоквартирных домов и частных домовладениях, допустивших, по различным причинам, нарушение сроков оплаты, приведшее к начислению пени. </p>
 
-            <p>Для сравнения, в 2019 году акцизы на пиво за весь год дали бюджету 7,7 миллиардов рублей.</p>
+            <p>Для участия в акции, потребитель должен в период с 01.12.2022 по 31.12.2022 оплатить имеющуюся просроченную задолженность за услуги АО «Тулагорводоканал». </p>
 
-            <p>Всего доходы от налога на подакцизные товары составили за 9 месяцев составили 12,7 миллиардов рублей.</p> </div>
+            <p>В случае если задолженность была взыскана судебным приказом или судебным решением, для участия в акции необходимо оплатить взысканную задолженность и государственную пошлину. Потребителям, в полном объеме выполнившим условия проведения акции будут списаны пени за несвоевременную оплату. </p> 
+            <p>Многоканальный телефон для получения консультаций по расчетам с физическими лицами: +7 (4872) 25-49-47 Партнерский материал</p>
+        
+        </div>
         
 
     </div>
@@ -195,7 +186,7 @@
 </div>
                 <div class="advertisement-block">
     <div class="advertisement-block__in">
-        <h2>Читайте "Тульские новости"</h2>
+        <h2>Читайте и комментируйте новости в наших соц-сетях и чатах</h2>
         <div class="advertisement-buttons">
         <a href="" class="button-vk">
             <img src="img/vkontakte.svg" alt="vk">
@@ -209,113 +200,242 @@
 
     </div>
 </div>
-                <div class="other-news-block">
-    <div class="other-news-block__in">
-        <h2>Другие новости экономики</h2>
-        <div class="other-news-blocks">
-
-        <a href="" class="other-news-blocks__item">
-            <div class="other-news-blocks__date">
-                <span>28/10/2022</span>
-                <span>22:00</span>
+                    <div class="additional-news">
+        <a href="" class="additional-news__item">
+            <div class="additional-news__image">
+                <picture><source srcset="img/image1.webp" type="image/webp"><img src="img/image1.jpg" alt="image"></picture>
             </div>
-           <h2>В Тульской области вновь подорожали огурцы и помидоры</h2>
+            <div class="additional-news__text">
+                <span>В каком возрасте снимаются с военского учета?</span>
+                <span class="additional-news__text-reklama">Соцреклама</span>
+            </div>
         </a>
 
-        <a href="" class="other-news-blocks__item">
-            <div class="other-news-blocks__date">
-                <span>28/10/2022</span>
-                <span>22:00</span>
+        <a href="" class="additional-news__item">
+            <div class="additional-news__image">
+                <picture><source srcset="img/image1.webp" type="image/webp"><img src="img/image1.jpg" alt="image"></picture>
             </div>
-            <h2>Расходы бюджета ТО по статье «Международные отношения и сотрудничество» составили почти полмиллиарда рублей</h2>
+            <div class="additional-news__text">
+                <span>5 красных флагов в «дебетовках», о которых стоит знать
+                    Соцреклама</span>
+            </div>
         </a>
 
-        <a href="" class="other-news-blocks__item">
-            <div class="other-news-blocks__date">
-                <span>28/10/2022</span>
-                <span>22:00</span>
+        <a href="" class="additional-news__item">
+            <div class="additional-news__image">
+                <picture><source srcset="img/image1.webp" type="image/webp"><img src="img/image1.jpg" alt="image"></picture>
             </div>
-            <h2>В ТО выделят почти полмиллиарда рублей на поддержку региональных систем здравоохранения</h2>
+            <div class="additional-news__text">
+                <span>Гибкий камень - новый хит импортозамещения!</span>
+                <span class="additional-news__text-reklama">Соцреклама</span>
+            </div>
         </a>
+
+        <a href="" class="additional-news__item">
+            <div class="additional-news__image">
+                <picture><source srcset="img/image1.webp" type="image/webp"><img src="img/image1.jpg" alt="image"></picture>
+            </div>
+            <div class="additional-news__text">
+                <span>5 красных флагов в «дебетовках», о которых стоит знать
+                    Соцреклама</span>
+            </div>
+        </a>
+
+        
+
 
     </div>
-    </div>
-</div>
+    <svg width="100%" height="100%" viewBox="0 0 169 104" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: absolute; left:0; top:0; pointer-events: none;">
+        <defs>
+            <clipPath id="cloud">
+                <rect width="168.002" height="93.8925" transform="scale(1)"
+                rx="7.82438" fill="#05598F"/>
+                <path transform="scale(1)"
+                d="M42.3417 89H27.7597C26.5117 89 25.5 90.0117 25.5 91.2597V100.009C25.5 101.765 27.4162 102.85 28.9223 101.947L43.5043 93.1974C45.4696 92.0183 44.6336 89 42.3417 89Z" fill="#05598F"/>
+            </clipPath>
+        </defs>
+    </svg>
                 <div class="main-news-block">
-    <div class="main-news-block__in">
-        <h2>Главные новости</h2>
-        <a href="" class="big-news-list-with-image">
-            <span>16:40</span>
-            <span>СВО</span>
+    <div class="main-news-block__in main-news-block__in-detail">
+        <h2>Интересные новости</h2>
+        <div class="big-news-list-with-image big-news-list-detail">
+            <a href="">27.11.22</a>
+            <a href="">16:40</a>
+            <a href="" class="category">СВО</a>
             <h2 class="big-news-list-with-image__text">После окончания частичной мобилизации продолжается набор добровольцев
                 снова проиграл
             </h2>
-        </a>
-
-            <a href="" class="big-news-list-with-image">
-                <span>16:40</span>
-                <span>СВО</span>
-                <h2 class="big-news-list-with-image__text">«Очень большие проблемы с волевыми качествами»: тульский «Арсенал» снова проиграл
-                </h2>
-            </a>
-
-                <a href="" class="big-news-list-with-image">
-                    <span>16:40</span>
-                    <span>СВО</span>
-                    <h2 class="big-news-list-with-image__text">В 17 точках Тулы в соответствии с антитеррористическими требованиями установят систему оповещения населения</h2>
-                </a>
-
-                    <a href=""class="big-news-list-with-image">
-                        <span>16:40</span>
-                        <span>СВО</span>
-                        <h2 class="big-news-list-with-image__text">Депутат тульской Гордумы Швыков получил повестку</h2>
-                    </a>
-
-                        <a href="" class="big-news-list-with-image">
-                            <span>16:40</span>
-                            <span>СВО</span>
-                            <h2 class="big-news-list-with-image__text">«Арсенал» проиграл «Шиннику», играя весь второй тайм в большинстве</h2>
-                        </a>
-    </div>
-</div>
-                <div class="media-block">
-    <div class="media-block__in">
-        <div class="media-block__title">
-            <h2>СМИ</h2>
-            <div class="media-number">2</div>
+        </div>
+        <div class="big-news-list-with-image big-news-list-detail">
+            <a href="">27.11.22</a>
+            <a href="">16:40</a>
+            <a href="" class="category">СВО</a>
+            <h2 class="big-news-list-with-image__text">После окончания частичной мобилизации продолжается набор добровольцев
+                снова проиграл
+            </h2>
+        </div>
+        <div class="big-news-list-with-image big-news-list-detail">
+            <a href="">27.11.22</a>
+            <a href="">16:40</a>
+            <a href="" class="category">СВО</a>
+            <h2 class="big-news-list-with-image__text">После окончания частичной мобилизации продолжается набор добровольцев
+                снова проиграл
+            </h2>
+        </div>
+        <div class="big-news-list-with-image big-news-list-detail">
+            <a href="">27.11.22</a>
+            <a href="">16:40</a>
+            <a href="" class="category">СВО</a>
+            <h2 class="big-news-list-with-image__text">После окончания частичной мобилизации продолжается набор добровольцев
+                снова проиграл
+            </h2>
+        </div>
+        <div class="big-news-list-with-image big-news-list-detail">
+            <a href="">27.11.22</a>
+            <a href="">16:40</a>
+            <a href="" class="category">СВО</a>
+            <h2 class="big-news-list-with-image__text">После окончания частичной мобилизации продолжается набор добровольцев
+                снова проиграл
+            </h2>
         </div>
 
-            <div class="media-blocks">
-
-                <a href="" class="media-blocks__item">
-                    <div class="media-blocks__date">
-                        <span>28/10/2022</span>
-                        <span>22:00</span>
-                    </div>
-                   <h2>В Тульской области вновь подорожали огурцы и помидоры</h2> 
-                </a>
-        
-                <a href="" class="media-blocks__item">
-                    <div class="media-blocks__date">
-                        <span>28/10/2022</span>
-                        <span>22:00</span>
-                    </div>
-                    <h2>Расходы бюджета ТО по статье «Международные отношения и сотрудничество» составили почти полмиллиарда рублей</h2>
-                </a>
-        
-                <a href="" class="media-blocks__item">
-                    <div class="media-blocks__date">
-                        <span>28/10/2022</span>
-                        <span>22:00</span>
-                    </div>
-                    <h2>В ТО выделят почти полмиллиарда рублей на поддержку региональных систем здравоохранения</h2>
-                </a>
-
-            </div>
-        
     </div>
 </div>
+                <div class="media">
 
+    <div class="media__title">
+        <span>СМИ</span>
+        <div class="media__title-number">
+            2
+        </div>
+    </div>
+    <a href="" class="media__item">
+        <div class="media__image">
+            <picture><source srcset="img/image1.webp" type="image/webp"><img src="img/image1.jpg" alt="image"></picture>
+        </div>
+        <div class="media__text">
+            <span>В каком возрасте снимаются с военского учета?</span>
+            <span class="media__text-time">16:45</span>
+        </div>
+    </a>
+
+    <a href="" class="media__item">
+        <div class="media__image">
+            <picture><source srcset="img/image1.webp" type="image/webp"><img src="img/image1.jpg" alt="image"></picture>
+        </div>
+        <div class="media__text">
+            <span>5 красных флагов в «дебетовках», о которых стоит знать
+                Соцреклама</span>
+            <span class="media__text-time">16:45</span>
+        </div>
+    </a>
+
+    <a href="" class="media__item">
+        <div class="media__image">
+            <picture><source srcset="img/image1.webp" type="image/webp"><img src="img/image1.jpg" alt="image"></picture>
+        </div>
+        <div class="media__text">
+            <span>Гибкий камень - новый хит импортозамещения!</span>
+            <span class="media__text-time">16:45</span>
+        </div>
+    </a>
+
+    <a href="" class="media__item">
+        <div class="media__image">
+            <picture><source srcset="img/image1.webp" type="image/webp"><img src="img/image1.jpg" alt="image"></picture>
+        </div>
+        <div class="media__text">
+            <span>5 красных флагов в «дебетовках», о которых стоит знать
+                Соцреклама</span>
+            <span class="media__text-time">16:45</span>
+        </div>
+    </a>
+
+    
+
+
+</div>
+<svg width="100%" height="100%" viewBox="0 0 169 104" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: absolute; left:0; top:0; pointer-events: none;">
+    <defs>
+        <clipPath id="cloud">
+            <rect width="168.002" height="93.8925" transform="scale(1)"
+            rx="7.82438" fill="#05598F"/>
+            <path transform="scale(1)"
+            d="M42.3417 89H27.7597C26.5117 89 25.5 90.0117 25.5 91.2597V100.009C25.5 101.765 27.4162 102.85 28.9223 101.947L43.5043 93.1974C45.4696 92.0183 44.6336 89 42.3417 89Z" fill="#05598F"/>
+        </clipPath>
+    </defs>
+</svg>
+                  
+  <!-- Реклама -->
+  <div class="reklama-on-website">
+    <div class="reklama-on-website-image">
+        <picture><source srcset="img/reklama2.webp" type="image/webp"><img src="img/reklama2.jpg" alt="реклама"></picture>
+    </div>
+    <div class="reklama-on-website-image">
+        <picture><source srcset="img/reklama2.webp" type="image/webp"><img src="img/reklama2.jpg" alt="реклама"></picture>
+    </div>
+</div>
+<!-- /Реклама -->
+                <div class="main-news-block">
+    <div class="main-news-block__in main-news-block__in-detail">
+        <h2>Главные новости</h2>
+        <div class="big-news-list-with-image big-news-list-detail">
+            <a href="">27.11.22</a>
+            <a href="">16:40</a>
+            <a href="" class="category">СВО</a>
+            <h2 class="big-news-list-with-image__text">После окончания частичной мобилизации продолжается набор добровольцев
+                снова проиграл
+            </h2>
+        </div>
+        <div class="big-news-list-with-image big-news-list-detail">
+            <a href="">27.11.22</a>
+            <a href="">16:40</a>
+            <a href="" class="category">СВО</a>
+            <h2 class="big-news-list-with-image__text">После окончания частичной мобилизации продолжается набор добровольцев
+                снова проиграл
+            </h2>
+        </div>
+        <div class="big-news-list-with-image big-news-list-detail">
+            <a href="">27.11.22</a>
+            <a href="">16:40</a>
+            <a href="" class="category">СВО</a>
+            <h2 class="big-news-list-with-image__text">После окончания частичной мобилизации продолжается набор добровольцев
+                снова проиграл
+            </h2>
+        </div>
+        <div class="big-news-list-with-image big-news-list-detail">
+            <a href="">27.11.22</a>
+            <a href="">16:40</a>
+            <a href="" class="category">СВО</a>
+            <h2 class="big-news-list-with-image__text">После окончания частичной мобилизации продолжается набор добровольцев
+                снова проиграл
+            </h2>
+        </div>
+        <div class="big-news-list-with-image big-news-list-detail">
+            <a href="">27.11.22</a>
+            <a href="">16:40</a>
+            <a href="" class="category">СВО</a>
+            <h2 class="big-news-list-with-image__text">После окончания частичной мобилизации продолжается набор добровольцев
+                снова проиграл
+            </h2>
+        </div>
+
+    </div>
+</div>
+                  
+  <!-- Реклама -->
+  <div class="reklama-on-website">
+    <div class="reklama-on-website-image">
+        <picture><source srcset="img/reklama2.webp" type="image/webp"><img src="img/reklama2.jpg" alt="реклама"></picture>
+    </div>
+    <div class="reklama-on-website-image">
+        <picture><source srcset="img/reklama2.webp" type="image/webp"><img src="img/reklama2.jpg" alt="реклама"></picture>
+    </div>
+</div>
+<!-- /Реклама -->
+                
+
+                
         </div>
         </main>
        
@@ -403,7 +523,7 @@
 </div>
     </div>
     </footer>
-    <script src="js/app.min.js?_v=20221212163957"></script>
+    <script src="js/app.min.js?_v=20221213124124"></script>
 </body>
 </html>
 

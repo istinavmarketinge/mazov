@@ -1,4 +1,4 @@
-.media {
+.additional-news {
     display: flex;
     padding: 0 15px;
     justify-content: space-between;
@@ -7,59 +7,32 @@
     background: #FFFFFF;
     position: relative;
     z-index: 5;
-    &__title {
-        display: flex;
-        align-items: center;
-        margin-top: 23px;
-        margin-bottom: 10px;
-        span {
-            display: block;
-            font-weight: 600;
-            font-size: 24px;
-            line-height: 31px;
-        }
-        &-number {
-            width: 25px;
-            height: 25px;
-            background: #E41F12;
-            border-radius: 50%;
-            font-weight: 550;
-            font-size: 16px;
-            line-height: 20px;
-            color: #FFFFFF;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-left: 15px;
-        }
-    }
     &__item {
         background: #fff;
         border-radius: 0;
-        padding: 15px 0 10px;
+        padding: 20px 0;
         display: flex;
         width: 100%;
-        box-sizing: border-box; 
-        margin-bottom: 10px;   
+        box-sizing: border-box;    
     }
     &__item:not(:last-child) {
         border-bottom: 1px solid #E6E6E6;
     }
     &__image {
-        width: 75px;
-        height: 47px;
+        width: 113px;
+        height: 84px;
         position: relative;
     }
-    &__image:before {
-        content: "";
-        width: 75px;
-        height: 43px;
-        position: absolute;
-        background: url(../img/bg-icon.png) 0 0 no-repeat;
-        background-size: 75px 43px;
-        top: -6px;
-        left: -5px;
-    }
+    // &__image:before {
+    //     content: "";
+    //     width: 120px;
+    //     height: 75px;
+    //     position: absolute;
+    //     background: url(../img/bg-icon.png) 0 0 no-repeat;
+    //     background-size: 120px 75px;
+    //     top: -6px;
+    //     left: -5px;
+    // }
     &__image img {
         clip-path: url(#cloud);
         width: 100%;
@@ -68,7 +41,7 @@
         object-position: 50% 50%;
     }
     &__text {
-        margin-left: 13px;
+        margin-left: 10px;
         overflow: hidden;
         width: 70%;
         font-weight: 500;
@@ -76,13 +49,13 @@
         line-height: 120%;
         display: flex;
         flex-direction: column;
-        &-time {
+        justify-content: space-between;
+        &-reklama {
             display: block;
             font-weight: 300;
             font-size: 13px;
             line-height: 17px;
-            color: #797979;
-            margin-top: 5px;
+            color: #05598F;
 
         }
     }

@@ -42,21 +42,25 @@
     }
 }
 .comments-block-form {
-    background: #FBFBFB;
-    border: 1px solid #E6E6E6;
-    border-radius: 5px;
-    padding: 10px 20px;
+    
     form {
         display: flex;
         justify-content: space-between;
-        width: 80%;
+        flex-direction: column;
+        width: 100%;
         textarea {
-            border: none;
+            // border: none;
             width: 100%;
             margin-right: 10px;
             background: #FBFBFB;
             min-width: 100%;
             max-width: 100%;
+            background: #FBFBFB;
+            border: 1px solid #E6E6E6;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
         }
         textarea:focus {
             outline: none;

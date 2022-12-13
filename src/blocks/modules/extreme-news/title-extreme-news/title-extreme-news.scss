@@ -1,28 +1,30 @@
 .title-extreme-news {
-    margin-top: 30px;
+    padding: 0 15px;
+    margin-top: 0;
     &__in {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 20px;
     }
     &__item {
         display: flex;
         align-items: center;
-        ul {
-            list-style: none;
-            padding: 0;
-            margin-left: 15px;
-        }
-        ul li a{
-            font-weight: 600;
-            font-size: 24px;
-            line-height: 31px;
-        }
+        margin: 5px 0;
+        // ul {
+        //     list-style: none;
+        //     padding: 0;
+        //     margin-left: 15px;
+        // }
+        // ul li a{
+        //     font-weight: 600;
+        //     font-size: 24px;
+        //     line-height: 31px;
+        // }
         h2 {
             font-weight: 600;
-            font-size: 24px;
-            line-height: 31px;
+            font-size: 32px;
+            line-height: 41px;
+            margin: 0;
             margin-right: 15px;
         }
         span {

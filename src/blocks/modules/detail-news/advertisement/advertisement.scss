@@ -1,25 +1,27 @@
 .advertisement-block {
-    margin-top: 20px;
     &__in {
         display: flex;
         align-items: center;
+        flex-direction: column;
         background: #E5F5FF;
-        padding: 24.5px 30px;
+        padding: 20px 30px;
         justify-content: space-between;
         h2 {
-            font-weight: 600;
-            font-size: 26px;
-            line-height: 33px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
             margin: 0;
+            margin-bottom: 10px;
         }
         .button-vk, .button-tg {
             background: #0077FF;
             box-shadow: 0px 8px 10px rgba(255, 255, 255, 0.5);
             border-radius: 5px;
             padding: 12px 20px;
-            max-width: 134px;
+            max-width: 152px;
             width: 100%;
             display: flex;
+            justify-content: center;
             align-items: center;
             span {
                 font-weight: 500;
@@ -33,11 +35,13 @@
         }
         .button-tg {
             background: #27A6E5;
-            margin-left: 30px;
+            margin-left: 10px;
         }
         .advertisement-buttons {
             display: flex;
             align-items: center;
+            width: 100%;
+            justify-content: center;
         }
     }
 }
