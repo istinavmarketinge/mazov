@@ -12,13 +12,10 @@ const CityNews = class CityNews {
                 0:{
                     items:1
                 },
-                600:{
-                    items:3
-                },
-                1200:{
+                700:{
                     items:2
                 },
-                1500:{
+                850:{
                     items:3
                 }
             }

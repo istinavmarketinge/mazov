@@ -1,10 +1,6 @@
 .sity-news {
     background: #F8FAFB;
-    margin: 0 -74px;
     position: relative;
-    @media all and (max-width:1500px) {
-        margin: 0 -30px;
-    }
     &__in {
         display: flex;
         align-items: center;
@@ -93,6 +89,9 @@
     background: url("../img/slider-arrow.svg") 0 0/cover no-repeat;
     position: absolute;
     top: 50%;
+    @media all and (max-width:700px) {
+        display: none;
+    }
     span {
         font-size: 0;
         display: block;

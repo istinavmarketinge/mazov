@@ -1,5 +1,7 @@
 .chart {
-    margin-bottom: 20px;
+    &__in {
+        padding: 0 15px;
+    }
     &__image {
         img {
             width: 100%;
@@ -8,19 +10,17 @@
     &__text {
         display: flex;
         align-items: center;
-        margin-left: 43px;
-        padding-bottom: 35px;
         img {
             max-width: 38px;
             width: 100%;
-            margin-right: 24px;
+            margin-right: 13px;
         }
         .explanation {
             span {
                 display: block;
                 font-weight: 400;
-                font-size: 16px;
-                line-height: 20px;
+                font-size: 12px;
+                line-height: 15px;
                 color: #797979;
                 }
         }

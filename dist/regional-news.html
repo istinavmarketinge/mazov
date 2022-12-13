@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css?_v=20221213152428">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20221213152428" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?_v=20221213171511">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20221213171511" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper" id="app" :class="{isMobile, isTablet}">
@@ -15,14 +15,6 @@
         
         <main class="content-block">
             <div class="content-container">
-                <div class="button-top__wrapper">
-<div class="button-top" style="--top_position:30px;">
-
-</div>
-</div>
-
-<!-- TODO передать кнопке позицию через переменную в html -->
-
                 <div class="bread-crumbs">
     <ul>
         <li>Главная <span> > </span></li>
@@ -119,7 +111,7 @@
     <div class="mission__in">
         <div class="mission__line"></div>
             <div class="mission__text">
-                <h2>более 90 000 000</h2>
+                <h2>более <br> 90 000 000</h2>
                 <span>просмотров наших страниц ежегодно
                 </span>
             </div>
@@ -144,7 +136,7 @@
     <div class="mission__in">
         <div class="mission__line"></div>
             <div class="mission__text">
-                <h2>более 10 000 000</h2>
+                <h2>более <br> 10 000 000</h2>
                 <span>просмотров наших страниц ежемесячно
                 </span>
             </div>
@@ -209,7 +201,7 @@
     <div class="social-network__in">
         <div class="social-network__line"></div>
         <div class="social-network__text">
-            <h2>более 6 000 000</h2>
+            <h2>более<br> 6 000 000</h2>
             <span>охват Пользователей в социальных сетях и мессенджерах</span>
             <div class="social-network__icons">
                 <a class="tg" href="#"><svg width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -247,7 +239,7 @@
         </div>
         <div class="social-network__line"></div>
         <div class="social-network__text">
-            <h2>более 845 000</h2>
+            <h2>более <br> 845 000</h2>
             <span>подписчиков на группы Издания в социальных сетях</span>
         </div>
         <div class="social-network__line"></div>
@@ -255,7 +247,7 @@
 </div>
                 <div class="media-cities">
     <div class="media-cities__in">
-        <div class="media-cities__tabs">
+        <!-- <div class="media-cities__tabs">
             <div class="tabs-item">Тульские Новости</div>
             <div class="tabs-item">Орловские Новости</div>
             <div class="tabs-item">Калужские Новости</div>
@@ -266,12 +258,9 @@
             <div class="tabs-item">Воронежские Новости</div>
             <div class="tabs-item">Новости Липецка</div>
             <div class="tabs-item">Курские Новости</div>
-        </div>
+        </div> -->
             <div class="media-cities__about">
             <div class="media-cities__info">
-                <div class="media-cities-info-image">
-                    <picture><source srcset="img/media-info.webp" type="image/webp"><img src="img/media-info.jpg" alt="image"></picture>
-                </div>
                 <div class="media-info-contacts">
                     <div class="sity-news__logo">
                         <img src="img/kaluga.svg" alt="logo">
@@ -285,7 +274,15 @@
                         <a class="email" href="mailto:info@newstula.ru">info@newstula.ru</a>
                     </div>
                 </div>
+                    <div class="media-cities__select">
+                        <select class="media-cities__cities">
+                            <option>Калужские Новости</option>
+                        </select>
+                </div>
             </div>
+                <div class="media-cities-info-image">
+                    <picture><source srcset="img/media-info.webp" type="image/webp"><img src="img/media-info.jpg" alt="image"></picture>
+                </div> 
             <div class="media-cities-text">
                 <p>«Тульские новости» - одно из ведущих региональных СМИ, которое в режиме реального времени публикует на своем сайте актуальные социально-значимые материалы, дает возможность жителям региона доступно получать информацию из первых уст, делиться мнениями, высказывать свои мысли и предложения по развитию региона.</p>
 
@@ -324,6 +321,7 @@
                 <span> <a href="tel:74872710805">8 (4872) 710-805</a></span>
             </div>
         </div>
+        
         <div class="map__yandex">
             <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9859c26d55506aef790ba7e5ccba89d9af11728012e29d9c3f7c4bfcaf3a4059&amp;source=constructor" width="100%" height="399" frameborder="0"></iframe>
         </div>
@@ -418,7 +416,7 @@
 </div>
     </div>
     </footer>
-    <script src="js/app.min.js?_v=20221213152428"></script>
+    <script src="js/app.min.js?_v=20221213171511"></script>
 </body>
 </html>
 
