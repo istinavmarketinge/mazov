@@ -1,9 +1,13 @@
 .top-five-block {
     border-bottom: 1px solid #E6E6E6;
     margin-top: 30px;
-    h2 {
+    a.right-column-title {
         margin-bottom: 14px;
+        display: block;
+        margin-top: 30px;
+        font-weight: 700;
         font-size: 22px;
+        line-height: 28px;
     }
     &__item {
         margin-bottom: 17px;

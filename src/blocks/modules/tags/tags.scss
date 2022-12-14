@@ -1,6 +1,9 @@
 .tags-block {
-    h2 {
+    &__title {
         font-size: 22px;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 17px;
     }
 }
 .div-tags a span {

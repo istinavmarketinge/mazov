@@ -1519,15 +1519,15 @@ template {
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
-  src: url("../fonts/ALSHauss-MediumItalic.woff2") format("woff2"), url("../fonts/ALSHauss-MediumItalic.woff") format("woff"), url("../fonts/ALSHauss-MediumItalic.ttf") format("ttf");
-  font-weight: 400;
+  src: url("../fonts/ALSHauss-Medium.woff2") format("woff2"), url("../fonts/ALSHauss-Medium.woff") format("woff"), url("../fonts/ALSHauss-Medium.ttf") format("ttf");
+  font-weight: 500;
 }
 
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
-  src: url("../fonts/ALSHauss-Medium.woff2") format("woff2"), url("../fonts/ALSHauss-Medium.woff") format("woff"), url("../fonts/ALSHauss-Medium.ttf") format("ttf");
-  font-weight: 500;
+  src: url("../fonts/ALSHauss-MediumItalic.woff2") format("woff2"), url("../fonts/ALSHauss-MediumItalic.woff") format("woff"), url("../fonts/ALSHauss-MediumItalic.ttf") format("ttf");
+  font-weight: 400;
 }
 
 @font-face {
@@ -1875,6 +1875,9 @@ footer {
 .news-aside-block__title {
   font-size: 22px;
   font-weight: 720;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 17px;
 }
 
 .news-aside-block__image {
@@ -2396,9 +2399,13 @@ footer {
   margin-top: 30px;
 }
 
-.top-five-block h2 {
+.top-five-block a.right-column-title {
   margin-bottom: 14px;
+  display: block;
+  margin-top: 30px;
+  font-weight: 700;
   font-size: 22px;
+  line-height: 28px;
 }
 
 .top-five-block__item {
@@ -2427,8 +2434,11 @@ footer {
   margin-bottom: 17px;
 }
 
-.tags-block h2 {
+.tags-block__title {
   font-size: 22px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 17px;
 }
 
 .div-tags a span {
