@@ -9,16 +9,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="header-container">
+        @@include('blocks/modules/header/header.html', {})
+        @@include('blocks/modules/mobile-menu/mobile-menu.html', {})
+        
+    </div>
+    </header>
     <div class="wrapper" id="app" :class="{isMobile, isTablet}">
     </div>
     <div class="content">
         
         <main class="content-block">
             <div class="content-container">
+            <!-- @@include('blocks/modules/header/header.html', {}) -->
             @@include('blocks/modules/main-first-news/main-first-news.html', {})
             @@include('blocks/modules/main-white-news/main-white-news.html', {})
             @@include('blocks/modules/big-news-list/big-news-list.html', {})
 
+
+            
         </div>
         </main>
 

@@ -6,7 +6,8 @@ import $ from 'jquery';
 
 // import Calendar from '../blocks/modules/calendar/calendar.js';
 import UpButton from '../blocks/modules/button-top/button-top.js';
-import LeftMenu from '../blocks/modules/left-menu/left-menu.js';
+import LeftMenu from '../blocks/modules/mobile-menu/left-menu.js';
+import MobileMenu from '../blocks/modules/mobile-menu/mobile-menu.js';
 import Sidebar from '../blocks/components/sidebar/sidebar.js';
 import CityNews from '../blocks/modules/regional-news/sity-news/sity-news.js';
 import MainNews from '../blocks/modules/main-first-news/main-first-news.js';
@@ -15,6 +16,7 @@ import MainNews from '../blocks/modules/main-first-news/main-first-news.js';
 
 window.cityNews = new CityNews();
 window.mainNews = new MainNews();
+window.mobileMenu = new MobileMenu();
 // window.calendar = new Calendar(".calendar");
 window.upButton = new UpButton(".button-top");
 window.leftMenu = new LeftMenu();
@@ -32,6 +34,8 @@ $(document).ready(() => {
     window.leftMenu.init();
     window.cityNews.init();
     window.mainNews.init();
+    window.mobileMenu.init();
+
 
     
 

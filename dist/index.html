@@ -5,16 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css?_v=20221213171511">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20221213171511" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?_v=20221214103532">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20221214103532" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="header-container">
+        <div class="header">
+    <div class="header__in">
+        <div class="header__flex">
+            <a href="" class="logo-block">
+                <div class="logo-block__image">
+                    <picture><source srcset="img/icon.webp" type="image/webp"><img src="img/icon.png" alt="logo"></picture>
+                </div>
+                 <div class="logo-block__name">
+                     <span>Тульские</span>
+                     <span>Новости</span>
+                 </div>
+             </a>
+             <div class="menu-burger" id="open-form">
+                <div></div>
+                <div></div>
+                <div></div>
+             </div>
+             
+        </div>
+    </div>
+</div>
+
+
+        <div class="mobile-menu">
+    <div class="mobile-menu__in">
+        <div class="mobile-menu__left">
+            <form class="search">
+                <input class="search__input" name="s" placeholder="Поиск" type="search">
+                <button class="search__button" type="submit"><picture><source srcset="img/search.webp" type="image/webp"><img src="img/search.png" alt="search"></picture></button>
+            </form>
+                <div class="menu-list-glavnaya">
+                    <ul class="menu-list">
+                        <li class="menu-list__item"><a href="">Аналитика</a></li>
+                        <li class="menu-list__item"><a href="">Общество</a></li>
+                        <li class="menu-list__item"><a href="">Спорт</a></li>
+                        <li class="menu-list__item"><a href="">Культура</a></li>
+                        <li class="menu-list__item"><a href="">Происшествия</a></li>
+                        <li class="menu-list__item"><a href="">Тульская область 1941 - 1945</a></li>
+                        <li class="menu-list__item"><a href="">Коронавирус</a></li>
+                        <li class="menu-list__item"><a href="">Книги</a></li>
+                        <li class="menu-list__item"><a href="">Бизнес</a></li>
+                        <li class="menu-list__item"><a href="">Экономика</a></li>
+                        <li class="menu-list__item"><a href="">Подкасты</a></li>
+                        <li class="menu-list__item"><a href="">Новомосковск</a></li>
+                        <li class="menu-list__item"><a href="">Новости компаний</a></li>
+                        <li class="menu-list__item"><a href="">Пункт меню</a></li>
+                        <li class="menu-list__item"><a href="">Пункт меню</a></li>
+                        <li class="menu-list__item"><a href="">Пункт меню</a></li>
+                        <li class="menu-list__item"><a href="">Пункт меню</a></li>
+                        <li class="menu-list__item menu-list__item-more">Ещё</li>
+                    </ul>
+                </div>
+        </div>
+        <div class="mobile-menu__right">
+            <div class="close-menu" id="close">
+                <img src="img/close.svg" alt="close">
+            </div>
+        </div>
+    </div>
+</div>
+        
+    </div>
+    </header>
     <div class="wrapper" id="app" :class="{isMobile, isTablet}">
     </div>
     <div class="content">
         
         <main class="content-block">
             <div class="content-container">
+            
             <div class="main-first-news-block">
     <div class="main-first-news-block__in main-first-js owl-carousel">
         <a href="" class="main-first-news-block__big">
@@ -251,6 +317,8 @@
     <!-- / Новости по категориям -->
             </div>
 
+
+            
         </div>
         </main>
 
@@ -338,7 +406,7 @@
 </div>
     </div>
     </footer>
-    <script src="js/app.min.js?_v=20221213171511"></script>
+    <script src="js/app.min.js?_v=20221214103532"></script>
 </body>
 </html>
 
