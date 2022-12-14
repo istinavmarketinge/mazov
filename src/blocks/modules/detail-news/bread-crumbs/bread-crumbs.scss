@@ -12,6 +12,9 @@
     color: #A9A9A9;
     margin-right: 8px;
 }
+.bread-crumbs ul li a {
+    color: #A9A9A9;
+}
 .bread-crumbs ul li span {
     color: #A9A9A9;
     margin-left: 5px;
@@ -21,6 +24,6 @@
     padding: 0;
     margin: 0;
 }
-.bread-crumbs ul li:last-child {
+.bread-crumbs ul li a:last-child {
     color: #000;
 }
