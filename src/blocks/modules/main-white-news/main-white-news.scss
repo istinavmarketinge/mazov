@@ -6,7 +6,7 @@
     flex-direction: column;
     background: #FFFFFF;
     border-radius: 15px 15px 0px 0px;
-    margin-top: -53px;
+    margin-top: -60px;
     position: relative;
     z-index: 5;
     &__item {
@@ -50,9 +50,11 @@
         margin: 16px 15px 10px 20px;
         overflow: hidden;
         width: 50%;
+        span {
         font-weight: 600;
         font-size: 17px;
         line-height: 120%;
+        }
         .time {
             display: block;
             font-weight: 300;

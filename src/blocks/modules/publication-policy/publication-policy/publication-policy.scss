@@ -11,6 +11,8 @@
             font-size: 16px;
             line-height: 20px;
             color: #797979;
+            display: block;
+            padding-bottom: 30px;
         }
         .polotika-title {
             margin-bottom: 5px;
@@ -85,6 +87,7 @@
         
     }
     &__text {
+        border-top: 1px solid #EEEEEE;
         h2 {
             font-weight: 600;
             font-size: 24px;

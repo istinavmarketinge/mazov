@@ -42,28 +42,20 @@
         justify-content: center;
         padding: 60px 0 40px 0;
     }
-    &__cities {
+    &__select form select {
         border: 1px solid #A9A9A9;
         box-shadow: 0px 1px 2px rgba(106, 106, 106, 0.25);
         border-radius: 4px;
         padding: 12px 75px;
         appearance: none;
-        position: relative;
-        display: grid;
+        background: url("../img/arrow-select.svg") no-repeat;
+        background-position: 90% 55%;
         option {
             font-weight: 550;
             font-size: 17px;
             line-height: 22px;
         }
-        &::after {
-            content: "";
-            width: 12px;
-            height: 7px;
-            background-image: url("../img/arrow-select.svg");
-            position: absolute;
-            top: 0;
-            left: 10px;
-        }
+      
     }
     &-info-image {
         // max-width: 460px;

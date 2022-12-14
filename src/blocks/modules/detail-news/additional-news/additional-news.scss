@@ -44,20 +44,21 @@
         margin-left: 10px;
         overflow: hidden;
         width: 70%;
-        font-weight: 500;
-        font-size: 17px;
-        line-height: 120%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        &-reklama {
-            display: block;
-            font-weight: 300;
-            font-size: 13px;
-            line-height: 17px;
-            color: #05598F;
-
+        span {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 120%;
         }
+    }
+    &__text-reklama {
+        display: block;
+        font-weight: 300 !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        color: #05598F;
     }
     &__banner {
         background: url("../img/tree.jpg") 0 0/cover no-repeat;

@@ -10,9 +10,17 @@
     &__in-detail {
         h2 {
             margin: 20px 0 10px;
+            font-weight: 600;
+            font-size: 27px;
+            line-height: 35px;
         }
     }
     .big-news-list-detail {
         padding: 20px 0;
+        h2 {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 26px;
+        }
     }
 }

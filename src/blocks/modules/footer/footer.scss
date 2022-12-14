@@ -14,14 +14,14 @@
     }
     &__name {
         width: 60%;
-        font-weight: 720;
-        font-size: 13.1756px;
-        line-height: 17px;
-        text-transform: uppercase;
     }
     &__name span {
         display: block;
         color: #fff;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 17px;
+        text-transform: uppercase;
     }
     &__years {
         margin-right: 45px;
@@ -71,6 +71,9 @@
         width: 50%;
         padding-bottom: 15px;
     }
+    &__item table td:first-child {
+        color: #D3D3D3;
+    }
     &__right {
         max-width: 100%;
         border-bottom: 1px solid #445661;
@@ -97,6 +100,7 @@
     &__left p {
         color: #fff;
         font-weight: 400;
+        font-size: 15px;
     }
     &__right {
         display: flex;

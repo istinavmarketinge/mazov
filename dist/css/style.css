@@ -1974,7 +1974,7 @@ footer {
   color: #ABBDD7;
   font-size: 12px;
   font-weight: 400;
-  padding: 0 0 15px 28px;
+  padding: 0 0 28px 15px;
   margin-bottom: 28px;
   display: block;
   z-index: 3;
@@ -2017,7 +2017,7 @@ footer {
   flex-direction: column;
   background: #FFFFFF;
   border-radius: 15px 15px 0px 0px;
-  margin-top: -53px;
+  margin-top: -60px;
   position: relative;
   z-index: 5;
 }
@@ -2071,6 +2071,9 @@ footer {
   margin: 16px 15px 10px 20px;
   overflow: hidden;
   width: 50%;
+}
+
+.main-white-news__text span {
   font-weight: 600;
   font-size: 17px;
   line-height: 120%;
@@ -2195,9 +2198,9 @@ footer {
 
 .big-news-list-no-image h2 a,
 .big-news-list-with-image h2 a {
-  font-size: 24px;
-  line-height: 31px;
-  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
   color: #0B0B0B;
 }
 
@@ -2225,6 +2228,10 @@ footer {
   max-height: 361px;
   width: 100%;
   margin-bottom: 20px;
+}
+
+.big-news-list-no-image h2 a {
+  font-weight: 600;
 }
 
 .big-news-list-with-image__image {
@@ -2273,7 +2280,6 @@ footer {
   width: 100%;
   color: #fff;
   font-size: 19px;
-  background: #fff;
   font-weight: 400;
   padding: 20px 0;
   margin-top: 20px;
@@ -2281,6 +2287,7 @@ footer {
   cursor: pointer;
   background: #357DF3;
   border-radius: 5px;
+  border: none;
 }
 
 .social-network-block span {
@@ -2314,15 +2321,15 @@ footer {
 
 .footer-logo-flex__name {
   width: 60%;
-  font-weight: 720;
-  font-size: 13.1756px;
-  line-height: 17px;
-  text-transform: uppercase;
 }
 
 .footer-logo-flex__name span {
   display: block;
   color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 17px;
+  text-transform: uppercase;
 }
 
 .footer-logo-flex__years {
@@ -2378,6 +2385,10 @@ footer {
   padding-bottom: 15px;
 }
 
+.footer-info-flex__item table td:first-child {
+  color: #D3D3D3;
+}
+
 .footer-info-flex__right {
   max-width: 100%;
   border-bottom: 1px solid #445661;
@@ -2405,6 +2416,7 @@ footer {
 .footer-bottom-block__left p {
   color: #fff;
   font-weight: 400;
+  font-size: 15px;
 }
 
 .footer-bottom-block__right {
@@ -2544,6 +2556,7 @@ footer {
 
 .bread-crumbs {
   padding: 10px 18px;
+  margin: 0 15px;
   background: #F8FAFB;
 }
 
@@ -2588,8 +2601,9 @@ footer {
 }
 
 .detale-news-block__in h2 {
-  font-size: 32px;
-  line-height: 41px;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 120%;
   color: #0B0B0B;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -2703,6 +2717,7 @@ footer {
 .comments-sub-item__title {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .comments-item__title h2,
@@ -2921,19 +2936,22 @@ footer {
   margin-left: 10px;
   overflow: hidden;
   width: 70%;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 120%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+.additional-news__text span {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 120%;
+}
+
 .additional-news__text-reklama {
   display: block;
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 17px;
+  font-weight: 300 !important;
+  font-size: 13px !important;
+  line-height: 17px !important;
   color: #05598F;
 }
 
@@ -2990,10 +3008,19 @@ footer {
 
 .main-news-block__in-detail h2 {
   margin: 20px 0 10px;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 35px;
 }
 
 .main-news-block .big-news-list-detail {
   padding: 20px 0;
+}
+
+.main-news-block .big-news-list-detail h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
 }
 
 .media {
@@ -3082,14 +3109,17 @@ footer {
   margin-left: 13px;
   overflow: hidden;
   width: 70%;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 120%;
   display: flex;
   flex-direction: column;
 }
 
-.media__text-time {
+.media__text span {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 120%;
+}
+
+.media__text span.media__text-time {
   display: block;
   font-weight: 300;
   font-size: 13px;
@@ -3433,8 +3463,8 @@ footer {
 
 .title-news-date__item h2 {
   font-weight: 600;
-  font-size: 24px;
-  line-height: 31px;
+  font-size: 32px;
+  line-height: 41px;
   margin: 0;
   margin-right: 15px;
 }
@@ -3643,6 +3673,8 @@ footer {
   font-size: 16px;
   line-height: 20px;
   color: #797979;
+  display: block;
+  padding-bottom: 30px;
 }
 
 .publication-policy__in .polotika-title {
@@ -3712,6 +3744,10 @@ footer {
 
 .publication-policy-adress .p-adress {
   font-weight: 400;
+}
+
+.publication-policy__text {
+  border-top: 1px solid #EEEEEE;
 }
 
 .publication-policy__text h2 {
@@ -4148,7 +4184,7 @@ footer {
   padding: 60px 0 40px 0;
 }
 
-.media-cities__cities {
+.media-cities__select form select {
   border: 1px solid #A9A9A9;
   box-shadow: 0px 1px 2px rgba(106, 106, 106, 0.25);
   border-radius: 4px;
@@ -4156,24 +4192,14 @@ footer {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  position: relative;
-  display: grid;
+  background: url("../img/arrow-select.svg") no-repeat;
+  background-position: 90% 55%;
 }
 
-.media-cities__cities option {
+.media-cities__select form select option {
   font-weight: 550;
   font-size: 17px;
   line-height: 22px;
-}
-
-.media-cities__cities::after {
-  content: "";
-  width: 12px;
-  height: 7px;
-  background-image: url("../img/arrow-select.svg");
-  position: absolute;
-  top: 0;
-  left: 10px;
 }
 
 .media-cities-info-image {
@@ -4323,7 +4349,7 @@ footer {
 
 .advertisement-page-block__download span {
   color: #fff;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   line-height: 23px;
   display: block;
