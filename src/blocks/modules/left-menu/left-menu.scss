@@ -33,4 +33,12 @@
 .menu-list__item-more {
     display: inline-block !important;
     cursor: pointer;
+    &:after {
+        content: "Еще";
+    }
+    &.isOpened {
+        &:after {
+            content: "Закрыть";
+        } 
+    }
 }

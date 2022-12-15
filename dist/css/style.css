@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -1719,6 +1721,14 @@ footer {
 .menu-list__item-more {
   display: inline-block !important;
   cursor: pointer;
+}
+
+.menu-list__item-more:after {
+  content: "Еще";
+}
+
+.menu-list__item-more.isOpened:after {
+  content: "Закрыть";
 }
 
 .search {
