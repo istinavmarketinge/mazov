@@ -25,6 +25,9 @@
             color: #fff;
         }
     }
+    &__big:hover &__b-text {
+        text-decoration: underline;
+    }
     &__small {
         max-height: 170px;
         margin-bottom: 11px;
@@ -34,6 +37,9 @@
             color: #fff;
         }
 
+    }
+    &__small:hover &__s-text {
+        text-decoration: underline;
     }
    
     &__date{

@@ -1647,6 +1647,7 @@ a:hover {
   position: relative;
   padding-top: 20px;
   padding-bottom: 40px;
+  height: 100%;
 }
 
 footer {
@@ -1987,6 +1988,10 @@ footer {
   color: #fff;
 }
 
+.main-first-news-block__big:hover .main-first-news-block__b-text {
+  text-decoration: underline;
+}
+
 .main-first-news-block__small {
   max-height: 170px;
   margin-bottom: 11px;
@@ -1996,6 +2001,10 @@ footer {
 
 .main-first-news-block__small:hover {
   color: #fff;
+}
+
+.main-first-news-block__small:hover .main-first-news-block__s-text {
+  text-decoration: underline;
 }
 
 .main-first-news-block__date {
@@ -2071,11 +2080,11 @@ footer {
   filter: grayscale(100%);
 }
 
-.main-white-news:hover .main-white-news__image {
+.main-white-news__item:hover .main-white-news__image {
   filter: none;
 }
 
-.main-white-news:hover .main-white-news__image:before {
+.main-white-news__item:hover .main-white-news__image:before {
   background: url(../img/bg-icon2.png) 0 0 no-repeat;
   background-size: 180px 115px;
   top: -6px;
@@ -3094,12 +3103,7 @@ footer {
   display: block;
 }
 
-.other-news-block__in .other-news-blocks__item a h2:hover {
-  color: #fff;
-  text-decoration: underline;
-}
-
-.other-news-block__in .other-news-blocks__item a h2 {
+.other-news-block__in .other-news-blocks__item span h2 {
   font-weight: 700;
   font-size: 15px;
   line-height: 19px;
@@ -3109,6 +3113,10 @@ footer {
   bottom: 11px;
   margin-bottom: 0;
   z-index: 3;
+}
+
+.other-news-block__in .other-news-blocks__item:hover h2 {
+  text-decoration: underline !important;
 }
 
 .other-news-block__in .other-news-blocks__item::before {
@@ -3134,20 +3142,14 @@ footer {
   left: 0;
 }
 
-.other-news-block__in .other-news-blocks__date a {
+.other-news-block__in .other-news-blocks__date span {
   color: #fff;
-}
-
-.other-news-block__in .other-news-blocks__date a span {
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
   color: #fff;
   margin-top: 5px;
   z-index: 3;
-}
-
-.other-news-block__in .other-news-blocks__date span:first-child {
   margin-left: 13px;
 }
 
@@ -4413,6 +4415,7 @@ footer {
   background: #fff;
   padding: 35px 20px;
   display: block;
+  text-decoration: none !important;
 }
 
 .sity-news__item button {
@@ -4487,6 +4490,12 @@ footer {
   font-weight: 400;
   font-size: 13px;
   line-height: 17px;
+}
+
+.sity-news__item:hover .email,
+.sity-news__item:hover .city,
+.sity-news__item:hover .news {
+  text-decoration: underline;
 }
 
 .owl-carousel .owl-nav.disabled,

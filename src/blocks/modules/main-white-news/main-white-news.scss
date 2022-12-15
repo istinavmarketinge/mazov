@@ -30,10 +30,10 @@
     &__item .main-white-news__image {
         filter: grayscale(100%);
     }
-    &:hover .main-white-news__image{
+    &__item:hover .main-white-news__image{
         filter: none;
     }
-    &:hover .main-white-news__image:before {
+    &__item:hover .main-white-news__image:before {
         background: url(../img/bg-icon2.png) 0 0 no-repeat;
         background-size: 180px 115px;
         top: -6px;

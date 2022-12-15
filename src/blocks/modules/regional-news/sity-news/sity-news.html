@@ -1,54 +1,22 @@
 <div class="sity-news">
     <div class="sity-news__in sity-news-js owl-carousel">
-        <div class="sity-news__item">
-            <div class="sity-news__logo">
-               <a href=""><img src="img/kaluga.svg" alt="logo"></a>
-                <a href="" class="email">kaluganews.ru</a>
-                <a href="" class="city">Калужские</a>
-                <a href="" class="news">Новости</a>
-            </div>
-            <div class="sity-news__line"></div>
-            <div class="sity-news__text">
-                <p>ИКС 3000</p>
-                <span>более 11 000 посетителей в сутки</span>
-                <span>более 876 000 показов в месяц</span>
-                <span>более 106 000 подписчиков на группы Издания в социальных сетях</span>
-            </div>
-            <button type="submit">На сайт</button>
-        </div>
-
-        <div  class="sity-news__item">
-            <div class="sity-news__logo">
-                <a href=""><img src="img/vladimir.svg" alt="logo"></a>
-                <a href="" class="email">newsvladimir.ru</a>
-                <a href="" class="city">Владимирские</a>
-                <a href="" class="news">Новости</a>
-            </div>
-            <div class="sity-news__line"></div>
-            <div class="sity-news__text">
-                <p>ИКС 1240</p>
-                <span>более 10 000 посетителей в сутки</span>
-                <span>более 1 200 000 показов в месяц</span>
-                <span>более 88 000 подписчиков на группы Издания в социальных сетях</span>
-            </div>
-            <button type="submit">На сайт</button>
-        </div>
-
-        <div  class="sity-news__item">
-            <div class="sity-news__logo">
-                <a href=""><img src="img/bryansk.svg" alt="logo"></a>
-                <a href="" class="email">newsbryansk.ru</a>
-                <a href="" class="city">Новости</a>
-                <a href="" class="news">Брянска</a>
-            </div>
-            <div class="sity-news__line"></div>
-            <div class="sity-news__text">
-                <p>ИКС 1200</p>
-                <span>более 10 000 посетителей в сутки</span>
-                <span>более 1 000 000 показов в месяц</span>
-                <span>более 74 000 подписчиков на группы Издания в социальных сетях</span>
-            </div>
-            <button type="submit">На сайт</button>
-        </div>
+        @@for ($i = 0; $i < 4; $i++) {
+            <a href="#" class="sity-news__item">
+                <div class="sity-news__logo">
+                <span><img src="img/kaluga.svg" alt="logo"></span>
+                    <span class="email">kaluganews.ru</span>
+                    <span class="city">Калужские</span>
+                    <span class="news">Новости</span>
+                </div>
+                <div class="sity-news__line"></div>
+                <div class="sity-news__text">
+                    <p>ИКС 3000</p>
+                    <span>более 11 000 посетителей в сутки</span>
+                    <span>более 876 000 показов в месяц</span>
+                    <span>более 106 000 подписчиков на группы Издания в социальных сетях</span>
+                </div>
+                <button type="submit">На сайт</button>
+            </a>
+        }
     </div>
 </div>

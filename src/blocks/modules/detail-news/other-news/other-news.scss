@@ -21,11 +21,7 @@
                 max-height: 170px;
                 position: relative;
                 display: block;
-                a h2:hover {
-                    color: #fff;
-                    text-decoration: underline;
-                }
-                a h2 {
+                span h2 {
                     font-weight: 700;
                     font-size: 15px;
                     line-height: 19px;
@@ -35,6 +31,9 @@
                     bottom: 11px;
                     margin-bottom: 0;
                     z-index: 3;
+                }
+                &:hover h2 {
+                    text-decoration: underline !important;
                 }
             }
             &__item::before {
@@ -57,18 +56,14 @@
                 bottom: 11px;
                 left: 0;
             }
-            &__date a {
+            &__date span {
                 color: #fff;
-            }
-            &__date a span {
                 font-weight: 400;
                 font-size: 12px;
                 line-height: 15px;
                 color: #fff;
                 margin-top: 5px;
                 z-index: 3;
-            }
-            &__date span:first-child {
                 margin-left: 13px;
             }
         }
