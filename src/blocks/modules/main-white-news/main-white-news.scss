@@ -6,7 +6,7 @@
     flex-direction: column;
     background: #FFFFFF;
     border-radius: 15px 15px 0px 0px;
-    margin-top: -60px;
+    margin-top: -15px;
     position: relative;
     z-index: 5;
     &__item {
@@ -25,19 +25,10 @@
     &__image {
         width: 107px;
         height: 57px;
-        margin: 0 auto;
+        margin-left: auto;
         position: relative;
         margin-top: 15px;
-    }
-    &__image:before {
-        content: "";
-        width: 120px;
-        height: 75px;
-        position: absolute;
-        background: url(../img/bg-icon.png) 0 0 no-repeat;
-        background-size: 120px 75px;
-        top: -6px;
-        left: -5px;
+        filter: drop-shadow(-5px -5px 0 #E5F5FF);
     }
     &__image img {
         clip-path: url(#cloud);
@@ -54,6 +45,11 @@
         font-weight: 600;
         font-size: 17px;
         line-height: 120%;
+            white-space: normal;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
         }
         .time {
             display: block;
@@ -103,4 +99,8 @@
         }
         
     }
+}
+
+#cloud {
+    transform: scale(0.56);
 }

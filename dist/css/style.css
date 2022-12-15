@@ -1451,6 +1451,13 @@ template {
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
+  src: url("../fonts/ALSHauss-Bold.woff2") format("woff2"), url("../fonts/ALSHauss-Bold.woff") format("woff"), url("../fonts/ALSHauss-Bold.ttf") format("ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "ALSHauss";
+  font-display: swap;
   src: url("../fonts/ALSHauss-Black.woff2") format("woff2"), url("../fonts/ALSHauss-Black.woff") format("woff"), url("../fonts/ALSHauss-Black.ttf") format("ttf");
   font-weight: 900;
 }
@@ -1465,21 +1472,7 @@ template {
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
-  src: url("../fonts/ALSHauss-Bold.woff2") format("woff2"), url("../fonts/ALSHauss-Bold.woff") format("woff"), url("../fonts/ALSHauss-Bold.ttf") format("ttf");
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "ALSHauss";
-  font-display: swap;
   src: url("../fonts/ALSHauss-BoldItalic.woff2") format("woff2"), url("../fonts/ALSHauss-BoldItalic.woff") format("woff"), url("../fonts/ALSHauss-BoldItalic.ttf") format("ttf");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "ALSHauss";
-  font-display: swap;
-  src: url("../fonts/ALSHauss-Book.woff2") format("woff2"), url("../fonts/ALSHauss-Book.woff") format("woff"), url("../fonts/ALSHauss-Book.ttf") format("ttf");
   font-weight: 400;
 }
 
@@ -1494,6 +1487,13 @@ template {
   font-family: "ALSHauss";
   font-display: swap;
   src: url("../fonts/ALSHauss-Hairline.woff2") format("woff2"), url("../fonts/ALSHauss-Hairline.woff") format("woff"), url("../fonts/ALSHauss-Hairline.ttf") format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ALSHauss";
+  font-display: swap;
+  src: url("../fonts/ALSHauss-Book.woff2") format("woff2"), url("../fonts/ALSHauss-Book.woff") format("woff"), url("../fonts/ALSHauss-Book.ttf") format("ttf");
   font-weight: 400;
 }
 
@@ -1985,7 +1985,7 @@ footer {
   font-size: 12px;
   font-weight: 400;
   padding: 0 0 28px 15px;
-  margin-bottom: 28px;
+  margin-bottom: 0;
   display: block;
   z-index: 3;
   position: relative;
@@ -2019,6 +2019,31 @@ footer {
   z-index: 1;
 }
 
+.main-first-news-block .owl-dots {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 16px;
+}
+
+.main-first-news-block .owl-dots .owl-dot {
+  background: #0D2737;
+  width: 30px;
+  height: 3px;
+}
+
+.main-first-news-block .owl-dots .owl-dot:not(:last-child) {
+  margin-right: 11px;
+}
+
+.main-first-news-block .owl-dots .owl-dot.active {
+  background: #000;
+}
+
 .main-white-news {
   display: flex;
   padding: 0 15px;
@@ -2027,7 +2052,7 @@ footer {
   flex-direction: column;
   background: #FFFFFF;
   border-radius: 15px 15px 0px 0px;
-  margin-top: -60px;
+  margin-top: -15px;
   position: relative;
   z-index: 5;
 }
@@ -2050,20 +2075,10 @@ footer {
 .main-white-news__image {
   width: 107px;
   height: 57px;
-  margin: 0 auto;
+  margin-left: auto;
   position: relative;
   margin-top: 15px;
-}
-
-.main-white-news__image:before {
-  content: "";
-  width: 120px;
-  height: 75px;
-  position: absolute;
-  background: url(../img/bg-icon.png) 0 0 no-repeat;
-  background-size: 120px 75px;
-  top: -6px;
-  left: -5px;
+  filter: drop-shadow(-5px -5px 0 #E5F5FF);
 }
 
 .main-white-news__image img {
@@ -2087,6 +2102,11 @@ footer {
   font-weight: 600;
   font-size: 17px;
   line-height: 120%;
+  white-space: normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .main-white-news__text .time {
@@ -2140,6 +2160,10 @@ footer {
   color: #7D9FB6;
 }
 
+#cloud {
+  transform: scale(0.56);
+}
+
 .big-news-list {
   margin-top: 20px;
 }
@@ -2170,7 +2194,7 @@ footer {
 
 .big-news-list-item-category {
   background: #F1F5F8;
-  padding-bottom: 65px;
+  padding-bottom: 35px;
 }
 
 .big-news-list-item-category__title {
@@ -2186,9 +2210,29 @@ footer {
   border-bottom: none;
 }
 
+.owl-dots {
+  display: flex;
+  align-items: center;
+  padding: 16px 16px 0;
+}
+
+.owl-dots .owl-dot {
+  background: #CBD2D8 !important;
+  width: 30px;
+  height: 3px;
+}
+
+.owl-dots .owl-dot:not(:last-child) {
+  margin-right: 11px;
+}
+
+.owl-dots .owl-dot.active {
+  background: #05598F !important;
+}
+
 .big-news-list-no-image,
 .big-news-list-with-image {
-  border-bottom: 1px solid #E6E6E6;
+  border-bottom: none !important;
   padding-top: 20px;
   display: block;
   padding-left: 15px;
@@ -2741,6 +2785,12 @@ footer {
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 7px;
+  white-space: normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  max-width: 196px;
 }
 
 .comments-item__title span,
@@ -3992,13 +4042,22 @@ footer {
 .sity-news {
   background: #F8FAFB;
   position: relative;
+  overflow: hidden;
+}
+
+.sity-news .owl-carousel .owl-stage-outer {
+  overflow: visible;
+}
+
+.sity-news .owl-carousel.owl-drag .owl-item.active + .owl-item {
+  transform: translateX(-22px);
 }
 
 .sity-news__in {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 32px 34px;
+  padding: 32px 70px 32px 34px;
   box-sizing: border-box;
 }
 

@@ -6,7 +6,7 @@ const CityNews = class CityNews {
     initSlider() {
         $('.sity-news-js').owlCarousel({
             loop:true,
-            margin:10,
+            margin:32,
             nav:true,
             responsive:{
                 0:{

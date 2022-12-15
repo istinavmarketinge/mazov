@@ -1,11 +1,18 @@
 .sity-news {
     background: #F8FAFB;
     position: relative;
+    overflow: hidden;
+    .owl-carousel .owl-stage-outer {
+        overflow: visible;
+    }
+    .owl-carousel.owl-drag .owl-item.active + .owl-item {
+        transform: translateX(-22px);
+    }
     &__in {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 32px 34px;
+        padding: 32px 70px 32px 34px;
         box-sizing: border-box;
     }
     &__item {
