@@ -1,4 +1,4 @@
-import AirDatepicker from 'air-datepicker';
+// import AirDatepicker from 'air-datepicker';
 const Calendar = class Calendar {
     constructor(selector) {
         this.selector = selector;
@@ -13,11 +13,11 @@ const Calendar = class Calendar {
     }
     initDatepicker() {
         if (!document.querySelector(this.selector)) return;
-        this.instance = new AirDatepicker(this.selector, this.options)
+        // this.instance = new AirDatepicker(this.selector, this.options)
     }
     init() {
         this.initDatepicker();
-        console.log("Календарь инициализирован", this.selector)
+        // console.log("Календарь инициализирован", this.selector)
     }
 }
 export default Calendar;

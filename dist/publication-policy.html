@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css?_v=20221216152121">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20221216152121" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?_v=20221216155958">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20221216155958" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper" id="app" :class="{isMobile, isTablet}">
@@ -238,19 +238,89 @@
     <button type="submit">подписаться</button>
     </a>
             <div class="calendar-block">
-    <div class="calendar"></div>
+    <div class="calendar">
+        <div class="air-datepicker -inline-"><i class="air-datepicker--pointer"></i>
+            <div class="air-datepicker--navigation">
+                <nav class="air-datepicker-nav">
+                    <div class="air-datepicker-nav--action" data-action="prev"><svg>
+                            <path d="M 17,12 l -5,5 l 5,5"></path>
+                        </svg></div>
+                    <div class="air-datepicker-nav--title">Декабрь <span>2022</span></div>
+                    <div class="air-datepicker-nav--action" data-action="next"><svg>
+                            <path d="M 14,12 l 5,5 l -5,5"></path>
+                        </svg></div>
+                </nav>
+            </div>
+            <div class="air-datepicker--content">
+                <div class="air-datepicker-body -days-">
+                    <div class="air-datepicker-body--day-names">
+                        <div class="air-datepicker-body--day-name" data-day-index="1">Пн</div>
+                        <div class="air-datepicker-body--day-name" data-day-index="2">Вт</div>
+                        <div class="air-datepicker-body--day-name" data-day-index="3">Ср</div>
+                        <div class="air-datepicker-body--day-name" data-day-index="4">Чт</div>
+                        <div class="air-datepicker-body--day-name" data-day-index="5">Пт</div>
+                        <div class="air-datepicker-body--day-name -weekend-" data-day-index="6">Сб</div>
+                        <div class="air-datepicker-body--day-name -weekend-" data-day-index="0">Вс</div>
+                    </div>
+                    <div class="air-datepicker-body--cells -days-">
+                        <a href="#" class="air-datepicker-cell -day- -other-month-" data-year="2022" data-month="10" data-date="28">28</a>
+                        <a href="#" class="air-datepicker-cell -day- -other-month-" data-year="2022" data-month="10" data-date="29">29</a>
+                        <a href="#" class="air-datepicker-cell -day- -other-month-" data-year="2022" data-month="10" data-date="30">30</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="1">1</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="2">2</a>
+                        <a href="#" class="air-datepicker-cell -day- -weekend-" data-year="2022" data-month="11" data-date="3"> 3</a>
+                        <a href="#" class="air-datepicker-cell -day- -weekend-" data-year="2022" data-month="11" data-date="4"> 4</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="5">5</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="6">6</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="7">7</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="8">8</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="9">9</a>
+                        <a href="#" class="air-datepicker-cell -day- -weekend-" data-year="2022" data-month="11" data-date="10">10</a>
+                        <a href="#" class="air-datepicker-cell -day- -weekend-" data-year="2022" data-month="11" data-date="11">11</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="12">12</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="13">13</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="14">14</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="15">15</a>
+                        <a href="#" class="air-datepicker-cell -day- -current-" data-year="2022" data-month="11" data-date="16">16</a>
+                        <a href="#" class="air-datepicker-cell -day- -weekend-" data-year="2022" data-month="11" data-date="17">17</a>
+                        <a href="#" class="air-datepicker-cell -day- -weekend-" data-year="2022" data-month="11" data-date="18">18</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="19">19</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="20">20</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="21">21</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="22">22</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="23">23</a>
+                        <a href="#" class="air-datepicker-cell -day- -weekend-" data-year="2022" data-month="11" data-date="24">24</a>
+                        <a href="#" class="air-datepicker-cell -day- -weekend-" data-year="2022" data-month="11" data-date="25">25</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="26">26</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="27">27</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="28">28</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="29">29</a>
+                        <a href="#" class="air-datepicker-cell -day-" data-year="2022" data-month="11" data-date="30">30</a>
+                        <a href="#" class="air-datepicker-cell -day- -weekend-" data-year="2022" data-month="11" data-date="31">31</a>
+                        <a href="#" class="air-datepicker-cell -day- -weekend- -other-month-" data-year="2023" data-month="0" data-date="1">1</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="calendar-events">
         <div class="calendar-events-item">
             <picture><source srcset="img/calendar.webp" type="image/webp"><img src="img/calendar.png" alt="icon"></picture> <span>День маркетолога</span>
-           <a href=""> <p>
-                Это пока неофициальный праздник, он не прошел официальную процедуру государственного учреждения. Но значение профессии трудно переоценить.
-            </p></a>
+            <a href="">
+                <p>
+                    Это пока неофициальный праздник, он не прошел официальную процедуру государственного учреждения. Но
+                    значение профессии трудно переоценить.
+                </p>
+            </a>
         </div>
         <div class="calendar-events-item">
             <picture><source srcset="img/calendar.webp" type="image/webp"><img src="img/calendar.png" alt="icon"></picture> <span>День таможенника РФ</span>
-            <a href=""><p>
-                25 октября издавна считается знаменательным днем в истории русской таможенной службы. Именно в этот день в 1653 году в стране впервые появился Единый таможенный устав.
-            </p></a>
+            <a href="">
+                <p>
+                    25 октября издавна считается знаменательным днем в истории русской таможенной службы. Именно в этот
+                    день в 1653 году в стране впервые появился Единый таможенный устав.
+                </p>
+            </a>
         </div>
     </div>
     <!-- <picture><source srcset="https://via.placeholder.com/300/09f/fff.webp" type="image/webp"><img src="https://via.placeholder.com/300/09f/fff.png" alt="img"></picture> -->
@@ -457,7 +527,7 @@
 </div>
     </div>
     </footer>
-    <script src="js/app.min.js?_v=20221216152121"></script>
+    <script src="js/app.min.js?_v=20221216155958"></script>
 </body>
 </html>
 
