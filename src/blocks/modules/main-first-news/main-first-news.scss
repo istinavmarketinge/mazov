@@ -25,7 +25,7 @@
             color: #fff;
         }
     }
-    &__big:hover &__b-text {
+    &__big a:hover {
         text-decoration: underline;
     }
     &__small {
@@ -38,17 +38,21 @@
         }
 
     }
-    &__small:hover &__s-text {
+    &__s-text:hover {
         text-decoration: underline;
     }
-   
-    &__date{
-        color: #fff;
-        font-size: 12px;
-        display: block;
+    &__date {
+        display: flex;
+        align-items: center;
         position: absolute;
         top: 14px;
         left: 21px;
+    }
+    &__date a{
+        color: #fff;
+        font-size: 12px;
+        display: block;
+        margin-right: 15px;
     }
     &__b-text {
         display: block;
@@ -67,7 +71,7 @@
         color: #fff;
     }
     &__s-text {
-        padding-top: 99px;
+        // padding-top: 99px;
         display: block;
         font-size: 16px;
         font-weight: 720;
