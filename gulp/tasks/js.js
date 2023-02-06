@@ -12,6 +12,11 @@ export const js = () => {
             mode: app.isBuild ? 'production' : 'development',
             output: {
                 filename: "app.min.js"
+            },
+            externals: {
+                $: "jquery",
+                jQuery: "jquery",
+                "window.jQuery": "jquery"
             }
         }))
         .pipe(app.gulp.dest(app.path.build.js))
