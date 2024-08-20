@@ -25,8 +25,10 @@ const Calendar = class Calendar {
         }
     }
     initDatepicker() {
-        if (!document.querySelector(this.selector)) return;
-        this.instance = new AirDatepicker(this.selector, this.options)
+        if (!document.querySelectorAll('.calendar')) return;
+        document.querySelectorAll('.calendar').forEach((calendar) => {
+            this.instance = new AirDatepicker(calendar, this.options)
+        });
     }
     init() {
         this.initDatepicker();

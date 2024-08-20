@@ -1262,8 +1262,7 @@ template {
   position: relative;
   min-height: 1px;
   float: left;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
 }
@@ -2116,8 +2115,7 @@ footer {
 }
 
 .main-white-news__image img {
-  -webkit-clip-path: url(#cloud);
-          clip-path: url(#cloud);
+  clip-path: url(#cloud);
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -2332,6 +2330,10 @@ footer {
 
 .calendar-block {
   filter: drop-shadow(0px 5px 100px #F0F2F2);
+}
+
+.calendar-block--mobile {
+  display: none;
 }
 
 .air-datepicker.-inline- {
@@ -2632,8 +2634,7 @@ footer {
   left: 13px;
   background: #05598F;
   transition: all 0.3s ease;
-  -webkit-clip-path: polygon(0 0, 0% 100%, 80% 0);
-          clip-path: polygon(0 0, 0% 100%, 80% 0);
+  clip-path: polygon(0 0, 0% 100%, 80% 0);
 }
 
 .button-top:after {
@@ -4937,6 +4938,14 @@ footer {
 @media all and (max-width: 860px) {
   .right-block {
     display: none;
+  }
+
+  .calendar-block--desktop {
+    display: none;
+  }
+
+  .calendar-block--mobile {
+    display: block;
   }
 
   .button-top {
