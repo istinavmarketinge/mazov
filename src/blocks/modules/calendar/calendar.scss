@@ -1,0 +1,94 @@
+.calendar-block {
+    filter: drop-shadow(0px 5px 100px #F0F2F2);
+}
+.calendar-block--mobile {
+    display: none;
+}
+.air-datepicker.-inline- {
+    max-width: 420px;
+    width: 100%;
+    
+}
+.-weekend- {
+    color: #E41F12;
+}
+.air-datepicker-body--day-name {
+    color: #9EB0BC;
+    text-transform: none;
+    font-size: 15px;
+}
+.air-datepicker-nav--title {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #627784;
+    font-weight: bold;
+    width: 100%;
+    justify-content: space-between;
+    padding: 17px 32px 15px 38px;
+    line-height: 58px;
+    letter-spacing: 0.18em;
+        @media (max-width: 1200px) {
+        font-size: 22px;
+    }
+}
+.air-datepicker-nav--title span {
+    font-size: 23px;
+    color: #9EB0BC;
+    @media (max-width: 1200px) {
+        font-size: 22px;
+        margin-left: 5px;
+    }
+}
+.air-datepicker-cell {
+    max-width: 50px;
+    font-size: 15px;
+    height: 35px;
+}
+.air-datepicker {
+    border: none;
+    --adp-border-color-inner: #fff;
+    --adp-cell-background-color-selected: #E5F5FF;
+    --adp-cell-background-color-selected-hover:#E5F5FF;
+}
+.air-datepicker--content {
+    padding: 0 25px 26px 28px;
+}
+.air-datepicker-cell.-selected-.-current- {
+    background: #E5F5FF;
+    color: #0B0B0B;
+}
+.air-datepicker-cell.-current- {
+    color: #0B0B0B;
+    background: #E5F5FF;
+}
+.air-datepicker-cell.-selected- {
+    color: #0B0B0B;
+}
+.air-datepicker-nav--action {
+    display: none;
+}
+.calendar-events {
+    position: relative;
+    z-index: 3;
+    background: #fff;
+}
+.calendar-events-item {
+    border-bottom: 1px solid #EEEEEE;
+    background: #fff;
+    max-width: 410px;
+    padding: 25px 40px 10px 40px;
+    
+}
+.calendar-events-item:first-child {
+    border-top: 1px solid #EEEEEE;
+}
+
+@media all and (max-width: 860px) {
+    .calendar-block--desktop {
+        display: none;
+    }
+
+    .calendar-block--mobile {
+        display: block;
+    }
+}

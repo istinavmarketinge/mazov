@@ -1262,8 +1262,7 @@ template {
   position: relative;
   min-height: 1px;
   float: left;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
 }
@@ -1451,13 +1450,6 @@ template {
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
-  src: url("../fonts/ALSHauss-Bold.woff2") format("woff2"), url("../fonts/ALSHauss-Bold.woff") format("woff"), url("../fonts/ALSHauss-Bold.ttf") format("ttf");
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "ALSHauss";
-  font-display: swap;
   src: url("../fonts/ALSHauss-Black.woff2") format("woff2"), url("../fonts/ALSHauss-Black.woff") format("woff"), url("../fonts/ALSHauss-Black.ttf") format("ttf");
   font-weight: 900;
 }
@@ -1472,7 +1464,21 @@ template {
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
+  src: url("../fonts/ALSHauss-Bold.woff2") format("woff2"), url("../fonts/ALSHauss-Bold.woff") format("woff"), url("../fonts/ALSHauss-Bold.ttf") format("ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "ALSHauss";
+  font-display: swap;
   src: url("../fonts/ALSHauss-BoldItalic.woff2") format("woff2"), url("../fonts/ALSHauss-BoldItalic.woff") format("woff"), url("../fonts/ALSHauss-BoldItalic.ttf") format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ALSHauss";
+  font-display: swap;
+  src: url("../fonts/ALSHauss-Book.woff2") format("woff2"), url("../fonts/ALSHauss-Book.woff") format("woff"), url("../fonts/ALSHauss-Book.ttf") format("ttf");
   font-weight: 400;
 }
 
@@ -1487,13 +1493,6 @@ template {
   font-family: "ALSHauss";
   font-display: swap;
   src: url("../fonts/ALSHauss-Hairline.woff2") format("woff2"), url("../fonts/ALSHauss-Hairline.woff") format("woff"), url("../fonts/ALSHauss-Hairline.ttf") format("ttf");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "ALSHauss";
-  font-display: swap;
-  src: url("../fonts/ALSHauss-Book.woff2") format("woff2"), url("../fonts/ALSHauss-Book.woff") format("woff"), url("../fonts/ALSHauss-Book.ttf") format("ttf");
   font-weight: 400;
 }
 
@@ -2082,8 +2081,7 @@ footer {
 }
 
 .main-white-news__image img {
-  -webkit-clip-path: url(#cloud);
-          clip-path: url(#cloud);
+  clip-path: url(#cloud);
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -2567,8 +2565,7 @@ footer {
   left: 13px;
   background: #fff;
   transition: all 0.3s ease;
-  -webkit-clip-path: polygon(0 0, 0% 100%, 80% 0);
-          clip-path: polygon(0 0, 0% 100%, 80% 0);
+  clip-path: polygon(0 0, 0% 100%, 80% 0);
 }
 
 .button-top:after {
@@ -2986,8 +2983,7 @@ footer {
 }
 
 .additional-news__image img {
-  -webkit-clip-path: url(#cloud);
-          clip-path: url(#cloud);
+  clip-path: url(#cloud);
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -3159,8 +3155,7 @@ footer {
 }
 
 .media__image img {
-  -webkit-clip-path: url(#cloud);
-          clip-path: url(#cloud);
+  clip-path: url(#cloud);
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
