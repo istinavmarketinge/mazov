@@ -49,6 +49,7 @@
     --adp-border-color-inner: #fff;
     --adp-cell-background-color-selected: #E5F5FF;
     --adp-cell-background-color-selected-hover:#E5F5FF;
+    max-width: 100% !important;
 }
 .air-datepicker--content {
     padding: 0 25px 26px 28px;
@@ -75,7 +76,6 @@
 .calendar-events-item {
     border-bottom: 1px solid #EEEEEE;
     background: #fff;
-    max-width: 410px;
     padding: 25px 40px 10px 40px;
     
 }
