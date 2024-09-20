@@ -1,0 +1,58 @@
+<div class="top-hundred">
+    <div class="top-hundred__top">
+        <div class="top-hundred__title">
+            по версии Сетевого издания <span>«Тульские новости»</span>
+        </div>
+        <div class="top-hundred__select">
+            <select name="" id="">
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+            </select>
+        </div>
+    </div>
+    <div class="top-hundred__items">
+        @@for (var i = 0; i < 8; i++) {
+            <a href="/raiting-in.html" class="top-hundred__item">
+                <div class="top-hundred__item-avatar">
+                    <img src="img/top_avatar.png" alt="">
+                </div>
+                <div class="top-hundred__item-info">
+                    <div class="top-hundred__item-number">
+                        <div class="number">№2</div>
+                        <div class="arrow">
+                            <svg width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 0L9.33013 7.5H0.669873L5 0Z" fill="#058F23" />
+                            </svg>
+                        </div>
+                        <div class="position">1</div>
+                    </div>
+                    <div class="top-hundred__item-name">Алексей Дюмин</div>
+                    <div class="top-hundred__item-position">Губернатор Тульской области</div>
+                </div>
+            </a>
+            <a href="/raiting-in.html" class="top-hundred__item">
+                <div class="top-hundred__item-avatar">
+                    <img src="img/top_avatar.png" alt="">
+                </div>
+                <div class="top-hundred__item-info">
+                    <div class="top-hundred__item-number">
+                        <div class="number">№2</div>
+                        <div class="arrow">
+                            <svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 8L8.83013 0.5H0.169873L4.5 8Z" fill="#B03710" />
+                            </svg>
+                        </div>
+                        <div class="position down">1</div>
+                    </div>
+                    <div class="top-hundred__item-name">Алексей Дюмин</div>
+                    <div class="top-hundred__item-position">Губернатор Тульской области</div>
+                </div>
+            </a>
+        }
+    </div>
+</div>

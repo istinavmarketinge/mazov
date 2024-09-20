@@ -46,6 +46,12 @@ a:hover {
     @media all and (max-width: 1200px) {
         width: 71%;
     }
+    &--full {
+        width: 71%;
+    }
+    &--noborder {
+        border: none;
+    }
 }
 .left-container {
     padding-top: 24px;
@@ -89,3 +95,19 @@ footer {
         padding: 24px 20px;
     }
 }
+
+.banner-top {
+    width: 100%;
+    max-width: 994px;
+    font-size: 0;
+    margin-bottom: 60px;
+    img {
+        max-width: 100%;
+    }
+}
+
+// .raiting {
+//     &__top {
+//         font-size: 0;
+//     }
+// }

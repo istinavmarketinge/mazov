@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css?_v=20240820172130">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20240820172130" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?_v=20240920154847">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20240920154847" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper" id="app" :class="{isMobile, isTablet}">
@@ -15,7 +15,7 @@
         <aside class="left-block">
             <div class="left-container sticky_block">
                 <a href="" class="logo-block">
-   <picture><source srcset="img/icon.webp" type="image/webp"><img class="logo-block__image" src="img/icon.png" alt="logo"></picture>
+   <img class="logo-block__image" src="img/icon.png" alt="logo">
     <div class="logo-block__name">
         <span>Тульские</span>
         <span>Новости</span>
@@ -28,7 +28,7 @@
     <li class="menu-list__item"><a href="">Общество</a></li>
     <li class="menu-list__item"><a href="">Спорт</a></li>
     <li class="menu-list__item"><a href="">Культура</a></li>
-    <li class="menu-list__item"><a href="">Происшествия</a></li>
+    <li class="menu-list__item"><a href="/raiting.html">ТОП-100 влиятельных людей-2023</a></li>
     <li class="menu-list__item"><a href="">Пункт меню</a></li>
     <li class="menu-list__item"><a href="">Пункт меню</a></li>
     <li class="menu-list__item menu-list__item-more"></li>
@@ -36,11 +36,11 @@
 </div>
                 <form class="search">
     <input class="search__input" name="s" placeholder="Поиск" type="search">
-    <button class="search__button" type="submit"><picture><source srcset="img/search.webp" type="image/webp"><img src="img/search.png" alt="search"></picture></button>
+    <button class="search__button" type="submit"><img src="img/search.png" alt="search"></button>
   </form>
                 <a href="#" class="mail-block">
     <div class="mail-block__letter">
-        <picture><source srcset="img/mail.webp" type="image/webp"><img src="img/mail.png" alt="mail"></picture>
+        <img src="img/mail.png" alt="mail">
        <span>Подписаться на рассылку</span>
     </div>
 
@@ -76,7 +76,7 @@
 </a>
                 <div class="news-aside-block">
     <a href="" class="news-aside-block__title">Новости компаний</a>
-    <a href=""> <picture><source srcset="img/news.webp" type="image/webp"><img class="news-aside-block__image" src="img/news.jpg" alt="image"></picture></a>
+    <a href=""> <img class="news-aside-block__image" src="img/news.jpg" alt="image"></a>
     <div class="news-aside-block__item">
          <span><a href="">01/10</a></span><span><a href="">10:00</a></span>
        <a href=""><p>Ассоциация «Совет муниципальных образований Тульской области» провела обучающий вебинар для сельских старост</p> </a>
@@ -97,7 +97,7 @@
 </div>
                 <div class="news-aside-block">
     <a href="" class="news-aside-block__title">Бизнес</a>
-    <a href=""><picture><source srcset="img/business.webp" type="image/webp"><img class="news-aside-block__image" src="img/business.jpg" alt="image"></picture></a> 
+    <a href=""><img class="news-aside-block__image" src="img/business.jpg" alt="image"></a> 
     <div class="news-aside-block__item">
         <span><a href="">01/10</a></span><span><a href="">10:00</a></span>
        <a href=""><p>Продолжается прием заявок на участие в премии «Тульский БИЗНЕС - 2022»</a></p>
@@ -118,7 +118,7 @@
 </div>
                 <div class="news-aside-block">
     <a href="" class="news-aside-block__title">Бренды России</a>
-   <a href=""><picture><source srcset="img/forbes.webp" type="image/webp"><img class="news-aside-block__image" src="img/forbes.jpg" alt="image"></picture></a> 
+   <a href=""><img class="news-aside-block__image" src="img/forbes.jpg" alt="image"></a> 
     <div class="news-aside-block__item">
         <span><a href="">01/10</a></span><span><a href="">10:00</a></span>
        <a href=""> <p>Forbes составил список самых успешных российских брендов</p></a>
@@ -126,7 +126,7 @@
 </div>
                 <div class="news-aside-block">
     <a href="" class="news-aside-block__title">Бизнес журнал</a>
-    <a href=""> <picture><source srcset="img/jurnal.webp" type="image/webp"><img class="news-aside-block__image" src="img/jurnal.jpg" alt="image"></picture></a>
+    <a href=""> <img class="news-aside-block__image" src="img/jurnal.jpg" alt="image"></a>
     <div class="news-aside-block__item">
         <span><a href="">01/10</a></span><span><a href="">10:00</a></span>
         <a href=""> <p>Forbes составил список самых успешных российских брендов</p></a>
@@ -161,11 +161,11 @@
 
             <div class="detale-news-block-icon">
                 <div class="detale-news-block-icon__item">
-                    <picture><source srcset="img/date.webp" type="image/webp"><img src="img/date.png" alt="icon"></picture>
+                    <img src="img/date.png" alt="icon">
                     <span><a href="">28/10/2022</a></span>
                 </div>
                 <div class="detale-news-block-icon__item">
-                    <picture><source srcset="img/time.webp" type="image/webp"><img src="img/time.png" alt="icon"></picture>
+                    <img src="img/time.png" alt="icon">
                     <span><a href="">07:45</a></span>
                 </div>
                 <div class="detale-news-block-icon__item">
@@ -179,9 +179,9 @@
             </div>
         </div>
         <div class="detale-news-block__image">
-            <picture><source srcset="img/money.webp" type="image/webp"><img src="img/money.png" alt="image"></picture>
+            <img src="img/money.png" alt="image">
             <div class="detale-news-block__image-mask">
-                <picture><source srcset="img/watermark.webp" type="image/webp"><img src="img/watermark.png" alt="icon"></picture>
+                <img src="img/watermark.png" alt="icon">
             </div>
         </div>
 
@@ -240,7 +240,7 @@
             <div class="comments-item__icons">
                <a href="">Ответить</a> 
                 <div class="like-icons">
-                   <a href=""><picture><source srcset="img/like.webp" type="image/webp"><img class="like"src="img/like.png" alt="like"></picture></a>
+                   <a href=""><img class="like"src="img/like.png" alt="like"></a>
                     <span class="green-number">113</span>
                     <a href=""><img class="dislike" src="img/dislike.svg" alt="dislike"></a>
                 </div>
@@ -256,7 +256,7 @@
                 <div class="comments-sub-item__icons">
                    <a href="">Ответить</a> 
                     <div class="like-icons">
-                       <a href=""><picture><source srcset="img/like-black.webp" type="image/webp"><img class="like"src="img/like-black.png" alt="like"></picture></a>
+                       <a href=""><img class="like"src="img/like-black.png" alt="like"></a>
                         <span>0</span>
                         <a href=""><img class="dislike" src="img/dislike.svg" alt="dislike"></a>
                     </div>
@@ -271,9 +271,9 @@
                 <div class="comments-sub-item__icons">
                    <a href="">Ответить</a> 
                     <div class="like-icons">
-                       <a href=""><picture><source srcset="img/like-black.webp" type="image/webp"><img class="like"src="img/like-black.png" alt="like"></picture></a>
+                       <a href=""><img class="like"src="img/like-black.png" alt="like"></a>
                         <span class="red-number">-15</span>
-                        <a href=""><picture><source srcset="img/red-dislike.webp" type="image/webp"><img class="dislike" src="img/red-dislike.png" alt="dislike"></picture></a>
+                        <a href=""><img class="dislike" src="img/red-dislike.png" alt="dislike"></a>
                     </div>
                 </div>
             </div>
@@ -287,7 +287,7 @@
                 <div class="comments-item__icons">
                    <a href=""><a href="">Ответить</a> 
                     <div class="like-icons">
-                       <a href=""><picture><source srcset="img/like.webp" type="image/webp"><img class="like"src="img/like.png" alt="like"></picture></a>
+                       <a href=""><img class="like"src="img/like.png" alt="like"></a>
                         <span class="green-number">10</span>
                         <a href=""><img class="dislike" src="img/dislike.svg" alt="dislike"></a>
                     </div>
@@ -302,7 +302,7 @@
                 <div class="comments-item__icons">
                    <a href="">Ответить</a> 
                     <div class="like-icons">
-                       <a href=""><picture><source srcset="img/like-black.webp" type="image/webp"><img class="like"src="img/like-black.png" alt="like"></picture></a>
+                       <a href=""><img class="like"src="img/like-black.png" alt="like"></a>
                         <span>0</span>
                         <a href=""><img class="dislike" src="img/dislike.svg" alt="dislike"></a>
                     </div>
@@ -345,7 +345,7 @@
                     </div>
                     <a href="#3" class="other-news-blocks__text"><h2>В Тульской области вновь подорожали огурцы и помидоры</h2></a>
                     <a href="#4" class="other-news-blocks__image">
-                        <picture><source srcset="img/other-news.webp" type="image/webp"><img src="img/other-news.jpg" alt="image"></picture>
+                        <img src="img/other-news.jpg" alt="image">
                     </a>
                 </article>
             
@@ -356,7 +356,7 @@
                     </div>
                     <a href="#3" class="other-news-blocks__text"><h2>В Тульской области вновь подорожали огурцы и помидоры</h2></a>
                     <a href="#4" class="other-news-blocks__image">
-                        <picture><source srcset="img/other-news.webp" type="image/webp"><img src="img/other-news.jpg" alt="image"></picture>
+                        <img src="img/other-news.jpg" alt="image">
                     </a>
                 </article>
             
@@ -367,7 +367,7 @@
                     </div>
                     <a href="#3" class="other-news-blocks__text"><h2>В Тульской области вновь подорожали огурцы и помидоры</h2></a>
                     <a href="#4" class="other-news-blocks__image">
-                        <picture><source srcset="img/other-news.webp" type="image/webp"><img src="img/other-news.jpg" alt="image"></picture>
+                        <img src="img/other-news.jpg" alt="image">
                     </a>
                 </article>
             
@@ -429,7 +429,7 @@
                             <a href="#1"> <span>28/10/2022</span> </a>
                             <a href="#2"> <span>22:00</span> </a>
                         </div>
-                        <a href="#3" class="media-blocks__image"> <picture><source srcset="img/media.webp" type="image/webp"><img src="img/media.jpg" alt="image"></picture> </a>
+                        <a href="#3" class="media-blocks__image"> <img src="img/media.jpg" alt="image"> </a>
                         <a href="#4" class="media-blocks__text"> <h2>Расходы бюджета ТО по статье «Международные отношения и сотрудничество» составили почти полмиллиарда рублей</h2> </a>
                     </div>
                 
@@ -438,7 +438,7 @@
                             <a href="#1"> <span>28/10/2022</span> </a>
                             <a href="#2"> <span>22:00</span> </a>
                         </div>
-                        <a href="#3" class="media-blocks__image"> <picture><source srcset="img/media.webp" type="image/webp"><img src="img/media.jpg" alt="image"></picture> </a>
+                        <a href="#3" class="media-blocks__image"> <img src="img/media.jpg" alt="image"> </a>
                         <a href="#4" class="media-blocks__text"> <h2>Расходы бюджета ТО по статье «Международные отношения и сотрудничество» составили почти полмиллиарда рублей</h2> </a>
                     </div>
                 
@@ -447,7 +447,7 @@
                             <a href="#1"> <span>28/10/2022</span> </a>
                             <a href="#2"> <span>22:00</span> </a>
                         </div>
-                        <a href="#3" class="media-blocks__image"> <picture><source srcset="img/media.webp" type="image/webp"><img src="img/media.jpg" alt="image"></picture> </a>
+                        <a href="#3" class="media-blocks__image"> <img src="img/media.jpg" alt="image"> </a>
                         <a href="#4" class="media-blocks__text"> <h2>Расходы бюджета ТО по статье «Международные отношения и сотрудничество» составили почти полмиллиарда рублей</h2> </a>
                     </div>
                 
@@ -484,7 +484,7 @@
     <div class="calendar"></div>
     <div class="calendar-events">
         <div class="calendar-events-item">
-            <picture><source srcset="img/calendar.webp" type="image/webp"><img src="img/calendar.png" alt="icon"></picture> <span>День маркетолога</span>
+            <img src="img/calendar.png" alt="icon"> <span>День маркетолога</span>
             <a href="">
                 <p>
                     Это пока неофициальный праздник, он не прошел официальную процедуру государственного учреждения. Но
@@ -493,7 +493,7 @@
             </a>
         </div>
         <div class="calendar-events-item">
-            <picture><source srcset="img/calendar.webp" type="image/webp"><img src="img/calendar.png" alt="icon"></picture> <span>День таможенника РФ</span>
+            <img src="img/calendar.png" alt="icon"> <span>День таможенника РФ</span>
             <a href="">
                 <p>
                     25 октября издавна считается знаменательным днем в истории русской таможенной службы. Именно в этот
@@ -502,14 +502,14 @@
             </a>
         </div>
     </div>
-    <!-- <picture><source srcset="https://via.placeholder.com/300/09f/fff.webp" type="image/webp"><img src="https://via.placeholder.com/300/09f/fff.png" alt="img"></picture> -->
+    <!-- <img src="https://via.placeholder.com/300/09f/fff.png" alt="img"> -->
 </div>
 
 <div class="calendar-block calendar-block--mobile">
     <div class="calendar"></div>
     <div class="calendar-events">
         <div class="calendar-events-item">
-            <picture><source srcset="img/calendar.webp" type="image/webp"><img src="img/calendar.png" alt="icon"></picture> <span>День маркетолога</span>
+            <img src="img/calendar.png" alt="icon"> <span>День маркетолога</span>
             <a href="">
                 <p>
                     Это пока неофициальный праздник, он не прошел официальную процедуру государственного учреждения. Но
@@ -518,7 +518,7 @@
             </a>
         </div>
         <div class="calendar-events-item">
-            <picture><source srcset="img/calendar.webp" type="image/webp"><img src="img/calendar.png" alt="icon"></picture> <span>День таможенника РФ</span>
+            <img src="img/calendar.png" alt="icon"> <span>День таможенника РФ</span>
             <a href="">
                 <p>
                     25 октября издавна считается знаменательным днем в истории русской таможенной службы. Именно в этот
@@ -527,7 +527,7 @@
             </a>
         </div>
     </div>
-    <!-- <picture><source srcset="https://via.placeholder.com/300/09f/fff.webp" type="image/webp"><img src="https://via.placeholder.com/300/09f/fff.png" alt="img"></picture> -->
+    <!-- <img src="https://via.placeholder.com/300/09f/fff.png" alt="img"> -->
 </div>
             <div class="top-five-block">
     <a href="" class="right-column-title">Топ 5</a>
@@ -561,7 +561,7 @@
 
 <div class="top-five-block analitics">
     <a href="" class="right-column-title">Аналитика</a>
-    <a href=""> <picture><source srcset="img/analitics.webp" type="image/webp"><img src="img/analitics.jpg" alt="image"></picture></a>
+    <a href=""> <img src="img/analitics.jpg" alt="image"></a>
     <div class="top-five-block__item">
         <span><a href="">02/10</a></span><span><a href="">10:18</a></span>
        <a href=""><p>«В игре с «Ростовом» можно найти что-то хорошее»: аналитика очередного поражения тульского «Арсенала»
@@ -587,7 +587,7 @@
 
     <div class="top-five-block rassledovaniya">
         <a href="" class="right-column-title">Расследования</a>
-        <a href=""> <picture><source srcset="img/rassledovanie.webp" type="image/webp"><img src="img/rassledovanie.jpg" alt="image"></picture></a>
+        <a href=""> <img src="img/rassledovanie.jpg" alt="image"></a>
         <div class="top-five-block__item">
             <span><a href="">02/10</a></span><span><a href="">10:18</a></span>
            <a href=""><p>Важная птица: известный в Туле пруд оказался в частной собственности
@@ -657,7 +657,7 @@
         <div class="footer">
     <div class="footer-logo-flex">
         <a href="" class="footer-logo-flex__logo">
-                <picture><source srcset="img/logo2.webp" type="image/webp"><img class="footer-logo-flex__image" src="img/logo2.png" alt="logo"></picture>
+                <img class="footer-logo-flex__image" src="img/logo2.png" alt="logo">
                 <div class="footer-logo-flex__name">
                     <span>Тульские</span>
                     <span>Новости</span>
@@ -722,16 +722,16 @@
         <div class="footer-bottom-block__right">
             
             <div class="footer-links">
-                <a href="#"><picture><source srcset="img/footer-link.webp" type="image/webp"><img src="img/footer-link.png" alt="icon"></picture></a>
-                <a href="#"><picture><source srcset="img/footer-link2.webp" type="image/webp"><img src="img/footer-link2.png" alt="icon"></picture></a>
-                <a href="#"><picture><source srcset="img/footer-link3.webp" type="image/webp"><img src="img/footer-link3.png" alt="icon"></picture></a>
+                <a href="#"><img src="img/footer-link.png" alt="icon"></a>
+                <a href="#"><img src="img/footer-link2.png" alt="icon"></a>
+                <a href="#"><img src="img/footer-link3.png" alt="icon"></a>
             </div>
         </div>
     </div>
 </div>
     </div>
     </footer>
-    <script src="js/app.min.js?_v=20240820172130"></script>
+    <script src="js/app.min.js?_v=20240920154847"></script>
 </body>
 </html>
 
