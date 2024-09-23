@@ -61,9 +61,15 @@
         border-bottom: 1px solid #BCBCBC;
     }
     &__item-date {
-        font-weight: 400;
-        font-size: 16px;
-        color: #707070;
+        
+        display: flex;
+        gap: 8px;
+        a {
+            font-weight: 400;
+            font-size: 16px;
+            color: #707070;
+            text-decoration: none;
+        }
     }
     &__item-name {
         font-weight: 500;
@@ -72,6 +78,7 @@
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        text-decoration: none !important;
     }
     &__item-text {
         font-weight: 400;
