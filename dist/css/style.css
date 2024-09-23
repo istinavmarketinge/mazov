@@ -1450,13 +1450,6 @@ template {
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
-  src: url("../fonts/ALSHauss-BlackItalic.woff2") format("woff2"), url("../fonts/ALSHauss-BlackItalic.woff") format("woff"), url("../fonts/ALSHauss-BlackItalic.ttf") format("ttf");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "ALSHauss";
-  font-display: swap;
   src: url("../fonts/ALSHauss-Black.woff2") format("woff2"), url("../fonts/ALSHauss-Black.woff") format("woff"), url("../fonts/ALSHauss-Black.ttf") format("ttf");
   font-weight: 900;
 }
@@ -1471,14 +1464,7 @@ template {
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
-  src: url("../fonts/ALSHauss-BookItalic.woff2") format("woff2"), url("../fonts/ALSHauss-BookItalic.woff") format("woff"), url("../fonts/ALSHauss-BookItalic.ttf") format("ttf");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "ALSHauss";
-  font-display: swap;
-  src: url("../fonts/ALSHauss-Book.woff2") format("woff2"), url("../fonts/ALSHauss-Book.woff") format("woff"), url("../fonts/ALSHauss-Book.ttf") format("ttf");
+  src: url("../fonts/ALSHauss-BlackItalic.woff2") format("woff2"), url("../fonts/ALSHauss-BlackItalic.woff") format("woff"), url("../fonts/ALSHauss-BlackItalic.ttf") format("ttf");
   font-weight: 400;
 }
 
@@ -1499,6 +1485,13 @@ template {
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
+  src: url("../fonts/ALSHauss-BookItalic.woff2") format("woff2"), url("../fonts/ALSHauss-BookItalic.woff") format("woff"), url("../fonts/ALSHauss-BookItalic.ttf") format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ALSHauss";
+  font-display: swap;
   src: url("../fonts/ALSHauss-HairlineItalic.woff2") format("woff2"), url("../fonts/ALSHauss-HairlineItalic.woff") format("woff"), url("../fonts/ALSHauss-HairlineItalic.ttf") format("ttf");
   font-weight: 400;
 }
@@ -1506,28 +1499,7 @@ template {
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
-  src: url("../fonts/ALSHauss-Light.woff2") format("woff2"), url("../fonts/ALSHauss-Light.woff") format("woff"), url("../fonts/ALSHauss-Light.ttf") format("ttf");
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "ALSHauss";
-  font-display: swap;
   src: url("../fonts/ALSHauss-LightItalic.woff2") format("woff2"), url("../fonts/ALSHauss-LightItalic.woff") format("woff"), url("../fonts/ALSHauss-LightItalic.ttf") format("ttf");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "ALSHauss";
-  font-display: swap;
-  src: url("../fonts/ALSHauss-Medium.woff2") format("woff2"), url("../fonts/ALSHauss-Medium.woff") format("woff"), url("../fonts/ALSHauss-Medium.ttf") format("ttf");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "ALSHauss";
-  font-display: swap;
-  src: url("../fonts/ALSHauss-MediumItalic.woff2") format("woff2"), url("../fonts/ALSHauss-MediumItalic.woff") format("woff"), url("../fonts/ALSHauss-MediumItalic.ttf") format("ttf");
   font-weight: 400;
 }
 
@@ -1541,7 +1513,49 @@ template {
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
+  src: url("../fonts/ALSHauss-MediumItalic.woff2") format("woff2"), url("../fonts/ALSHauss-MediumItalic.woff") format("woff"), url("../fonts/ALSHauss-MediumItalic.ttf") format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ALSHauss";
+  font-display: swap;
+  src: url("../fonts/ALSHauss-Medium.woff2") format("woff2"), url("../fonts/ALSHauss-Medium.woff") format("woff"), url("../fonts/ALSHauss-Medium.ttf") format("ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "ALSHauss";
+  font-display: swap;
   src: url("../fonts/ALSHauss-RegularItalic.woff2") format("woff2"), url("../fonts/ALSHauss-RegularItalic.woff") format("woff"), url("../fonts/ALSHauss-RegularItalic.ttf") format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ALSHauss";
+  font-display: swap;
+  src: url("../fonts/ALSHauss-Light.woff2") format("woff2"), url("../fonts/ALSHauss-Light.woff") format("woff"), url("../fonts/ALSHauss-Light.ttf") format("ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "ALSHauss";
+  font-display: swap;
+  src: url("../fonts/ALSHauss-ThinItalic.woff2") format("woff2"), url("../fonts/ALSHauss-ThinItalic.woff") format("woff"), url("../fonts/ALSHauss-ThinItalic.ttf") format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "pobeda";
+  font-display: swap;
+  src: url("../fonts/pobeda-bold.woff2") format("woff2"), url("../fonts/pobeda-bold.woff") format("woff"), url("../fonts/pobeda-bold.ttf") format("ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "ALSHaussVF";
+  font-display: swap;
+  src: url("../fonts/ALSHaussVF-Regular.woff2") format("woff2"), url("../fonts/ALSHaussVF-Regular.woff") format("woff"), url("../fonts/ALSHaussVF-Regular.ttf") format("ttf");
   font-weight: 400;
 }
 
@@ -1555,22 +1569,8 @@ template {
 @font-face {
   font-family: "ALSHauss";
   font-display: swap;
-  src: url("../fonts/ALSHauss-ThinItalic.woff2") format("woff2"), url("../fonts/ALSHauss-ThinItalic.woff") format("woff"), url("../fonts/ALSHauss-ThinItalic.ttf") format("ttf");
+  src: url("../fonts/ALSHauss-Book.woff2") format("woff2"), url("../fonts/ALSHauss-Book.woff") format("woff"), url("../fonts/ALSHauss-Book.ttf") format("ttf");
   font-weight: 400;
-}
-
-@font-face {
-  font-family: "ALSHaussVF";
-  font-display: swap;
-  src: url("../fonts/ALSHaussVF-Regular.woff2") format("woff2"), url("../fonts/ALSHaussVF-Regular.woff") format("woff"), url("../fonts/ALSHaussVF-Regular.ttf") format("ttf");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "pobeda";
-  font-display: swap;
-  src: url("../fonts/pobeda-bold.woff2") format("woff2"), url("../fonts/pobeda-bold.woff") format("woff"), url("../fonts/pobeda-bold.ttf") format("ttf");
-  font-weight: 700;
 }
 
 @font-face {
@@ -4955,6 +4955,182 @@ footer {
   text-align: center;
 }
 
+.aside_years {
+  margin-bottom: 10px;
+}
+
+.aside_years__item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+  border-top: 1px solid rgba(5, 89, 143, 0.2);
+}
+
+.aside_years__item-year {
+  font-weight: 500;
+  font-size: 30px;
+  color: #05598F;
+}
+
+.aside_years__item-year--inactive {
+  color: #c6c6c6;
+}
+
+.aside_years__item-number {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.aside_years__item-number .number {
+  font-weight: 500;
+  font-size: 30px;
+  color: #2f484f;
+}
+
+.aside_years__item-number .arrow {
+  font-size: 0;
+}
+
+.aside_years__item-number .position {
+  font-weight: 400;
+  font-size: 20px;
+  color: #058f23;
+}
+
+.aside_years__item-number .position.down {
+  color: #b03710;
+}
+
+.banner_block {
+  margin-bottom: 40px;
+  font-size: 0;
+}
+
+.aside_news {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.aside_news__title {
+  font-weight: 500;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.aside_news__item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0;
+  border-bottom: 1px solid #BCBCBC;
+}
+
+.aside_news__item-date {
+  font-weight: 400;
+  font-size: 16px;
+  color: #707070;
+}
+
+.aside_news__item-name {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.aside_news__item-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #707070;
+}
+
+.top_content__in {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.top_content__name {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 93%;
+  color: #0b0b0b;
+  margin: 0;
+}
+
+.top_content__image {
+  font-size: 0;
+}
+
+.top_content__data {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top_content__number {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.top_content__number .number {
+  font-weight: 500;
+  font-size: 20px;
+  color: #05598F;
+}
+
+.top_content__number .arrow {
+  font-size: 0;
+}
+
+.top_content__number .position {
+  font-weight: 400;
+  font-size: 20px;
+  color: #058f23;
+}
+
+.top_content__number .position.down {
+  color: #b03710;
+}
+
+.top_content__data_name {
+  font-weight: 500;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #05598F;
+}
+
+.top_content__data_date {
+  font-weight: 400;
+  font-size: 22px;
+  color: #707070;
+}
+
+.top_content__data_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top_content__data_text p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  color: #707070;
+}
+
+.top_content__data_text p.dark {
+  color: #000;
+  font-weight: 500;
+}
+
 @media (max-width: 1650px) {
   .left-container,
   .right-container {
@@ -5061,6 +5237,12 @@ footer {
     line-height: 17px;
     color: #797979;
     margin-top: 4px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .content-block {
+    width: 100%;
   }
 }
 

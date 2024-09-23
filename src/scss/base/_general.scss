@@ -46,6 +46,9 @@ a:hover {
     @media all and (max-width: 1200px) {
         width: 71%;
     }
+    @media all and (max-width:1024px) {
+        width: 100%;
+    }
     &--full {
         width: 71%;
     }
@@ -81,6 +84,7 @@ a:hover {
         padding-left: 30px;
         padding-right: 30px;
     }
+    
 }
 footer {
     background: #0D2737;
