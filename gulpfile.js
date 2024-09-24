@@ -10,6 +10,7 @@ import { reset } from './gulp/tasks/reset.js';
 import { html } from './gulp/tasks/html.js';
 import { server } from './gulp/tasks/server.js';
 import { scss } from './gulp/tasks/scss.js';
+import { scss_new } from './gulp/tasks/scss_new.js';
 import { js } from './gulp/tasks/js.js';
 import { images } from './gulp/tasks/images.js';
 import { svgSprites } from './gulp/tasks/svgSprites.js';
@@ -38,6 +39,7 @@ const watcher = () => {
     gulp.watch(path.watch.files, copy);
     gulp.watch(path.watch.html, html);
     gulp.watch(path.watch.scss, scss);
+    gulp.watch(path.watch.scss, scss_new);
     gulp.watch(path.watch.js, js);
     gulp.watch(path.watch.images, images);
     gulp.watch(path.watch.svgicons, svgSprites);
@@ -47,7 +49,7 @@ const watcher = () => {
 
 
 // Основные задачи
-const mainTasks = gulp.series(fonts, gulp.parallel(copy, html, scss, js, images, svgSprites));
+const mainTasks = gulp.series(fonts, gulp.parallel(copy, html, scss, scss_new, js, images, svgSprites));
 
 // Построение сценариев выполнения задач
 const dev = gulp.series(reset, mainTasks, gulp.parallel(watcher, server));
